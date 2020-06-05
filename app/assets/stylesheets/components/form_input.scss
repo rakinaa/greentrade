@@ -1,0 +1,58 @@
+.input-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+[class^=floating-label] {
+  position: absolute;
+  pointer-events: none;
+  left: 10px;
+  top: 20px;
+  transition: 0.3s ease all;
+  color: gray;
+}
+
+.floating-label-error {
+  color: red;
+}
+
+[class^=form-input]:focus + [class^=floating-label],
+[class^=form-input]:not(:focus):valid + [class^=floating-label]{
+  top: 11px;
+  left: 12px;
+  font-size: 11px;
+}
+
+.form-input:focus + .floating-label {
+  color: $soft-blue;
+}
+
+.form-input:focus {
+  border-color: $soft-blue;
+}
+
+
+[class^=form-input] {
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 3px;
+  box-sizing: border-box;
+  padding-top: 25px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border-color: gray;
+}
+
+.form-input-error {
+  border-color: red;
+}
+
+.form-error {
+  margin-top: 5px;
+  padding: 5px;
+  font-size: 12px;
+  background-color: lighten(red, 30%);
+  border: 2px solid red;
+  color: red;
+}

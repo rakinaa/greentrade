@@ -1,0 +1,57 @@
+.blue-button {
+  background-color: $soft-blue;
+  padding: 0.5rem;
+  border-radius: 2px;
+  color: white;
+  border: none;
+  @include darken-hover-button($soft-blue, white);
+}
+
+.red-button {
+  background-color: red;
+  padding: 0.5rem;
+  border-radius: 2px;
+  color: white;
+  border: none;
+  @include darken-hover-button(red, white);
+}
+
+.white-button {
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 4px;
+  color: black;
+  border: none;
+  @include lighten-hover-button(white, black);
+}
+
+.link-white {
+  color: white;
+  @include darken-hover-text(white);
+}
+
+.spacer {
+  height: $nav-height;
+}
+
+.constrainer {
+  // width: 100%;
+  width: 1050px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-pic {
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 1050px) {
+  .constrainer {
+    width: 100%;
+    // margin-right: 10px;
+    // margin-left: 10px;
+  }
+}

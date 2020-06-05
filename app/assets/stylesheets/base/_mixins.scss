@@ -1,0 +1,28 @@
+@mixin darken-hover-text($color) {
+  transition-property: color;
+  transition: .2s;
+
+  &:hover {
+    color: darken($color, 30%);
+  }
+}
+
+@mixin darken-hover-button($bg-color, $txt-color) {
+  transition-property: background-color, color;
+  transition: .2s;
+
+  &:hover {
+    background-color: darken($bg-color, 10%);
+    color: darken($txt-color, 30%);
+  }
+}
+
+@mixin lighten-hover-button($bg-color, $txt-color) {
+  transition-property: background-color, color;
+  transition: .4s;
+
+  &:hover {
+    background-color: lighten($bg-color, 10%);
+    color: lighten($txt-color, 40%);
+  }
+}
