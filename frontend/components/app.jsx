@@ -2,13 +2,14 @@ import React from "react";
 import { Route, Switch } from "react-router-dom";
 // import Splash from "./splash";
 import ModalContainer from "./modal/modal";
-// import NavBar from "./navbar/navbar";
+import NavBarContainer from "./navbar/navbar_container";
 
 const App = () => {
   return (
     <div>
       <ModalContainer />
-      {/* <NavBar /> */}
+      <NavBarContainer />
+      <div>hi</div>
       <Switch>
         {/* <Route exact path="/" component={Splash} /> */}
       </Switch>
