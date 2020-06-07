@@ -55,6 +55,24 @@
   @include change-color-hover-text($main-green);
 }
 
+.link-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: gray;
+  @include change-color-hover-text($main-green);
+
+  .info-icon {
+    font-size: 30px;
+    margin-right: 5px;
+  }
+
+  p {
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
+
 .spacer {
   height: $nav-height;
 }
