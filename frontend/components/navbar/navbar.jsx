@@ -10,7 +10,8 @@ const NavBar = (props) => {
         <div className="nav-left">
           <p className="nav-logo" to="/">Greentrade</p>
           <img className="nav-img" src={window.logo_png} alt="logo"/>
-          {/* <Link className="nav-home link-white" to="/photos">All Photos</Link> */}
+          <Link className="nav-home link-grey" to="/">Learn</Link>
+          <Link className="nav-home link-grey" to="/">Support</Link>
           {/* {props.currentUser ? <Link className="nav-home link-white" to={`/users/${props.currentUser.id}/photos`}>Home</Link> : null} */}
         </div>
         <div className="nav-right">

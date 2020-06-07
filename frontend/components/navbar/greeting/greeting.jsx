@@ -7,9 +7,6 @@ const Greeting = ({ currentUser, logout, openModal }) => {
 
   const sessionLinks = () => (
     <nav className="nav-auth">
-      <Link onClick={() => openModal('login')}>
-        <FontAwesomeIcon className="cloud-icon" icon={faCloudUploadAlt} />
-      </Link>
       <a className="nav-login link-black" onClick={() => openModal('login')}>Sign In</a>
       <a className="nav-signup green-button" onClick={() => openModal('signup')}>Sign Up</a>
     </nav>

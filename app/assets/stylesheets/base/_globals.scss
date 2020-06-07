@@ -9,7 +9,9 @@
 
 .green-button {
   background-color: $main-green;
-  padding: 0.5rem;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 15px 30px;
   border-radius: 100px;
   color: black;
   border: none;
@@ -41,6 +43,14 @@
 }
 
 .link-black {
+  font-size: 18px;
+  font-weight: 700;
+  color: black;
+  @include change-color-hover-text($main-green);
+}
+
+.link-grey {
+  font-size: 18px;
   color: black;
   @include change-color-hover-text($main-green);
 }
