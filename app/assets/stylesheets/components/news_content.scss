@@ -23,3 +23,75 @@
   margin-bottom: 40px;
   letter-spacing: .5px;
 }
+
+.news-fractional {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.frac-content {
+  display: flex;
+  flex-direction: column;
+
+  .frac-heading {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+  
+  .frac-caption {
+    font-size: 15px;
+    color: grey;
+    margin-bottom: 60px;
+  }
+  
+  .frac-body {
+    display: flex;
+    margin-bottom: 50px;
+
+    .frac-sub-content {
+      width: 190px;
+      margin-right: 80px;
+
+      .frac-sub-heading {
+        font-size: 15px;
+        font-weight: 700;
+        margin-bottom: 10px;
+      }
+  
+      .frac-sub-body {
+        font-size: 15px;
+        line-height: 24px;
+      }
+    }
+  }
+
+  .frac-access {
+    position: relative;
+    margin-bottom: 40px;
+
+    input {
+      background-color: darken($color: white, $amount: 12%);
+      border-radius: 100px;
+      border: none;
+      padding: 25px 250px 25px 25px;
+    }
+
+    button {
+      position: absolute;
+      top: 9px;
+      left: 288px;
+      padding: 15px 15px;
+    }
+  }
+}
+
+.news-hr {
+  width: 70%;
+  height: 2px;
+  border: none;
+  background-color: grey;
+  margin-bottom: 100px;
+}
