@@ -9,7 +9,6 @@ $phone-height: calc(0.8 * 610px);
   height: 80vh;
   padding-top: calc(#{$nav-height} + 20px);
   background-color: $main-green;
-  background-color: #21ce99;
 }
 
 .welcome {
@@ -19,7 +18,7 @@ $phone-height: calc(0.8 * 610px);
 
 .welcome-heading {
   font-size: 60px;
-  font-weight: 500;
+  font-weight: 700;
   margin-bottom: 20px;
   line-height: 70px;
 }
