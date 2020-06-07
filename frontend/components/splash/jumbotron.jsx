@@ -12,7 +12,12 @@ const Jumbotron = (props) => {
           Greentrade, a pioneer of commission-free investing, gives you more ways to make your money work harder.
         </p>
       </div>
-
+      <div className="jumbo-phone">
+        <video autoPlay loop muted preload="auto" className="phone-vid">
+          <source className="phone-mp4" src={window.iphone_mp4} type="video/mp4" />
+        </video>
+        <img className="phone-img" src={window.iphone_splash_png} />
+      </div>
     </div>
   )
 }

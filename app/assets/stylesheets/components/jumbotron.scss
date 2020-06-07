@@ -1,17 +1,58 @@
+$phone-width: calc(0.8 * 700px);
+$phone-height: calc(0.8 * 610px);
+// $vid-offset: calc(0.9 * 10px);
+
 .jumbotron {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 80vh;
+  padding-top: calc(#{$nav-height} + 20px);
   background-color: $main-green;
+  background-color: #21ce99;
+}
+
+.welcome {
+  width: 400px;
+  margin-right: 50px;
 }
 
 .welcome-heading {
   font-size: 60px;
   font-weight: 500;
+  margin-bottom: 20px;
+  line-height: 70px;
 }
 
 .welcome-body {
   font-size: 24px;
   font-weight: 500;
+  line-height: 32px;
+}
+
+.jumbo-phone {
+  position: relative;
+  width: $phone-width;
+  height: $phone-height;
+}
+
+.phone-vid, .phone-img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.phone-vid {
+  width: $phone-width;
+  height: $phone-height;
+  // width: calc(#{$phone-width} - #{$vid-offset});
+  // height: calc(#{$phone-height} - #{$vid-offset});
+  // width: calc(#{$phone-width} - 10px);
+  // height: calc(#{$phone-height} - 10px);
+}
+
+.phone-img {
+  width: $phone-width;
+  height: $phone-height;
 }
