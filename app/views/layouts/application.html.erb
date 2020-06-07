@@ -7,6 +7,20 @@
 
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
+
+    <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <script type="text/javascript">
+      window.iphone_splash_png = "<%= image_url('iphone_splash.png') %>"; 
+      window.partial_shares_png = "<%= image_url('partial_shares_pic.png') %>"; 
+      window.logo_png = "<%= image_url('logo.png') %>"; 
+      window.iphone_mp4 = "<%= image_url('iphone.mp4') %>";
+      window.learn_png = "<%= image_url('learn.png') %>";
+      window.manage_png = "<%= image_url('manage.png') %>";
+      window.customize_png = "<%= image_url('customize.png') %>";
+      window.signin_background_png = "<%= image_url('signin_bg.png') %>";
+    </script>
   </head>
 
   <% if logged_in? %>
