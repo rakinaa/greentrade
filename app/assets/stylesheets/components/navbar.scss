@@ -1,14 +1,17 @@
 .nav-main {
   box-sizing: border-box;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin: 0;
   background-color: white;
   position: fixed;
   width: 100%;
   top: 0;
   height: $nav-height;
   z-index: 2;
-  box-shadow: 0 4px 2px -2px gray;
+  box-shadow: 0 3px 3px 0px gray;
+  // border-bottom: 5px solid black;
 }
 
 .nav-right {
