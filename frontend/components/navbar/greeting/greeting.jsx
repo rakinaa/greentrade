@@ -10,8 +10,8 @@ const Greeting = ({ currentUser, logout, openModal }) => {
       <Link onClick={() => openModal('login')}>
         <FontAwesomeIcon className="cloud-icon" icon={faCloudUploadAlt} />
       </Link>
-      <a className="nav-login link-black" onClick={() => openModal('login')}>Log In</a>
-      <a className="nav-signup blue-button" onClick={() => openModal('signup')}>Sign Up</a>
+      <a className="nav-login link-black" onClick={() => openModal('login')}>Sign In</a>
+      <a className="nav-signup green-button" onClick={() => openModal('signup')}>Sign Up</a>
     </nav>
   );
   const personalGreeting = () => (

@@ -7,6 +7,15 @@
   }
 }
 
+@mixin change-color-hover-text($color) {
+  transition-property: color;
+  transition: .2s;
+
+  &:hover {
+    color: $color;
+  }
+}
+
 @mixin darken-hover-button($bg-color, $txt-color) {
   transition-property: background-color, color;
   transition: .2s;

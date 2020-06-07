@@ -7,6 +7,16 @@
   @include darken-hover-button($soft-blue, white);
 }
 
+.green-button {
+  background-color: $main-green;
+  padding: 0.5rem;
+  border-radius: 100px;
+  color: black;
+  border: none;
+  @include darken-hover-button($main-green, black);
+}
+
+
 .red-button {
   background-color: red;
   padding: 0.5rem;
@@ -28,6 +38,11 @@
 .link-white {
   color: white;
   @include darken-hover-text(white);
+}
+
+.link-black {
+  color: black;
+  @include change-color-hover-text($main-green);
 }
 
 .spacer {
