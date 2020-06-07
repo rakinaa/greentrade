@@ -2,13 +2,15 @@
   box-sizing: border-box;
   display: flex;
   justify-content: center;
-  padding: 0.5rem;
+  // padding: 0.5rem;
+  // padding-bottom: 30px;
   background-color: white;
   position: fixed;
   width: 100%;
   top: 0;
   height: $nav-height;
   z-index: 2;
+  box-shadow: 0 4px 2px -2px gray;
 }
 
 .nav-right {
@@ -29,7 +31,11 @@
 
 .nav-logo {
   font-size: 1.7rem;
-  color: black
+  color: $main-green;
+}
+
+.nav-img {
+  height: 40px;
 }
 
 .nav-auth {
