@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Splash = (props) => {
+const Jumbotron = (props) => {
   return (
     <div>
 
@@ -9,4 +9,4 @@ const Splash = (props) => {
   )
 }
 
-export default Splash;
+export default Jumbotron;
