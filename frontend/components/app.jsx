@@ -9,7 +9,6 @@ const App = () => {
     <div>
       <ModalContainer />
       <NavBarContainer />
-      <div>hi</div>
       <Switch>
         <Route exact path="/" component={Splash} />
       </Switch>

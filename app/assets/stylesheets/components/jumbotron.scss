@@ -1,0 +1,17 @@
+.jumbotron {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-color: $main-green;
+}
+
+.welcome-heading {
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.welcome-body {
+  font-size: 24px;
+  font-weight: 500;
+}
