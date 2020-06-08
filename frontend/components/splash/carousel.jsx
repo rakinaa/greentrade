@@ -26,7 +26,7 @@ const Carousel = (props) => {
             </p>
           </div>
         </div>
-        <div className="slide">
+        <div className="slide hidden">
           <img src={window.manage_png} alt="manage" />
           <div className="slide-text">
             <h3 className="slide-heading">
@@ -37,7 +37,7 @@ const Carousel = (props) => {
             </p>
           </div>
         </div>
-        <div className="slide">
+        <div className="slide hidden">
           <img src={window.customize_png} alt="learn" />
           <div className="slide-text">
             <h3 className="slide-heading">

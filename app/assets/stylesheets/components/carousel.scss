@@ -1,4 +1,48 @@
 .carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
+  min-height: 700px;
+  width: 100%;
   background-color: black;
+  color: white;
+}
+
+.carousel-controls {
+  font-size: 24px;
+  font-weight: 500;
+  margin-right: 50px;
+  color: grey;
+  text-align: right;
+
+  p {
+    margin-bottom: 20px;
+  }
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide-text {
+  width: 480px;
+  margin-left: 100px;
+}
+
+.slide-heading {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 72px;
+}
+
+.slide-body {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.hidden {
+  display: none;
 }
