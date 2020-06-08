@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 const Carousel = (props) => {
   const [cls, setCls] = useState(['fade-in', 'hidden', 'hidden'])
+  const [ctrl, setCtrl] = useState(['ctrl-active', 'ctrl-inactive', 'ctrl-inactive'])
   const [currSlide, setCurrSlide] = useState(0);
 
   // useEffect(() => {
@@ -24,7 +25,7 @@ const Carousel = (props) => {
             setCls(cls => {
               const updateCls = [...cls];
               updateCls[currSlide] = "hidden";
-              if (updateCls[i] != 'fade-in') {
+              if (updateCls[i] !== 'fade-in') {
                 updateCls[i] = "fade-in";
               }
               return updateCls;
@@ -33,25 +34,29 @@ const Carousel = (props) => {
 
           return newCls;
         })
+
         setCurrSlide(i);
+
+        setCtrl(ctrl => {
+          const newCtrl = [...ctrl];
+          newCtrl[i] = "ctrl-active";
+          newCtrl[currSlide] = "ctrl-inactive";
+          return newCtrl;
+        })
       }
     }
-  }
-
-  const handleTransition = function() {
-    console.log("transistioned");
   }
 
   return (
     <div className="carousel-container">
       <div className="carousel-controls">
-        <p onClick={handleClick(0)} className="control">
+        <p onClick={handleClick(0)} className={`${ctrl[0]}`}>
           Learn
         </p>
-        <p onClick={handleClick(1)} className="control">
+        <p onClick={handleClick(1)} className={`${ctrl[1]}`}>
           Manage
         </p>
-        <p onClick={handleClick(2)} className="control">
+        <p onClick={handleClick(2)} className={`${ctrl[2]}`}>
           Customize
         </p>
       </div>
@@ -67,7 +72,7 @@ const Carousel = (props) => {
             </p>
           </div>
         </div>
-        <div onTransitionEnd={handleTransition} className={`slide ${cls[1]}`}>
+        <div className={`slide ${cls[1]}`}>
           <img src={window.manage_png} alt="manage" />
           <div className="slide-text">
             <h3 className="slide-heading">

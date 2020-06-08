@@ -21,6 +21,17 @@
   }
 }
 
+.ctrl-active {
+  color: white;
+}
+
+.ctrl-inactive {
+  &:hover {
+    transition: color .2s;
+    color: $main-green;
+  }
+}
+
 .slides {
   position: relative;
   height: 500px;
