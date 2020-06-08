@@ -3,6 +3,7 @@ import Jumbotron from './jumbotron';
 import NewsContent from './news_content';
 import Carousel from './carousel';
 import Sponsors from './sponsors';
+import Footer from './footer';
 
 const Splash = (props) => {
   return (
@@ -11,6 +12,7 @@ const Splash = (props) => {
       <NewsContent />
       <Carousel />
       <Sponsors />
+      <Footer />
     </div>
   )
 }
