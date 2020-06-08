@@ -21,8 +21,16 @@
   }
 }
 
+.slides {
+  position: relative;
+  height: 500px;
+  width: 830px;
+}
+
 .slide {
+  position: absolute;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
@@ -45,4 +53,40 @@
 
 .hidden {
   display: none;
+}
+
+.fade-out {
+  animation: fade-out 1s forwards ease-out;
+}
+
+.fade-in {
+  animation: fade-in 1s forwards ease-out;
+}
+
+@keyframes fade-in {
+  from {
+    filter: blur(15px);
+    transform: translateY(250px);
+    opacity: 0;
+  }
+
+  to {
+    filter: blur(0px);
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    filter: blur(0px);
+    transform: translateY(0px);
+    opacity: 1;
+  }
+
+  to {
+    filter: blur(15px);
+    transform: translateY(-250px);
+    opacity: 0;
+  }
 }

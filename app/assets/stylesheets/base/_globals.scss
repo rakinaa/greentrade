@@ -60,6 +60,7 @@
   flex-direction: row;
   align-items: center;
   color: gray;
+  width: max-content;
   @include change-color-hover-text($main-green);
 
   .info-icon {

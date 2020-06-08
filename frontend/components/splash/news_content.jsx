@@ -57,10 +57,12 @@ const NewsContent = (props) => {
             <input type="text" placeholder="name@email.com" />
             <button className="green-button">Get Early Access</button>
           </div>
-          <Link className="link-info" to='/'>
-            <FontAwesomeIcon className="info-icon" icon={faInfoCircle} />
-            <p>Fractional Shares Disclosure</p>
-          </Link>
+          <div>
+            <Link className="link-info" to='/'>
+              <FontAwesomeIcon className="info-icon" icon={faInfoCircle} />
+              <p>Fractional Shares Disclosure</p>
+            </Link>
+          </div>
         </div>
         <img src={window.partial_shares_png} alt="fractional shares"/>
       </div>
