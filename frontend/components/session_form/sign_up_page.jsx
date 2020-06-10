@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { sample } from 'lodash';
 
-const LoginPage = (props) => {
+const SignUpPage = (props) => {
   const [user, setUser] = useState({
     username: "",
     password: ""
@@ -11,7 +10,7 @@ const LoginPage = (props) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const currUser = Object.assign({}, user);
-    props.login(currUser);
+    props.signup(currUser);
   }
 
   const update = (field) => {
@@ -111,4 +110,4 @@ const LoginPage = (props) => {
   )
 }
 
-export default LoginPage;
+export default SignUpPage;

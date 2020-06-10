@@ -14,4 +14,5 @@ const mapDispatchToProps = dispatch => {
   };
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(LoginPage);
+const LoginPageContainer = connect(mapStateToProps, mapDispatchToProps)(LoginPage);
+export default LoginPageContainer;

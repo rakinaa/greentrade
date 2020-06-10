@@ -21,7 +21,7 @@
   transition: .2s;
 
   &:hover {
-    background-color: darken($bg-color, 20%);
+    background-color: darken($bg-color, 10%);
     color: darken($txt-color, 30%);
   }
 }

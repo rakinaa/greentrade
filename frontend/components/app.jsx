@@ -1,16 +1,16 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
 import ModalContainer from "./modal/modal";
-import NavBarContainer from "./navbar/navbar_container";
 import Splash from "./splash/splash";
+import LoginPageContainer from "./session_form/login_page_container";
 
 const App = () => {
   return (
     <div>
       <ModalContainer />
-      <NavBarContainer />
       <Switch>
         <Route exact path="/" component={Splash} />
+        <Route exact path="/login" component={LoginPageContainer} />
       </Switch>
     </div>
   )
