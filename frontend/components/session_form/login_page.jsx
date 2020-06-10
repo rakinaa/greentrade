@@ -97,7 +97,7 @@ const LoginPage = (props) => {
             />
 
             <p className="redirect">
-              Not a Greentrade member? <Link className="inner-link" to="/">Sign Up</Link>
+              Not a Greentrade member? <Link className="inner-link" to="/signup">Sign Up</Link>
             </p>
 
             <div className="btn-container">
