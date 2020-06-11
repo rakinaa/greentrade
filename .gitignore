@@ -37,3 +37,5 @@ tmp/cache/assets/sprockets
 
 # Ignore application configuration
 /config/application.yml
+
+aapl_data.js
