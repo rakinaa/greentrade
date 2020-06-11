@@ -17,6 +17,8 @@ document.addEventListener('DOMContentLoaded', () => {
   } else {
     store = configureStore();
   }
+
+  console.log(window.fmp_api_key);
   
   const root = document.getElementById('root');
   ReactDOM.render(<Root store={store} />, root);
