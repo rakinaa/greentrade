@@ -25,6 +25,10 @@ const SignUpPage = (props) => {
     } 
   }
 
+  const login = () => {
+    props.login({username: "guestuser1", password: "1234567890"})
+  }
+
   const getErrors = (keyword) => {
     return props.errors.filter((error) => error.includes(keyword))
   }
@@ -35,31 +39,44 @@ const SignUpPage = (props) => {
     <div className="signup-page-container">
       <div className="signup-form-container">
         <form className="signup-form-box">
-          <h3 className="signup-heading">Welcome to Greentrade</h3>
           <div className="signup-form">
-            <p className="form-label">Username</p>
+            <div className="signup-heading">
+              <img className="nav-img" src={window.logo_png} alt="logo"/>
+              <h3>Make Your Money Move</h3>
+            </div>
+            <h4 className="sub-heading">Become a Greentrade Member today</h4>
             <input 
               onChange={update("username")} 
               type="text" 
               value={user.username} 
-              className="form-input"
+              placeholder="username"
+              className="form-input signup-input"
             />
 
-            <p className="form-label">Password</p>
+            <input 
+              onChange={update("email")} 
+              type="text" 
+              value={user.username} 
+              placeholder="email address"
+              className="form-input signup-input"
+            />
+
             <input 
               onChange={update("password")} 
               type="password" 
               value={user.password} 
-              className="form-input"
+              placeholder="password"
+              className="form-input signup-input"
             />
+
+            <div className="btn-container">
+              <button onClick={handleSubmit} className="form-button">Sign Up</button>
+              <button onClick={login} className="form-button">Demo Login</button>
+            </div>
 
             <p className="redirect">
               Already have an account? <Link className="inner-link" to="/login">Sign In</Link>
             </p>
-
-            <div className="btn-container">
-              <button onClick={handleSubmit} className="form-button">Sign In</button>
-            </div>
           </div>
         </form>
       </div>

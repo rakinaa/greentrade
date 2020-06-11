@@ -1,8 +1,13 @@
-.login-page-container {
+.login-page-container, .signup-page-container {
   display: flex;
   height: 100vh;
   width: 100%;
   min-height:500px;
+}
+
+.signup-page-container {
+  justify-content: center;
+  align-items: center;
 }
 
 .login-bg {
@@ -20,6 +25,30 @@
   width: 50%;
   min-width: 300px;
   margin: 0;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-heading {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+
+  h3 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+}
+
+.sub-heading {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 30px;
 }
 
 .form-error {
@@ -54,6 +83,10 @@
   }
 }
 
+.signup-input {
+  width: 500px;
+}
+
 .login-heading {
   font-size: 21px;
   font-weight: 600;
@@ -68,6 +101,7 @@
 
 .redirect {
   font-size: 13px;
+  margin-top: 20px;
   margin-bottom: 50px;
 
   .inner-link {
