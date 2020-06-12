@@ -4,7 +4,7 @@ import ModalContainer from "./modal/modal";
 import Splash from "./splash/splash";
 import LoginPageContainer from "./session_form/login_page_container";
 import SignUpPageContainer from "./session_form/sign_up_page_container";
-import Chart from "./ticker_show/chart";
+import TickerShow from "./ticker_show/ticker_show";
 
 const App = () => {
   return (
@@ -14,7 +14,7 @@ const App = () => {
         <Route exact path="/" component={Splash} />
         <Route exact path="/login" component={LoginPageContainer} />
         <Route exact path="/signup" component={SignUpPageContainer} />
-        <Route exact path="/show" component={Chart} />
+        <Route exact path="/show" component={TickerShow} />
       </Switch>
     </div>
   )

@@ -1,7 +1,63 @@
 .chart {
   margin: 20px;
+  width: 800px;
 }
 
 .custom-tooltip {
   color: #8a8a8a;
+}
+
+.hover-data-container {
+  margin-bottom: 20px;
+}
+
+.hover-company, .hover-price {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.hover-price {
+  margin-bottom: 5px;
+}
+
+.hover-caption {
+  display: flex;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.hover-difference {
+  margin-right: 5px;
+}
+
+.tf-selector {
+  display: flex;
+  margin-top: 50px;
+
+  p {
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    margin-right: 20px;
+  }
+}
+
+.selected {
+  color: $main-green;
+  border-bottom: 3px solid $main-green;
+}
+
+.unselected {
+  transition: color .3s;
+
+  &:hover {
+    color: $main-green;
+  }
+}
+
+.chart-hr {
+  margin-top: 0px;
+  border: 1px solid lighten(gray, 30%);
 }
