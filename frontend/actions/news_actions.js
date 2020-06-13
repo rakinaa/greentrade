@@ -2,13 +2,13 @@ const { fetchNews } = require("../util/new_api_util")
 
 export const RECEIVE_NEWS = "RECEIVE_NEWS";
 
-const receiveTheNews = news => ({
+const receiveNews = news => ({
   type: RECEIVE_NEWS,
   news
 })
 
-export const receiveNews = () => dispatch => {
+export const getNews = () => dispatch => {
   return fetchNews().then(
-    news => dispatch(receiveTheNews(news))
+    news => dispatch(receiveNews(news))
   )
 }

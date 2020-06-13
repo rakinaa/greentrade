@@ -21,7 +21,6 @@ const Chart = (props) => {
   const [toolTipOffset, setOffset] = useState(-50);
 
   useEffect(() => {
-    console.log("mounted");
     setHoverData(data[data.length-1].close);
   }, []);
 
