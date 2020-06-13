@@ -6,7 +6,7 @@ import TransactionForm from './transaction_form';
 
 const TickerShow = (props) => {
   return (
-    <div>
+    <div className="ticker-show-container">
       <div className="ticker-control">
         <Chart historical={{"1m": stockData2, "1d": stockData}} />
         <TransactionForm tickerSymbol={"AAPL"} stockPrice={0} />
