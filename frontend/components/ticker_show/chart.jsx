@@ -23,13 +23,15 @@ const Chart = (props) => {
   useEffect(() => {
     console.log("mounted");
     setHoverData(data[data.length-1].close);
-  }, [])
+  }, []);
 
   const customToolTip = useCallback((e) => {
     return <div className="custom-tooltip">{e.label + ' ET'}</div>;
-  })
+  });
 
   const setHoverData = useCallback((currPrice) => {
+    if (formatPrice(currPrice) == hoverPrice) return;
+    
     let startingPrice = data[0].close;
     let dayDiff = currPrice - startingPrice;
     let perc = dayDiff / startingPrice;
@@ -39,18 +41,18 @@ const Chart = (props) => {
     setPrice(formatPrice(currPrice));
     setDiff(sign + formatPrice(dayDiff));
     setPerc(`(${sign + formatPerc(perc)})`);
-  })
+  });
 
   const handleHover = useCallback((e) => {
     if (!e.activePayload) return;
     let price = e.activePayload[0].value;
     setHoverData(price);
-  })
+  });
 
   const handleMouseLeave = useCallback((e) => {
     let price = data[data.length-1].close;
     setHoverData(price);
-  })
+  });
 
   const changeTimeFrame = useCallback((tf) => {
     return () => {
@@ -58,7 +60,7 @@ const Chart = (props) => {
       setTF(tf);
       setData(props.historical[tf]);
     }
-  })
+  });
 
 
   return (
