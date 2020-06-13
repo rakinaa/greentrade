@@ -1,9 +1,13 @@
 .ticker-show-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
+  // margin-top: $nav-height;
+  margin-top: 100px;
+  // background-color: #212121;
+  // color: white;
 }
 
-.ticker-control {
+.ticker-data {
   display: flex;
+  flex-direction: column;
 }
