@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useCallback } from 'react';
+import numeral from 'numeral';
 
 const TransactionForm = (props) => {
   const [quantity, setQuant] = useState(0);
@@ -6,6 +7,9 @@ const TransactionForm = (props) => {
   const [type, setType] = useState("BUY");
   const [buyingPower, setBP] = useState(0);
 
+  const handleSubmit = useCallback((e) => {
+    e.preventDefault;
+  })
 
   const updateType = useCallback((type) => {
     return () => {
@@ -13,20 +17,29 @@ const TransactionForm = (props) => {
     }
   });
 
-  const updateType = useCallback((e) => {
-    setQuant(e.currentTarget.value);
-  })
+  const updateQuant = useCallback((e) => {
+    const val = e.currentTarget.value;
+    setQuant(val);
+    // if (e.currentTarget.value === "") {
+    //   setQuant(0);
+    // } else if (!isNaN(parseFloat(val)) && isFinite(val)) {
+    //   setQuant(val);
+    // } else {
+    //   setQuant(quantity);
+    // }
+  });
+
   return (
     <form className="transaction-form">
       <div className="transaction-types">
-        <button 
+        <p 
           onClick={updateType("BUY")}
           className={type === "BUY" ? "t-active" : "t-inactive"}
-        >{`BUY ${props.ticker_symbol}`}</button>
-        <button 
+        >{`BUY ${props.tickerSymbol}`}</p>
+        <p 
           onClick={updateType("SELL")}
           className={type === "SELL" ? "t-active" : "t-inactive"}
-        >{`SELL ${props.ticker_symbol}`}</button>
+        >{`SELL ${props.tickerSymbol}`}</p>
       </div>
 
       <div className="quantity-input-container">
@@ -40,13 +53,24 @@ const TransactionForm = (props) => {
         />
       </div>
 
-      <div className="transaction-price">
+      <div className="transaction-info">
         <p>Market Price: </p>
-        <p>{numeral(this.props.price[this.props.ticker][0].price).format('$0,0.00')}</p>
+        <p>{numeral(props.stockPrice).format('$0,0.00')}</p>
       </div>
-      <div className="transaction-price">
+      <div className="transaction-info">
         <p>Estimated Cost:</p>
-        <p>{numeral(this.state.cost).format('$0,0.00')}</p>
+        <p>{numeral(cost).format('$0,0.00')}</p>
+      </div>
+
+      <div className="transaction-submit">
+        <p className="transaction-errors">{props.errors}</p>
+
+        <button onClick={handleSubmit} className="t-submit">{type}</button>
+
+        <div className="transaction-info">
+          <p className="bp-label">Buying Power:</p>
+          <p>{numeral(buyingPower).format('$0,0.00')}</p>
+        </div>
       </div>
     </form>
   )

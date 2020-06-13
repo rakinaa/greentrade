@@ -1,0 +1,85 @@
+.transaction-form {
+  width: 250px;
+  margin: 30px;
+  padding: 10px;
+  border: 1px solid $main-green;
+  border-radius: 3px;
+}
+
+.transaction-types {
+  display: flex;
+  justify-content: space-between;
+
+  p {
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 10px;
+    padding-bottom: 20px;
+  }
+
+  .t-active {
+    color: $main-green;
+    border-bottom: 2px solid $main-green;
+  }
+
+  .t-inactive {
+    transition: color .3s;
+
+    &:hover {
+      color: $main-green;
+    }
+  }
+}
+
+.transaction-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.quantity-input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  input {
+    height: 25px;
+    width: 100px;
+    padding: 5px;
+    border: none;
+    border-radius: 2px;
+    background-color: lighten($main-green, 45%);
+
+    &:hover {
+      background-color: white;
+      box-shadow: 0px 0px 5px $main-green;
+    }
+  }
+}
+
+.transaction-submit {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+
+  button {
+    padding: 15px 60px;
+    font-size: 15px;
+    color: white;
+    background-color: $main-green;
+    border-radius: 3px;
+
+    &:hover {
+      box-shadow: 0px 0px 5px black;
+    }
+  }
+}
+
+.bp-label {
+  margin-right: 10px;
+}
