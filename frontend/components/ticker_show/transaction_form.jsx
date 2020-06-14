@@ -59,7 +59,7 @@ const TransactionForm = (props) => {
       </div>
       <div className="transaction-info">
         <p>Estimated Cost:</p>
-        <p>{numeral(cost).format('$0,0.00')}</p>
+        <p>{numeral(quantity*props.stockPrice).format('$0,0.00')}</p>
       </div>
 
       <div className="transaction-submit">

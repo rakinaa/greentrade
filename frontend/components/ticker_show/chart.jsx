@@ -14,15 +14,18 @@ const formatPerc = (perc) => {
 
 const Chart = (props) => {
   const [timeFrame, setTF] = useState("1d");
-  const [data, setData] = useState(props.historical["1d"]);
+  const [data, setData] = useState(props.historical[timeFrame]);
   const [hoverPrice, setPrice] = useState(0);
   const [hoverDiff, setDiff] = useState(0);
   const [hoverPerc, setPerc] = useState(0);
   const [toolTipOffset, setOffset] = useState(-50);
+  const [lineColor, setColor] = useState('#21ce99');
 
   useEffect(() => {
-    setHoverData(data[data.length-1].close);
-  }, []);
+    setData(props.historical[timeFrame]);
+    setHoverData(props.stockPrice);
+    data[0].close < data[data.length-1].close ? setColor('#21ce99') : setColor('#FF0000')
+  }, [props.stockPrice, props.historical]);
 
   const customToolTip = useCallback((e) => {
     return <div className="custom-tooltip">{e.label + ' ET'}</div>;
@@ -49,23 +52,25 @@ const Chart = (props) => {
   });
 
   const handleMouseLeave = useCallback((e) => {
-    let price = data[data.length-1].close;
-    setHoverData(price);
+    setHoverData(props.stockPrice);
   });
 
   const changeTimeFrame = useCallback((tf) => {
     return () => {
       if (timeFrame === tf) return
       setTF(tf);
-      setData(props.historical[tf]);
+      const newData = props.historical[tf];
+      setData(newData);
+      newData[0].close < newData[newData.length-1].close ? setColor('#21ce99') : setColor('#FF0000')
     }
   });
 
+  if (data === undefined) return null;
 
   return (
     <div className="chart">
       <HoverData 
-        companyName={"AAPL"} 
+        companyName={props.symbol} 
         price={hoverPrice} 
         dayDifference={hoverDiff} 
         percentage={hoverPerc} 
@@ -78,7 +83,7 @@ const Chart = (props) => {
           onMouseMove={handleHover} 
           onMouseLeave={handleMouseLeave}
         >
-        <Line type="linear" dataKey="close" stroke={'#21ce99'} dot={false} strokeWidth={2}/>
+        <Line type="linear" dataKey="close" stroke={lineColor} dot={false} strokeWidth={2}/>
         <YAxis domain={['dataMin', 'dataMax']} axisLine={false} hide={true}/>
         <XAxis dataKey='date' hide={true}/>
         <Tooltip
