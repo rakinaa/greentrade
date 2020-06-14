@@ -22,7 +22,9 @@ const Chart = (props) => {
   useEffect(() => {
     const data = props.historical[timeFrame];
     setHoverData(props.stockPrice);
-    data[0].close < data[data.length-1].close ? setColor('#21ce99') : setColor('#FF0000')
+    if (data) {
+      data[0].close < data[data.length-1].close ? setColor('#21ce99') : setColor('#FF0000')
+    }
   }, [props.stockPrice, props.historical]);
 
   const customToolTip = useCallback((e) => {
@@ -77,11 +79,19 @@ const Chart = (props) => {
       <LineChart 
           width={800} 
           height={300} 
-          data={props.historical[timeFrame]} 
+          // data={props.historical[timeFrame].filter((tick) => tick["close"] !== null)} 
+          data={props.historical[timeFrame]}
           onMouseMove={handleHover} 
           onMouseLeave={handleMouseLeave}
         >
-        <Line type="linear" dataKey="close" stroke={lineColor} dot={false} strokeWidth={2}/>
+        <Line 
+          type="linear" 
+          dataKey="close" 
+          connectNulls={true}
+          stroke={lineColor} 
+          dot={false} 
+          strokeWidth={2}
+        />
         <YAxis domain={['dataMin', 'dataMax']} axisLine={false} hide={true}/>
         <XAxis dataKey='date' hide={true}/>
         <Tooltip

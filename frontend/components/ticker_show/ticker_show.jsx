@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useCallback } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { getNews } from '../../actions/news_actions';
 import { getStock } from '../../actions/stock_action';
@@ -6,6 +6,7 @@ import NewsArticle from './new_article';
 import TransactionForm from './transaction_form';
 import TickerNav from './ticker-nav';
 import Chart from './chart';
+import { startNewsLoading, startStockLoading } from '../../actions/loading_actions';
 
 
 const TickerShow = (props) => {
@@ -13,14 +14,15 @@ const TickerShow = (props) => {
   const historical = useSelector(state => state.entities.historical);
   const price = useSelector(state => state.entities.price);
   const profile = useSelector(state => state.entities.profile);
+  const stockLoading = useSelector(state => state.ui.loading.stock)
   const dispatch = useDispatch();
 
   useEffect(() => {
+    dispatch(startNewsLoading());
+    dispatch(startStockLoading());
     dispatch(getStock({ticker: props.match.params.sym}));
     if (news.length !== 0) return;
   }, [props.match.params.sym])
-
-  if (historical["1d"] === undefined || price === null) return null;
 
   return (
     <div className="ticker-show-container">

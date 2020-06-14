@@ -1,4 +1,4 @@
-const { RECEIVE_STOCK } = require("../actions/stock_action");
+import { RECEIVE_STOCK } from "../actions/stock_action";
 
 const historicalReducer = (state = {}, action) => {
   Object.freeze(state);
