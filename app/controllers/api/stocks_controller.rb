@@ -21,7 +21,8 @@ class Api::StocksController < ApplicationController
       url = "https://sandbox.iexapis.com/stable/stock/#{ticker}/chart/#{tf}?token=#{test_key}"
       if tf == "1d"
         # url = "https://cloud.iexapis.com/stable/stock/#{ticker}/intraday-prices?token=#{api_key}"
-        url = "https://sandbox.iexapis.com/stable/stock/#{ticker}/intraday-prices?token=#{test_key}&chartInterval=10"
+        # url = "https://sandbox.iexapis.com/stable/stock/#{ticker}/intraday-prices?token=#{test_key}&chartInterval=10"
+        url = "https://sandbox.iexapis.com/stable/stock/#{ticker}/intraday-prices?token=#{test_key}"
       elsif tf =="1w"
         url = "https://sandbox.iexapis.com/stable/stock/#{ticker}/chart/5d?token=#{test_key}"
       end

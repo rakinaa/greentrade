@@ -1,19 +1,18 @@
 import React, { useEffect } from 'react';
-import Chart from './chart';
-import stockData from './aapl_data';
-import stockData2 from './aapl_data2';
-import TransactionForm from './transaction_form';
 import { useSelector, useDispatch } from 'react-redux';
 import { getNews } from '../../actions/news_actions';
-import NewsArticle from './new_article';
-import TickerNav from './ticker-nav';
 import { getStock } from '../../actions/stock_action';
+import NewsArticle from './new_article';
+import TransactionForm from './transaction_form';
+import TickerNav from './ticker-nav';
+import Chart from './chart';
 
 
 const TickerShow = (props) => {
   const news = useSelector(state => state.entities.news);
   const historical = useSelector(state => state.entities.historical);
   const price = useSelector(state => state.entities.price);
+  const profile = useSelector(state => state.entities.profile);
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -27,7 +26,12 @@ const TickerShow = (props) => {
     <div className="ticker-show-container">
       <TickerNav />
       <div className="ticker-data">
-        <Chart historical={historical} symbol={props.match.params.sym} stockPrice={price}/>
+        <Chart 
+          historical={historical} 
+          companyName={profile["companyName"]} 
+          stockPrice={price}
+        />
+
         <div className="news-feed">
           {news.map((article, i) => (
             <NewsArticle 

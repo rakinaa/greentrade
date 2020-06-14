@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import TickerSearch from './ticker_search';
 
 const TickerNav = (props) => {
   return (
@@ -8,6 +9,7 @@ const TickerNav = (props) => {
         <p className="nav-logo" to="/">Greentrade</p>
         <img className="nav-img" src={window.logo_png} alt="logo"/>
       </div>
+      <TickerSearch />
       <div className="nav-right">
         <nav className="nav-auth">
           <p className="nav-theme">Light Mode</p>

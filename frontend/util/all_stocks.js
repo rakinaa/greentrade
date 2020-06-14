@@ -363,7 +363,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["BECN", "Beacon Roofing Suppl"],
 ["BELFA", "Bel Fuse Cl A"],
 ["BELFB", "Bel Fuse Inc Cl B"],
-["BFC", "Bank First National Corp [Wisconsin]"
+["BFC", "Bank First National Corp [Wisconsin]"],
 ["BFIN", "Bankfinancial Corp"],
 ["BFIT", "G-X Health & Wellness Thematic Et"],
 ["BFRA", "Biofrontera Ag ADR"],
@@ -536,7 +536,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["CAPR", "Capricor Therap"],
 ["CAR", "Avis Budget Group"],
 ["CARA", "Cara Therapeutics"],
-["CARE", "Carter Bank&Tr [Va]"
+["CARE", "Carter Bank&Tr [Va]"],
 ["CARG", "Cargurus Inc Cl A"],
 ["CARO", "Carolina Financial Corp"],
 ["CARV", "Carver Bancorp"],
@@ -988,7 +988,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["EBAYL", "Ebay Inc 6.0% NTS"],
 ["EBIX", "Ebix Inc"],
 ["EBIZ", "Global X E-Commerce ETF"],
-["EBMT", "Eagle Bancorp [Mt]"
+["EBMT", "Eagle Bancorp [Mt]"],
 ["EBSB", "Meridian Bncp"],
 ["EBTC", "Enterprise Bancorp"],
 ["ECHO", "Echo Global Logistic"],
@@ -1078,7 +1078,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["ESSCU", "East Stone Acquisition Corp"],
 ["ESTA", "Establishment Labs Holdings Inc"],
 ["ESXB", "Community Bankers"],
-["ETFC", "E*Trade Finl Corp"
+["ETFC", "E*Trade Finl Corp"],
 ["ETNB", "89Bio Inc"],
 ["ETON", "Eton Pharmaceutcials Inc"],
 ["ETSY", "Etsy Inc"],
@@ -1137,8 +1137,8 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["FBIO", "Fortress Biotech Inc"],
 ["FBIOP", "Fortress Biotech Inc 9.375% Series A Cumulativ"],
 ["FBIZ", "First Business Finan"],
-["FBMS", "First Bancshs [Ms]"
-["FBNC", "First Bancorp [Nc]"
+["FBMS", "First Bancshs [Ms]"],
+["FBNC", "First Bancorp [Nc]"],
 ["FBSS", "Fauquier Bankshares"],
 ["FBZ", "Brazil Alphadex Fund FT"],
 ["FCA", "China Alphadex Fund FT"],
@@ -1174,9 +1174,9 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["FEUZ", "Eurozone Alphadex Fund FT"],
 ["FEX", "Largecap Core Alphadex Fund FT"],
 ["FEYE", "Fireeye Inc"],
-["FFBC", "First Finl Bncp [Oh]"
+["FFBC", "First Finl Bncp [Oh]"],
 ["FFBW", "Ffbw Inc"],
-["FFHL", "Fuwei Films [Holding]"
+["FFHL", "Fuwei Films [Holding]"],
 ["FFIC", "Flushing Finl Corp"],
 ["FFIN", "First Finl Bkshs Inc"],
 ["FFIV", "F5 Networks Inc"],
@@ -1248,7 +1248,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["FORK", "Fuling Global Ord Sh"],
 ["FORM", "Formfactor Inc"],
 ["FORR", "Forrester Resrch"],
-["FORTY", "Formula Sys [1985]"
+["FORTY", "Formula Sys [1985]"],
 ["FOSL", "Fossil Group"],
 ["FOX", "Fox Corp Cl B"],
 ["FOXA", "Fox Corp Cl A"],
@@ -2002,7 +2002,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["MBII", "Marrone Bio Innov"],
 ["MBIN", "Merchants Bancorp"],
 ["MBINO", "Merchants Bancorp Depositary Shares Each Represe"],
-["MBINP", "Merchants Bancorp [Indiana] Perp Pfd Ser A"
+["MBINP", "Merchants Bancorp [Indiana] Perp Pfd Ser A"],
 ["MBIO", "Mustang Bio Inc"],
 ["MBNKP", "Medallion Bank Fixed-To-Floating Rate Non-Cumula"],
 ["MBOT", "Microbot Medical Inc"],
@@ -2837,7 +2837,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["SBPH", "Spring Bank Ph CS"],
 ["SBRA", "Sabra REIT"],
 ["SBSI", "Southside Bancshares"],
-["SBT", "Sterling Bancorp Inc [Southfield Mi]"
+["SBT", "Sterling Bancorp Inc [Southfield Mi]"],
 ["SBUX", "Starbucks Corp"],
 ["SCHL", "Scholastic Cp"],
 ["SCHN", "Schnitzer Steel A"],
@@ -3163,7 +3163,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["THCB", "Tuscan Holdings Corp"],
 ["THCBU", "Tuscan Holdings Corp Unit"],
 ["THCBW", "Tuscan Holdings Corp WT"],
-["THFF", "First Finl Corp [In]"
+["THFF", "First Finl Corp [In]"],
 ["THMO", "Thermogenesis Holdings Inc."],
 ["THRM", "Gentherm Inc"],
 ["THTX", "Theratechnologies Inc"],
@@ -3187,7 +3187,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["TLND", "Talend S.A."],
 ["TLRY", "Tilray Inc"],
 ["TLSA", "Tiziana Life Sciences Plc ADR"],
-["TLT", "20+ Year Treas Bond Ishares ETF"
+["TLT", "20+ Year Treas Bond Ishares ETF"],
 ["TMDI", "Titan Medical Inc"],
 ["TMDX", "Transmedics Group Inc"],
 ["TMSR", "Tmsr Holding Company Ltd"],
@@ -3586,16 +3586,16 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["ABG", "Asbury Automotive Group Inc"],
 ["ABM", "ABM Industries Incorporated"],
 ["ABR", "Arbor Realty Trust"],
-["ABR-A", "Arbor Rlty TR Inc [Abr/Pa]"
-["ABR-B", "Arbor Rlty TR Inc [Abr/Pb]"
-["ABR-C", "Arbor Rlty TR Inc [Abr/Pc]"
+["ABR-A", "Arbor Rlty TR Inc [Abr/Pa]"],
+["ABR-B", "Arbor Rlty TR Inc [Abr/Pb]"],
+["ABR-C", "Arbor Rlty TR Inc [Abr/Pc]"],
 ["ABT", "Abbott Laboratories"],
 ["AC", "Associated Capital Group Inc"],
 ["ACA", "Arcosa Inc"],
 ["ACB", "Aurora Cannabis Inc"],
 ["ACC", "American Campus Communities Inc"],
 ["ACCO", "Acco Brands Corp"],
-["ACE.W", "Accel Entmt Inc [Acel/W]"
+["ACE.W", "Accel Entmt Inc [Acel/W]"],
 ["ACEL", "Accel Entertainment Inc."],
 ["ACH", "Aluminum Corp of China Ltd"],
 ["ACM", "Aecom Technology Corp"],
@@ -3610,7 +3610,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["ADSW", "Advanced Disposal Services Inc"],
 ["ADT", "ADT Inc"],
 ["ADX", "Adams Express Company"],
-["AEB", "Aegon N.V. Perp Cap Secs Floating Rate [Ne]"
+["AEB", "Aegon N.V. Perp Cap Secs Floating Rate [Ne]"],
 ["AEE", "Ameren Corp"],
 ["AEFC", "Aegon Funding Company Llc 5.10% Subordinated Not"],
 ["AEG", "Aegon N.V."],
@@ -3619,7 +3619,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["AEM", "Agnico-Eagle Mines Ltd"],
 ["AEO", "American Eagle Outfitters"],
 ["AEP", "American Electric Power Company"],
-["AEP-B", "American Elec Pwr Co. Inc [Aep/Pb]"
+["AEP-B", "American Elec Pwr Co. Inc [Aep/Pb]"],
 ["AER", "Aercap Holdings N.V."],
 ["AES", "The Aes Corp"],
 ["AFB", "Alliance National Municipal"],
@@ -3636,39 +3636,39 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["AGD", "Alpine Global Dynamic Dividend Fund"],
 ["AGI", "Alamos Gold Inc"],
 ["AGM", "Federal Agricultural Mortgage Corp"],
-["AGM-A", "Federal Agricultural Mortgage Corp [Agm/Pa]"
-["AGM-C", "Federal Agricultural Mortgage Corp [Agm/Pc]"
-["AGM-D", "Federal Agricultural Mortgage Corp [Agm/Pd]"
+["AGM-A", "Federal Agricultural Mortgage Corp [Agm/Pa]"],
+["AGM-C", "Federal Agricultural Mortgage Corp [Agm/Pc]"],
+["AGM-D", "Federal Agricultural Mortgage Corp [Agm/Pd]"],
 ["AGM.A", "Federal Agricultural Mortgage Corp"],
 ["AGN", "Allergan Plc"],
 ["AGO", "Assured Guaranty Ltd"],
-["AGO-B", "Assured Guaranty Municipal Hlds IN [Ago/Pb]"
-["AGO-E", "Assured Guaranty Municipal Hlds IN [Ago/Pe]"
-["AGO-F", "Assured Guaranty Municipal Hlds IN [Ago/Pf]"
+["AGO-B", "Assured Guaranty Municipal Hlds IN [Ago/Pb]"],
+["AGO-E", "Assured Guaranty Municipal Hlds IN [Ago/Pe]"],
+["AGO-F", "Assured Guaranty Municipal Hlds IN [Ago/Pf]"],
 ["AGR", "Avangrid Inc"],
 ["AGRO", "Adecoagro S.A."],
 ["AGS", "Playags Inc"],
 ["AGX", "Argan Inc"],
 ["AHC", "A.H. Belo Corp"],
 ["AHH", "Armada Hoffler Properties Inc"],
-["AHH-A", "Armada Hoffler Pptys Inc [Ahh/Pa]"
-["AHL-C", "Aspen Insurance Holdings Ltd [Ahl/Pc]"
-["AHL-D", "Aspen Insurance Holdings Ltd [Ahl/Pd]"
-["AHL-E", "Aspen Insurance Holdings Ltd [Ahl/Pe]"
+["AHH-A", "Armada Hoffler Pptys Inc [Ahh/Pa]"],
+["AHL-C", "Aspen Insurance Holdings Ltd [Ahl/Pc]"],
+["AHL-D", "Aspen Insurance Holdings Ltd [Ahl/Pd]"],
+["AHL-E", "Aspen Insurance Holdings Ltd [Ahl/Pe]"],
 ["AHT", "Ashford Hospitality Trust Inc"],
-["AHT-D", "Ashford Hospitality TR Inc [Aht/Pd]"
-["AHT-F", "Ashford Hospitality TR Inc [Aht/Pf]"
-["AHT-G", "Ashford Hospitality TR Inc [Aht/Pg]"
-["AHT-H", "Ashford Hospitality TR Inc [Aht/Ph]"
-["AHT-I", "Ashford Hospitality TR Inc [Aht/Pi]"
+["AHT-D", "Ashford Hospitality TR Inc [Aht/Pd]"],
+["AHT-F", "Ashford Hospitality TR Inc [Aht/Pf]"],
+["AHT-G", "Ashford Hospitality TR Inc [Aht/Pg]"],
+["AHT-H", "Ashford Hospitality TR Inc [Aht/Ph]"],
+["AHT-I", "Ashford Hospitality TR Inc [Aht/Pi]"],
 ["AI", "Arlington Asset Investment Corp"],
-["AI-B", "Arlington Asset Investment Corp [Ai/Pb]"
-["AI-C", "Arlington Asset Investment Corp [Ai/Pc]"
+["AI-B", "Arlington Asset Investment Corp [Ai/Pb]"],
+["AI-C", "Arlington Asset Investment Corp [Ai/Pc]"],
 ["AIC", "Arlington Asset Investment Cor"],
 ["AIF", "Apollo Tactical Income Fund Inc"],
 ["AIG", "American International Group"],
-["AIG-A", "American International Group Inc [Aig/Pa]"
-["AIG.W", "American Intl Group Inc WT [Aig/W]"
+["AIG-A", "American International Group Inc [Aig/Pa]"],
+["AIG.W", "American Intl Group Inc WT [Aig/W]"],
 ["AIN", "Albany International Corp"],
 ["AIO", "Allianzgi Artificial Intelligence & Technology O"],
 ["AIR", "AAR Corp"],
@@ -3686,7 +3686,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["AKR", "Acadia Realty Trust"],
 ["AKS", "AK Steel Holding Corp"],
 ["AL", "Air Lease Corp Cl A"],
-["AL-A", "Air Lease Corp [Al/Pa]"
+["AL-A", "Air Lease Corp [Al/Pa]"],
 ["ALB", "Albemarle Corp"],
 ["ALC", "Alcon Inc"],
 ["ALE", "Allete Inc"],
@@ -3694,19 +3694,19 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["ALG", "Alamo Group"],
 ["ALK", "Alaska Air Group"],
 ["ALL", "Allstate Corp"],
-["ALL-B", "Allstate Corp [All/Pb]"
-["ALL-G", "Allstate Corp [All/Pg]"
-["ALL-H", "Allstate Corp [All/Ph]"
+["ALL-B", "Allstate Corp [All/Pb]"],
+["ALL-G", "Allstate Corp [All/Pg]"],
+["ALL-H", "Allstate Corp [All/Ph]"],
 ["ALL-I", "Allstate Corp 4.75% Prf Perpetual USD 25"],
-["ALL-Y", "GMAC Capital Trust I [Ally/Pa]"
+["ALL-Y", "GMAC Capital Trust I [Ally/Pa]"],
 ["ALLE", "Allegion Plc"],
 ["ALLY", "Ally Financial"],
-["ALP-Q", "Alabama Power Co. [Alp/Pq]"
+["ALP-Q", "Alabama Power Co. [Alp/Pq]"],
 ["ALSN", "Allison Transmission Holdings"],
-["ALT.W", "Alta Equipment Group Inc [Altg/W]"
+["ALT.W", "Alta Equipment Group Inc [Altg/W]"],
 ["ALTG", "Alta Equipment Group Inc."],
-["ALU.U", "Alussa Energy Acquisition Corp [Alus.U]"
-["ALU.W", "Alussa Energy Acquisition Corp [Alus/W]"
+["ALU.U", "Alussa Energy Acquisition Corp [Alus.U]"],
+["ALU.W", "Alussa Energy Acquisition Corp [Alus/W]"],
 ["ALUS", "Alussa Energy Acquisition Corp Cl A"],
 ["ALV", "Autoliv Inc"],
 ["ALX", "Alexander's Inc"],
@@ -3718,11 +3718,11 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["AME", "Amtek Inc"],
 ["AMG", "Affiliated Managers Group"],
 ["AMH", "American Homes 4 Rent"],
-["AMH-D", "American Homes 4 Rent [Amh/Pd]"
-["AMH-E", "American Homes 4 Rent [Amh/Pe]"
-["AMH-F", "American Homes 4 Rent [Amh/Pf]"
-["AMH-G", "American Homes 4 Rent [Amh/Pg]"
-["AMH-H", "American Homes 4 Rent [Amh/Ph]"
+["AMH-D", "American Homes 4 Rent [Amh/Pd]"],
+["AMH-E", "American Homes 4 Rent [Amh/Pe]"],
+["AMH-F", "American Homes 4 Rent [Amh/Pf]"],
+["AMH-G", "American Homes 4 Rent [Amh/Pg]"],
+["AMH-H", "American Homes 4 Rent [Amh/Ph]"],
 ["AMK", "Assetmark Financial Holdings Inc"],
 ["AMN", "Amn Healthcare Services Inc"],
 ["AMOV", "America Movil A ADR"],
@@ -3736,13 +3736,13 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["ANET", "Arista Networks Inc"],
 ["ANF", "Abercrombie & Fitch Company"],
 ["ANH", "Anworth Mortgage Asset Corp"],
-["ANH-A", "Anworth Mortgage Asset Cp [Anh/Pa]"
-["ANH-B", "Anworth Mortgage Asset Cp [Anh/Pb]"
-["ANH-C", "Anworth Mortgage Asset Cp [Anh/Pc]"
+["ANH-A", "Anworth Mortgage Asset Cp [Anh/Pa]"],
+["ANH-B", "Anworth Mortgage Asset Cp [Anh/Pb]"],
+["ANH-C", "Anworth Mortgage Asset Cp [Anh/Pc]"],
 ["ANTM", "Anthem Inc"],
 ["AOD", "Alpine Total Dynamic Dividend"],
 ["AON", "AON Plc"],
-["AOS", "Smith [A.O.] Corp"
+["AOS", "Smith [A.O.] Corp"],
 ["AP", "Ampco-Pittsburgh Corp"],
 ["APA", "Apache Corp"],
 ["APAM", "Artisan Partners Asset Mgmt"],
@@ -3751,8 +3751,8 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["APHA", "Aphria Inc"],
 ["APLE", "Apple Hospitality REIT Inc"],
 ["APO", "Apollo Global Management Llc C"],
-["APO-A", "Apollo Global Mgmt Inc [Apo/Pa]"
-["APO-B", "Apollo Global Mgmt Inc [Apo/Pb]"
+["APO-A", "Apollo Global Mgmt Inc [Apo/Pa]"],
+["APO-B", "Apollo Global Mgmt Inc [Apo/Pb]"],
 ["APRN", "Blue Apron Holdings Inc"],
 ["APTS", "Preferred Apartment Communities"],
 ["APTV", "Aptiv Plc"],
@@ -3769,7 +3769,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["ARD", "Ardagh Group S.A."],
 ["ARDC", "Ares Dynamic Credit Allocation"],
 ["ARE", "Alexandria Real Estate Equities"],
-["ARE-A", "Ares Management Corp [Ares/Pa]"
+["ARE-A", "Ares Management Corp [Ares/Pa]"],
 ["ARES", "Ares Management LP"],
 ["ARGD", "Argo Grp Itl Snr NTS"],
 ["ARGO", "Argo Group Intl Hlds"],
@@ -3780,14 +3780,14 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["ARNC", "Arconic Inc"],
 ["AROC", "Archrock Inc"],
 ["ARR", "Armour Residential R"],
-["ARR-B", "Armour Residential REIT Inc [Arr/Pb]"
+["ARR-B", "Armour Residential REIT Inc [Arr/Pb]"],
 ["ARR-C", "Armour Residential REIT Inc 7% Prf Perpetual USD"],
 ["ARW", "Arrow Electronics"],
 ["ASA", "ASA Gold and Precious Metals"],
 ["ASB", "Associated Banc-Corp"],
-["ASB-C", "Associated Banc-Corp [Asb/Pc]"
-["ASB-D", "Associated Banc-Corp [Asb/Pd]"
-["ASB-E", "Associated Banc-Corp [Asb/Pe]"
+["ASB-C", "Associated Banc-Corp [Asb/Pc]"],
+["ASB-D", "Associated Banc-Corp [Asb/Pd]"],
+["ASB-E", "Associated Banc-Corp [Asb/Pe]"],
 ["ASC", "Ardmore Shipping Corp"],
 ["ASG", "Liberty All-Star Growth Fund"],
 ["ASGN", "On Assignment"],
@@ -3797,16 +3797,16 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["ASR", "Grupo Aeroportuario Del Sureste"],
 ["ASX", "Ase Industrial Holding Co. Ltd"],
 ["AT", "Atlantic Power Corp"],
-["ATC-D", "Atlas Corp. [Atlas/Pd]"
-["ATC-E", "Atlas Corp [Atlas/Pe]"
-["ATC-G", "Atlas Corp. [Atlas/Pg]"
-["ATC-H", "Atlas Corp [Atlas/Ph]"
-["ATC-I", "Atlas Corp [Atlas/Pi]"
+["ATC-D", "Atlas Corp. [Atlas/Pd]"],
+["ATC-E", "Atlas Corp [Atlas/Pe]"],
+["ATC-G", "Atlas Corp. [Atlas/Pg]"],
+["ATC-H", "Atlas Corp [Atlas/Ph]"],
+["ATC-I", "Atlas Corp [Atlas/Pi]"],
 ["ATCO", "Atlas Corp."],
 ["ATEN", "A10 Networks Inc"],
 ["ATGE", "Adtalem Global Education Inc"],
 ["ATH", "Athene Holding Ltd"],
-["ATH-A", "Athene Hld Ltd [Ath/Pa]"
+["ATH-A", "Athene Hld Ltd [Ath/Pa]"],
 ["ATH-B", "Antah Hlds Ltd"],
 ["ATHM", "Autohome Inc"],
 ["ATI", "Allegheny Technologies Inc"],
@@ -3826,7 +3826,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["AVK", "Advent Claymore Convertible Securities"],
 ["AVLR", "Avalara Inc"],
 ["AVNS", "Avanos Medical Inc"],
-["AVT-A", "Avantor Inc [Avtr/Pa]"
+["AVT-A", "Avantor Inc [Avtr/Pa]"],
 ["AVTR", "Avantor Inc"],
 ["AVX", "Avx Corp"],
 ["AVY", "Avery Dennison Corp"],
@@ -3843,7 +3843,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["AXP", "American Express Company"],
 ["AXR", "Amrep Corp"],
 ["AXS", "Axis Capital Holdings"],
-["AXS-E", "Axis Capital Holdings Ltd [Axs/Pe]"
+["AXS-E", "Axis Capital Holdings Ltd [Axs/Pe]"],
 ["AXTA", "Axalta Coating Systems Ltd"],
 ["AYI", "Acuity Brands Inc"],
 ["AYR", "Aircastle Ltd"],
@@ -3857,20 +3857,20 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["BA", "Boeing Company"],
 ["BABA", "Alibaba Group Holding"],
 ["BAC", "Bank of America Corp"],
-["BAC-A", "Bank of America Corp [Bac/Pa]"
-["BAC-B", "Bank of America Corp [Bac/Pb]"
-["BAC-C", "Bank of America Corp [Bac/Pc]"
-["BAC-E", "Bank of America Corp [Bac/Pe]"
-["BAC-K", "Bank of America Corp [Bac/Pk]"
-["BAC-L", "Bank of America Corp [Bac/Pl]"
-["BAC-M", "Bank of America Corp [Bac/Pm]"
+["BAC-A", "Bank of America Corp [Bac/Pa]"],
+["BAC-B", "Bank of America Corp [Bac/Pb]"],
+["BAC-C", "Bank of America Corp [Bac/Pc]"],
+["BAC-E", "Bank of America Corp [Bac/Pe]"],
+["BAC-K", "Bank of America Corp [Bac/Pk]"],
+["BAC-L", "Bank of America Corp [Bac/Pl]"],
+["BAC-M", "Bank of America Corp [Bac/Pm]"],
 ["BAC-N", "Bank of America Corp Prf Perpetual USD Ser LL D"],
 ["BAF", "Blackrock Income Inv Quality Trust"],
 ["BAH", "Booz Allen Hamilton Holding Corp"],
 ["BAK", "Braskem S.A."],
 ["BAM", "Brookfield Asset Management Inc"],
-["BAN-D", "Banc of California Inc [Banc/Pd]"
-["BAN-E", "Banc of California Inc [Banc/Pe]"
+["BAN-D", "Banc of California Inc [Banc/Pd]"],
+["BAN-E", "Banc of California Inc [Banc/Pe]"],
 ["BANC", "First Pactrust Bancorp"],
 ["BAP", "Credicorp Ltd"],
 ["BAX", "Baxter International Inc"],
@@ -3889,9 +3889,9 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["BBX", "Bbx Capital Corp"],
 ["BBY", "Best Buy Company"],
 ["BC", "Brunswick Corp"],
-["BC-A", "Brunswick Corp [Bc/Pa]"
-["BC-B", "Brunswick Corp [Bc/Pb]"
-["BC-C", "Brunswick Corp [Bc/Pc]"
+["BC-A", "Brunswick Corp [Bc/Pa]"],
+["BC-B", "Brunswick Corp [Bc/Pb]"],
+["BC-C", "Brunswick Corp [Bc/Pc]"],
 ["BCC", "Boise Cascade L.L.C."],
 ["BCE", "BCE Inc"],
 ["BCEI", "Bonanza Creek Energy Inc"],
@@ -3919,7 +3919,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["BFK", "Blackrock Muni Income Trust"],
 ["BFO", "Blackrock Florida Muni 2020 Trust"],
 ["BFS", "Saul Centers"],
-["BFS-D", "Saul Ctrs Inc [Bfs/Pd]"
+["BFS-D", "Saul Ctrs Inc [Bfs/Pd]"],
 ["BFS-E", "Saul Centers Inc Prf Perpetual USD Ser E Rep 1/1"],
 ["BFY", "Blackrock New York Muni Trust II"],
 ["BFZ", "Blackrock California Muni Trust"],
@@ -3942,8 +3942,8 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["BHLB", "Berkshire Hills Bancorp"],
 ["BHP", "Bhp Billiton Ltd"],
 ["BHR", "Braemar Hotels & Resorts Inc"],
-["BHR-B", "Braemar Hotels & Resorts Inc [Bhr/Pb]"
-["BHR-D", "Braemar Hotels & Resorts Inc [Bhr/Pd]"
+["BHR-B", "Braemar Hotels & Resorts Inc [Bhr/Pb]"],
+["BHR-D", "Braemar Hotels & Resorts Inc [Bhr/Pd]"],
 ["BHV", "Blackrock Virginia Muni Trust"],
 ["BHVN", "Biohaven Pharmaceutical Holding Company Ltd"],
 ["BIF", "Boulder Growth & Income Fund Inc"],
@@ -3956,7 +3956,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["BITA", "Bitauto Holdings Ltd"],
 ["BJ", "Bj's Wholesale Club Holdings Inc"],
 ["BK", "Bank of New York Mellon Corp"],
-["BK-C", "Bank of New York Mellon Corp [Bk/Pc]"
+["BK-C", "Bank of New York Mellon Corp [Bk/Pc]"],
 ["BKD", "Brookdale Senior Living Inc"],
 ["BKE", "Buckle Inc"],
 ["BKH", "Black Hills Corp"],
@@ -3976,10 +3976,10 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["BME", "Blackrock Health Sciences Trust"],
 ["BMEZ", "Blackrock Health Sciences Trust II"],
 ["BMI", "Badger Meter"],
-["BML-G", "Bank of America Corp [Bml/Pg]"
-["BML-H", "Bank of America Corp [Bml/Ph]"
-["BML-J", "Bank of America Corp [Bml/Pj]"
-["BML-L", "Bank of America Corp [Bml/Pl]"
+["BML-G", "Bank of America Corp [Bml/Pg]"],
+["BML-H", "Bank of America Corp [Bml/Ph]"],
+["BML-J", "Bank of America Corp [Bml/Pj]"],
+["BML-L", "Bank of America Corp [Bml/Pl]"],
 ["BMO", "Bank of Montreal"],
 ["BMY", "Bristol-Myers Squibb Company"],
 ["BMY.P", "Bristol-Myers Squibb Co. Rights"],
@@ -4003,8 +4003,8 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["BRK.B", "Berkshire Hathaway Cl B"],
 ["BRMK", "Broadmark Realty Capital Inc"],
 ["BRO", "Brown & Brown"],
-["BRP.U", "B Riley Principal Merger Corp [Brpm.U]"
-["BRP.W", "B Riley Principal Merger Corp WT [Brpm/W]"
+["BRP.U", "B Riley Principal Merger Corp [Brpm.U]"],
+["BRP.W", "B Riley Principal Merger Corp WT [Brpm/W]"],
 ["BRPM", "B. Riley Principal Merger Corp"],
 ["BRT", "BRT Realty Trust"],
 ["BRX", "Brixmor Property Group Inc"],
@@ -4042,7 +4042,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["BXMT", "Blackstone Mortgage Trust Inc Cl A"],
 ["BXMX", "Nuveen Equity Premium"],
 ["BXP", "Boston Properties"],
-["BXP-B", "Boston Properties Inc [Bxp/Pb]"
+["BXP-B", "Boston Properties Inc [Bxp/Pb]"],
 ["BXS", "Bancorpsouth Inc"],
 ["BXS-A", "Bancorpsouth Bank 5.50% Prf Perpetual USD"],
 ["BY", "Byline Bancorp Inc"],
@@ -4051,10 +4051,10 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["BZH", "Beazer Homes USA"],
 ["BZM", "Blackrock Maryland Muni Trust"],
 ["C", "Citigroup Inc"],
-["C-J", "Citigroup Inc [C/Pj]"
-["C-K", "Citigroup Inc [C/Pk]"
-["C-N", "Citigroup Cap XiII [C/Pn]"
-["C-S", "Citigroup Inc [C/Ps]"
+["C-J", "Citigroup Inc [C/Pj]"],
+["C-K", "Citigroup Inc [C/Pk]"],
+["C-N", "Citigroup Cap XiII [C/Pn]"],
+["C-S", "Citigroup Inc [C/Ps]"],
 ["CAAP", "Corporacion America Airports Sa"],
 ["CABO", "Cable One Inc"],
 ["CACI", "Caci International"],
@@ -4064,8 +4064,8 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["CAG", "Conagra Brands Inc"],
 ["CAH", "Cardinal Health"],
 ["CAI", "Cai International"],
-["CAI-A", "Cai International Inc [Cai/Pa]"
-["CAI-B", "Cai International Inc [Cai/Pb]"
+["CAI-A", "Cai International Inc [Cai/Pa]"],
+["CAI-B", "Cai International Inc [Cai/Pb]"],
 ["CAJ", "Canon Inc"],
 ["CAL", "Caleres Inc"],
 ["CALX", "Calix Inc"],
@@ -4076,25 +4076,25 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["CATO", "Cato Corp"],
 ["CB", "Chubb Ltd"],
 ["CBB", "Cincinnati Bell Inc"],
-["CBB-B", "Cincinnati Bell Inc [Cbb/Pb]"
+["CBB-B", "Cincinnati Bell Inc [Cbb/Pb]"],
 ["CBD", "Companhia Brasileira DE Distribuicao"],
 ["CBH", "Allianzgi Convertible Income 2024 Target Term Fu"],
 ["CBL", "Cbl & Associates Properties"],
-["CBL-D", "Cbl & Assoc Pptys Inc [Cbl/Pd]"
-["CBL-E", "Cbl & Assoc Pptys Inc [Cbl/Pe]"
+["CBL-D", "Cbl & Assoc Pptys Inc [Cbl/Pd]"],
+["CBL-E", "Cbl & Assoc Pptys Inc [Cbl/Pe]"],
 ["CBRE", "CBRE Group Inc"],
 ["CBT", "Cabot Corp"],
 ["CBU", "Community Bank System"],
 ["CBZ", "Cbiz Inc"],
 ["CC", "Chemours Company"],
-["CCA.U", "Citic Capital Acquisition Corp [Ccac.U]"
+["CCA.U", "Citic Capital Acquisition Corp [Ccac.U]"],
 ["CCC", "Clarivate Analytics Plc"],
 ["CCEP", "Coca Cola European Partners"],
 ["CCH", "Collier Creek Holdings Cl A"],
 ["CCH.U", "Collier Creek Holdings"],
-["CCH.W", "Collier Creek Holdings WT [Cch/W]"
+["CCH.W", "Collier Creek Holdings WT [Cch/W]"],
 ["CCI", "Crown Castle International Corp"],
-["CCI-A", "Crown Castle Intl Corp [Cci/Pa]"
+["CCI-A", "Crown Castle Intl Corp [Cci/Pa]"],
 ["CCJ", "Cameco Corp"],
 ["CCK", "Crown Cork & Seal Company"],
 ["CCL", "Carnival Corp"],
@@ -4105,32 +4105,32 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["CCU", "Compania Cervecerias Unidas S.A."],
 ["CCX", "Churchill Capital Corp II"],
 ["CCX.U", "Churchill Capital Corp II"],
-["CCX.W", "Churchill Cap Corp II WT [Ccx/W]"
+["CCX.W", "Churchill Cap Corp II WT [Ccx/W]"],
 ["CCZ", "Comcast Corp"],
 ["CDAY", "Ceridian Hcm Holding Inc"],
 ["CDE", "Coeur Mining Inc"],
 ["CDR", "Cedar Shopping Centers Inc"],
-["CDR-B", "Cedar Realty Trust Inc [Cdr/Pb]"
-["CDR-C", "Cedar Realty Trust Inc [Cdr/Pc]"
+["CDR-B", "Cedar Realty Trust Inc [Cdr/Pb]"],
+["CDR-C", "Cedar Realty Trust Inc [Cdr/Pc]"],
 ["CE", "Celanese Corp"],
 ["CEA", "China Eastern Airlines Corp Ltd"],
 ["CEE", "Central Europe and Russia Fund"],
 ["CEIX", "Consol Energy Inc"],
 ["CEL", "Cellcom Israel"],
-["CEL.P", "Bristol Myers Squibb CO [Celg/R]"
+["CEL.P", "Bristol Myers Squibb CO [Celg/R]"],
 ["CELP", "Cypress Energy Partners LP"],
 ["CEM", "Clearbridge Energy MLP Fund Inc"],
 ["CEN", "Center Coast MLP & Infrastructure"],
 ["CEO", "Cnooc Ltd"],
 ["CEPU", "Central Puerto S.A. ADR"],
-["CEQ.P", "Crestwood Equity Partners LP [Ceqp/P]"
+["CEQ.P", "Crestwood Equity Partners LP [Ceqp/P]"],
 ["CEQP", "Crestwood Equity Partners LP"],
 ["CF", "Cf Industries Holdings"],
 ["CFG", "Citizens Financial Group Inc/Ri"],
-["CFG-D", "RBS Citizens Finl Group Inc [Cfg/Pd]"
+["CFG-D", "RBS Citizens Finl Group Inc [Cfg/Pd]"],
 ["CFG-E", "Citizens Financial Group Inc Prf Perpetual USD 2"],
 ["CFR", "Cullen/Frost Bankers"],
-["CFR-A", "Cullen Frost Bankers [Cfr/Pa]"
+["CFR-A", "Cullen Frost Bankers [Cfr/Pa]"],
 ["CFX", "Colfax Corp"],
 ["CFXA", "Colfax Corp Tangible Equity Unit"],
 ["CGA", "China Green Agriculture"],
@@ -4143,17 +4143,17 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["CHGG", "Chegg Inc"],
 ["CHH", "Choice Hotels International"],
 ["CHK", "Chesapeake Energy Corp"],
-["CHK-D", "Chesapeake Energy Corp [Chk/Pd]"
+["CHK-D", "Chesapeake Energy Corp [Chk/Pd]"],
 ["CHKR", "Chesapeake Granite Wash Trust"],
-["CHL", "China Mobile [Hong Kong] Ltd"
-["CHM-A", "Cherry Hill Mtg Invt Corp [Chmi/Pa]"
-["CHM-B", "Cherry Hill Mtg Invt Corp [Chmi/Pb]"
+["CHL", "China Mobile [Hong Kong] Ltd"],
+["CHM-A", "Cherry Hill Mtg Invt Corp [Chmi/Pa]"],
+["CHM-B", "Cherry Hill Mtg Invt Corp [Chmi/Pb]"],
 ["CHMI", "Cherry Hill Mortgage Investmen"],
 ["CHN", "China Fund"],
 ["CHRA", "Charah Solutions Inc"],
 ["CHS", "Chico's Fas"],
 ["CHT", "Chunghwa Telecom Co. Ltd"],
-["CHU", "China Unicom [Hong Kong] Ltd"
+["CHU", "China Unicom [Hong Kong] Ltd"],
 ["CHWY", "Chewy Inc"],
 ["CI", "Cigna Corp"],
 ["CIA", "Citizens Inc"],
@@ -4164,13 +4164,13 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["CIG.C", "Comp En DE MN Cemig ADR Cl C"],
 ["CII", "Blackrock Capital and Income Strategies"],
 ["CIM", "Chimera Investment Corp"],
-["CIM-A", "Chimera Invt Corp [Cim/Pa]"
-["CIM-B", "Chimera Invt Corp [Cim/Pb]"
-["CIM-C", "Chimera Invt Corp [Cim/Pc]"
-["CIM-D", "Chimera Invt Corp [Cim/Pd]"
+["CIM-A", "Chimera Invt Corp [Cim/Pa]"],
+["CIM-B", "Chimera Invt Corp [Cim/Pb]"],
+["CIM-C", "Chimera Invt Corp [Cim/Pc]"],
+["CIM-D", "Chimera Invt Corp [Cim/Pd]"],
 ["CINR", "Ciner Resources LP"],
 ["CIO", "City Office REIT Inc"],
-["CIO-A", "City Office REIT Inc [Cio/Pa]"
+["CIO-A", "City Office REIT Inc [Cio/Pa]"],
 ["CIR", "Circor International"],
 ["CIT", "Cit Group Inc"],
 ["CIT-B", "Cit Group Inc 5.625% Prf Perpetual USD 25 Ser B"],
@@ -4178,15 +4178,15 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["CL", "Colgate-Palmolive Company"],
 ["CLB", "Core Laboratories N.V."],
 ["CLDR", "Cloudera Inc"],
-["CLDT", "Chatham Lodging Trust [Reit]"
+["CLDT", "Chatham Lodging Trust [Reit]"],
 ["CLF", "Cleveland-Cliffs Inc"],
 ["CLGX", "Corelogic"],
 ["CLH", "Clean Harbors"],
 ["CLI", "Mack-Cali Realty Corp"],
-["CLN-G", "Colony Cap Inc [Clny/Pg]"
-["CLN-H", "Colony Cap Inc [Clny/Ph]"
-["CLN-I", "Colony Cap Inc [Clny/Pi]"
-["CLN-J", "Colony Cap Inc [Clny/Pj]"
+["CLN-G", "Colony Cap Inc [Clny/Pg]"],
+["CLN-H", "Colony Cap Inc [Clny/Ph]"],
+["CLN-I", "Colony Cap Inc [Clny/Pi]"],
+["CLN-J", "Colony Cap Inc [Clny/Pj]"],
 ["CLNC", "Colony Northstar Credit Real Estate Inc Class"],
 ["CLNY", "Colony Capital Inc"],
 ["CLPR", "Clipper Realty Inc"],
@@ -4202,15 +4202,15 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["CMG", "Chipotle Mexican Grill"],
 ["CMI", "Cummins Inc"],
 ["CMO", "Capstead Mortgage Corp"],
-["CMO-E", "Capstead Mtge.Corp [Cmo/Pe]"
+["CMO-E", "Capstead Mtge.Corp [Cmo/Pe]"],
 ["CMP", "Compass Minerals Intl Inc"],
-["CMR-B", "Costamare Inc [Cmre/Pb]"
-["CMR-C", "Costamare Inc [Cmre/Pc]"
-["CMR-D", "Costamare Inc [Cmre/Pd]"
-["CMR-E", "Costamare Inc [Cmre/Pe]"
+["CMR-B", "Costamare Inc [Cmre/Pb]"],
+["CMR-C", "Costamare Inc [Cmre/Pc]"],
+["CMR-D", "Costamare Inc [Cmre/Pd]"],
+["CMR-E", "Costamare Inc [Cmre/Pe]"],
 ["CMRE", "Costamare Inc"],
 ["CMS", "Cms Energy Corp"],
-["CMS-B", "Consumers Energy Company [Cms/Pb]"
+["CMS-B", "Consumers Energy Company [Cms/Pb]"],
 ["CMSA", "Cms Energy Corp 5.625% Junior Subordinate"],
 ["CMSC", "Cms Energy Corp"],
 ["CMSD", "Cms Energy Corp 5.875% Junior Subordinate"],
@@ -4225,31 +4225,31 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["CNNE", "Cannae Holdings Inc"],
 ["CNO", "Cno Financial Group"],
 ["CNP", "Centerpoint Energy Inc"],
-["CNP-B", "Centerpoint Energy Inc [Cnp/Pb]"
+["CNP-B", "Centerpoint Energy Inc [Cnp/Pb]"],
 ["CNQ", "Canadian Natural Resources"],
 ["CNR", "Cornerstone Building Brands Inc"],
 ["CNS", "Cohn & Steers Inc"],
 ["CNX", "CNX Resources Corp"],
 ["CNXM", "CNX Midstream Partners LP"],
 ["CO", "Global Cord Blood Corp"],
-["COD-A", "Compass Div Holdings [Codi/Pa]"
-["COD-B", "Compass Div Holdings [Codi/Pb]"
+["COD-A", "Compass Div Holdings [Codi/Pa]"],
+["COD-B", "Compass Div Holdings [Codi/Pb]"],
 ["COD-C", "Compass Diversified Holdings 7.875% Prf Perpetua"],
 ["CODI", "Compass Diversified Holdings"],
 ["COE", "China Online Education Group"],
 ["COF", "Capital One Financial Corp"],
-["COF-F", "Capital One Financial Corp [Cof/Pf]"
-["COF-G", "Capital One Financial Corp [Cof/Pg]"
-["COF-H", "Capital One Financial Corp [Cof/Ph]"
+["COF-F", "Capital One Financial Corp [Cof/Pf]"],
+["COF-G", "Capital One Financial Corp [Cof/Pg]"],
+["COF-H", "Capital One Financial Corp [Cof/Ph]"],
 ["COF-I", "Capital One Financial Corp Prf Perpetual USD"],
 ["COF-J", "Capital One Financial"],
-["COF-P", "Capital One Financial Corp [Cof/Pp]"
+["COF-P", "Capital One Financial Corp [Cof/Pp]"],
 ["COG", "Cabot Oil & Gas Corp"],
 ["COLD", "Americold Realty Trust"],
 ["COO", "Cooper Companies"],
 ["COP", "Conocophillips"],
 ["COR", "Coresite Realty Corp"],
-["COR-Z", "Corenergy Infrastructure TR IN [Corr/Pa]"
+["COR-Z", "Corenergy Infrastructure TR IN [Corr/Pa]"],
 ["CORR", "Corenergy Infrastructure Trust Inc"],
 ["COT", "Cott Corp"],
 ["COTY", "Coty Inc"],
@@ -4286,13 +4286,13 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["CSTM", "Constellium N.V."],
 ["CSU", "Capital Senior Living Corp"],
 ["CSV", "Carriage Services"],
-["CTA-A", "Du Pont[E.I.]De Nemours & Co. [Cta/Pa]"
-["CTA-B", "Du Pont[E.I.]De Nemours & Co. [Cta/Pb]"
+["CTA-A", "Du Pont[E.I.]De Nemours & Co. [Cta/Pa]"],
+["CTA-B", "Du Pont[E.I.]De Nemours & Co. [Cta/Pb]"],
 ["CTAA", "Qwest Corp"],
 ["CTB", "Cooper Tire & Rubber Company"],
 ["CTBB", "Qwest Corp"],
 ["CTDD", "Qwest Corp 6.75% Notes Due 2057"],
-["CTK", "Cootek [Cayman] Inc"
+["CTK", "Cootek [Cayman] Inc"],
 ["CTL", "Centurylink"],
 ["CTLT", "Catalent Inc"],
 ["CTR", "Clearbridge Energy MLP Fund IN"],
@@ -4305,10 +4305,10 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["CTY", "Qwest Corp"],
 ["CTZ", "Qwest Corp 6.625% Notes"],
 ["CUB", "Cubic Corp"],
-["CUB-C", "Customers Bancorp Inc [Cubi/Pc]"
-["CUB-D", "Customers Bancorp Inc [Cubi/Pd]"
-["CUB-E", "Customers Bancorp Inc [Cubi/Pe]"
-["CUB-F", "Customers Bancorp Inc [Cubi/Pf]"
+["CUB-C", "Customers Bancorp Inc [Cubi/Pc]"],
+["CUB-D", "Customers Bancorp Inc [Cubi/Pd]"],
+["CUB-E", "Customers Bancorp Inc [Cubi/Pe]"],
+["CUB-F", "Customers Bancorp Inc [Cubi/Pf]"],
 ["CUBB", "Customers Bancorp Inc 5.375% Subordinated Notes"],
 ["CUBE", "Cubesmart"],
 ["CUBI", "Customers Bancorp"],
@@ -4354,8 +4354,8 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["DCI", "Donaldson Company"],
 ["DCO", "Ducommun Inc"],
 ["DCP", "Dcp Midstream LP"],
-["DCP-B", "Dcp Midstream LP [Dcp/Pb]"
-["DCP-C", "Dcp Midstream LP [Dcp/Pc]"
+["DCP-B", "Dcp Midstream LP [Dcp/Pb]"],
+["DCP-C", "Dcp Midstream LP [Dcp/Pc]"],
 ["DCUE", "Dominion Energy Inc 2019 Series A"],
 ["DD", "Du Pont De.Nemours Inc"],
 ["DDD", "3D Systems Corp"],
@@ -4378,7 +4378,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["DHF", "Dreyfus High Yield Strategies Fund"],
 ["DHI", "D.R. Horton"],
 ["DHR", "Danaher Corp"],
-["DHR-A", "Danaher Corp [Dhr/Pa]"
+["DHR-A", "Danaher Corp [Dhr/Pa]"],
 ["DHT", "Dht Holdings"],
 ["DHX", "Dice Holdings"],
 ["DIAX", "Nuveen Dow"],
@@ -4389,22 +4389,22 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["DKS", "Dick's Sporting Goods Inc"],
 ["DL", "China Distance Education Holdings"],
 ["DLB", "Dolby Laboratories"],
-["DLN-A", "Dynagas Lng Partners LP [Dlng/Pa]"
-["DLN-B", "Dynagas Lng Partners LP [Dlng/Pb]"
+["DLN-A", "Dynagas Lng Partners LP [Dlng/Pa]"],
+["DLN-B", "Dynagas Lng Partners LP [Dlng/Pb]"],
 ["DLNG", "Dynagas Lng Partners LP"],
 ["DLPH", "Delphi Technologies Plc"],
 ["DLR", "Digital Realty Trust"],
-["DLR-C", "Digital Rlty TR Inc [Dlr/Pc]"
-["DLR-G", "Digital Rlty TR Inc [Dlr/Pg]"
-["DLR-I", "Digital Rlty TR Inc [Dlr/Pi]"
-["DLR-J", "Digital Rlty TR Inc [Dlr/Pj]"
-["DLR-K", "Digital Rlty TR Inc [Dlr/Pk]"
+["DLR-C", "Digital Rlty TR Inc [Dlr/Pc]"],
+["DLR-G", "Digital Rlty TR Inc [Dlr/Pg]"],
+["DLR-I", "Digital Rlty TR Inc [Dlr/Pi]"],
+["DLR-J", "Digital Rlty TR Inc [Dlr/Pj]"],
+["DLR-K", "Digital Rlty TR Inc [Dlr/Pk]"],
 ["DLR-L", "Digital Realty Trust Inc 5.20% Prf Perpetual USD"],
 ["DLX", "Deluxe Corp"],
 ["DLY", "Doubleline Yield Opportunities Fund Common Share"],
 ["DMB", "Dreyfus Municipal Bond Infrastr"],
 ["DMO", "Western Asset Mortgage Defined Opp"],
-["DMY.U", "Dmy Technology Group Inc [Dmyt.U]"
+["DMY.U", "Dmy Technology Group Inc [Dmyt.U]"],
 ["DNI", "Chartwell Dividend & Income Fund"],
 ["DNK", "Phoenix Tree Holdings Limited American Depositar"],
 ["DNOW", "Now Inc"],
@@ -4425,36 +4425,36 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["DRQ", "Dril-Quip"],
 ["DRUA", "Dominion Resources Inc"],
 ["DS", "Drive Shack Inc"],
-["DS-B", "Drive Shack Inc [Ds/Pb]"
-["DS-C", "Drive Shack Inc [Ds/Pc]"
-["DS-D", "Drive Shack Inc [Ds/Pd]"
+["DS-B", "Drive Shack Inc [Ds/Pb]"],
+["DS-C", "Drive Shack Inc [Ds/Pc]"],
+["DS-D", "Drive Shack Inc [Ds/Pd]"],
 ["DSE", "Duff & Phelps Select Energy ML"],
 ["DSL", "Doubleline Income Solutions Fun"],
 ["DSM", "Dreyfus Strategic Muni Bond Fund"],
 ["DSSI", "Diamond S Shipping Inc"],
 ["DSU", "Blackrock Debt Strategies Fund"],
 ["DSX", "Diana Shipping Inc"],
-["DSX-B", "Diana Shipping Inc [Dsx/Pb]"
+["DSX-B", "Diana Shipping Inc [Dsx/Pb]"],
 ["DT", "Dynatrace Inc"],
 ["DTE", "Dte Energy Company"],
 ["DTF", "Duff & Phelps Utilities Tax-Free Income"],
 ["DTJ", "Dte Energy Company 2016 Series"],
-["DTL.P", "Brookfield Dtla Fd Office TR I [Dtla/P]"
+["DTL.P", "Brookfield Dtla Fd Office TR I [Dtla/P]"],
 ["DTP", "Dte Energy Co. Units"],
 ["DTQ", "Dte Energy Company Sub Deb 62"],
 ["DTW", "Dte Energy Company 2017 Series E 5.25% Jr"],
 ["DTY", "Dignity Plc"],
 ["DUC", "Duff & Phelps Utility & Corporate Trust"],
 ["DUK", "Duke Energy Corp"],
-["DUK-A", "Duke Energy Corp [Duk/Pa]"
+["DUK-A", "Duke Energy Corp [Duk/Pa]"],
 ["DUKB", "Duke Energy Corp 5.625%"],
 ["DUKH", "Duke Energy Corp 5.125%"],
 ["DVA", "Davita Healthcare Partners Inc"],
 ["DVD", "Dover Downs Entertainment"],
 ["DVN", "Devon Energy Corp"],
 ["DX", "Dynex Capital"],
-["DX-A", "Dynex Cap Inc [Dx/Pa]"
-["DX-B", "Dynex Cap Inc [Dx/Pb]"
+["DX-A", "Dynex Cap Inc [Dx/Pa]"],
+["DX-B", "Dynex Cap Inc [Dx/Pb]"],
 ["DX-C", "Dynex Capital Inc."],
 ["DXB", "Deutsche Bk Contingent Cap TR"],
 ["DXC", "Dxc Technology Company"],
@@ -4509,7 +4509,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["EIX", "Edison International"],
 ["EL", "Estee Lauder Companies"],
 ["ELAN", "Elanco Animal Health Inc"],
-["ELAT", "Elanco Animal Health Inc Units [Purchase Contra]"
+["ELAT", "Elanco Animal Health Inc Units [Purchase Contra]"],
 ["ELC", "Entergy Louisiana Llc"],
 ["ELF", "E.L.F. Beauty Inc"],
 ["ELJ", "Entergy Louisiana Llc"],
@@ -4534,7 +4534,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["ENLC", "Enlink Midstream Llc"],
 ["ENO", "Entergy New Orleans Incfirst"],
 ["ENR", "Energizer Holdings Inc"],
-["ENR-A", "Energizer Holdings Inc [Enr/Pa]"
+["ENR-A", "Energizer Holdings Inc [Enr/Pa]"],
 ["ENS", "Enersys Inc"],
 ["ENV", "Envestnet Inc"],
 ["ENVA", "Enova International Inc"],
@@ -4544,18 +4544,18 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["EOI", "Eaton Vance Enhance Equity"],
 ["EOS", "Eaton Vance Enhanced Equity II"],
 ["EOT", "Eaton Vance Muni Income Trust"],
-["EP-C", "El Paso Energy Capital [Ep/Pc]"
+["EP-C", "El Paso Energy Capital [Ep/Pc]"],
 ["EPAC", "Actuant Corp"],
 ["EPAM", "Epam Systems Inc"],
 ["EPC", "Edgewell Personal Care"],
 ["EPD", "Enterprise Products Partners LP"],
 ["EPR", "Entertainment Properties Trust"],
-["EPR-C", "Epr Pptys [Epr/Pc]"
-["EPR-E", "Epr Pptys [Epr/Pe]"
-["EPR-G", "Epr Pptys [Epr/Pg]"
+["EPR-C", "Epr Pptys [Epr/Pc]"],
+["EPR-E", "Epr Pptys [Epr/Pe]"],
+["EPR-G", "Epr Pptys [Epr/Pg]"],
 ["EPRT", "Essential Properties Realty Trust Inc"],
 ["EQC", "Equity Commonwealth"],
-["EQC-D", "Equity Comwlth [Eqc/Pd]"
+["EQC-D", "Equity Comwlth [Eqc/Pd]"],
 ["EQH", "Axa Equitable Holdings Inc"],
 ["EQH-A", "Axa Equitable Holdings Inc 5.25% Prf Perpetual U"],
 ["EQM", "Eqm Midstream Partners LP"],
@@ -4584,9 +4584,9 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["ETM", "Entercom Communications Corp"],
 ["ETN", "Eaton Corp"],
 ["ETO", "Eaton Vance Tax-Advantage Global Dividend Opp"],
-["ETP-C", "Energy Transfer Operating L P [Etp/Pc]"
-["ETP-D", "Energy Transfer Operating L P [Etp/Pd]"
-["ETP-E", "Energy Transfer Operating L P [Etp/Pe]"
+["ETP-C", "Energy Transfer Operating L P [Etp/Pc]"],
+["ETP-D", "Energy Transfer Operating L P [Etp/Pd]"],
+["ETP-E", "Energy Transfer Operating L P [Etp/Pe]"],
 ["ETR", "Entergy Corp"],
 ["ETRN", "Equitrans Midstream Corp"],
 ["ETV", "Eaton Vance Corp"],
@@ -4616,7 +4616,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["EXTN", "Exterran Corp"],
 ["EZT", "First Mortgage Bonds"],
 ["F", "Ford Motor Company"],
-["F-B", "Ford Mtr Co. Del [F/Pb]"
+["F-B", "Ford Mtr Co. Del [F/Pb]"],
 ["F-C", "Ford Motor Company 6% Notes Due December 1 2059"],
 ["FAF", "First American Corp"],
 ["FAM", "First Trust/Aberdeen Global Opportunity"],
@@ -4637,7 +4637,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["FDS", "Factset Research Systems Inc"],
 ["FDX", "Fedex Corp"],
 ["FE", "Firstenergy Corp"],
-["FEDU", "Four Seasons Education [Cayman] Inc"
+["FEDU", "Four Seasons Education [Cayman] Inc"],
 ["FEI", "First Trust MLP and Energy Inc"],
 ["FENG", "Phoenix New Media Ltd"],
 ["FEO", "First Trust/Aberdeen Emerging Opportunity Fund"],
@@ -4647,11 +4647,11 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["FFC", "Flaherty Crumrine/Claymore Preferred Securities"],
 ["FFG", "Fbl Financial Group"],
 ["FG", "Fgl Holdings"],
-["FG.W", "Fgl Holdings WT [Fg/W]"
+["FG.W", "Fgl Holdings WT [Fg/W]"],
 ["FGB", "Specialty Finance and Financial Fund"],
 ["FHI", "Federated Investors"],
 ["FHN", "First Horizon National Corp"],
-["FHN-A", "First Horizon National Corp [Fhn/Pa]"
+["FHN-A", "First Horizon National Corp [Fhn/Pa]"],
 ["FI", "Frank's International N.V."],
 ["FICO", "Fair Isaac and Company Inc"],
 ["FIF", "First Trust Energy Infrastruct"],
@@ -4678,32 +4678,32 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["FMY", "First Trust/Fidac Mortgage Income Fund"],
 ["FN", "Fabrinet"],
 ["FNB", "F.N.B. Corp"],
-["FNB-E", "Fnb Corp Florida [Fnb/Pe]"
+["FNB-E", "Fnb Corp Florida [Fnb/Pe]"],
 ["FND", "Floor & Decor Holdings Inc"],
 ["FNF", "Fidelity National Financial"],
 ["FNV", "Franco Nev Corp"],
 ["FOE", "Ferro Corp"],
 ["FOF", "Cohen & Steers Closed-End Opportunity Fund"],
 ["FOR", "Forestar Group Inc"],
-["FPA.U", "Far Pt Acquisition Corp [Fpac.U]"
+["FPA.U", "Far Pt Acquisition Corp [Fpac.U]"],
 ["FPA.W", "Far Point Acquisition Cl A WT"],
 ["FPAC", "Far Point Acquisition Corp Cl A"],
 ["FPF", "First Trust Intermediate Durat"],
 ["FPH", "Five Point Holdings Llc Cl A"],
 ["FPI", "Farmland Partners Inc"],
-["FPI-B", "Farmland Partners Inc [Fpi/Pb]"
+["FPI-B", "Farmland Partners Inc [Fpi/Pb]"],
 ["FPL", "First Trust New Opportunities M"],
 ["FR", "First Industrial Realty Trust"],
 ["FRA", "Blackrock Floating Rate Income Fund"],
 ["FRC", "First Republic Bank"],
-["FRC-F", "First Republic Bank San Francisco [Frc/Pf]"
-["FRC-G", "First Republic Bank San Francisco [Frc/Pg]"
-["FRC-H", "First Republic Bank San Francisco [Frc/Ph]"
-["FRC-I", "First Rep Bk San Francisco [Frc/Pi]"
+["FRC-F", "First Republic Bank San Francisco [Frc/Pf]"],
+["FRC-G", "First Republic Bank San Francisco [Frc/Pg]"],
+["FRC-H", "First Republic Bank San Francisco [Frc/Ph]"],
+["FRC-I", "First Rep Bk San Francisco [Frc/Pi]"],
 ["FRC-J", "First Republic Bank Prf Perpetual USD Dp Sh Rp1/"],
 ["FRO", "Frontline Ltd"],
 ["FRT", "Federal Realty Investment Trust"],
-["FRT-C", "Federal Realty Invt TR [Frt/Pc]"
+["FRT-C", "Federal Realty Invt TR [Frt/Pc]"],
 ["FSB", "Franklin Financial Network Inc"],
 ["FSD", "High Income Long Short Fund"],
 ["FSK", "FS KKR Capital Corp"],
@@ -4720,18 +4720,18 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["FTS", "Fortis Inc"],
 ["FTSI", "Fts International Inc"],
 ["FTV", "Fortive Corp"],
-["FTV-A", "Fortive Corp [Ftv/Pa]"
+["FTV-A", "Fortive Corp [Ftv/Pa]"],
 ["FUL", "H. B. Fuller Company"],
 ["FUN", "Cedar Fair LP"],
 ["FVRR", "Fiverr International Ltd"],
 ["G", "Genpact Ltd"],
 ["GAB", "Gabelli Equity Trust"],
-["GAB-G", "Gabelli Equity Trust Inc [Gab/Pg]"
-["GAB-H", "Gabelli Equity Trust Inc [Gab/Ph]"
-["GAB-J", "Gabelli Equity Trust Inc [Gab/Pj]"
+["GAB-G", "Gabelli Equity Trust Inc [Gab/Pg]"],
+["GAB-H", "Gabelli Equity Trust Inc [Gab/Ph]"],
+["GAB-J", "Gabelli Equity Trust Inc [Gab/Pj]"],
 ["GAB-K", "Gabelli Equity Trust Inc 5% Prf Perpetual USD 25"],
 ["GAM", "General American Investors"],
-["GAM-B", "General Amern Invs Inc [Gam/Pb]"
+["GAM-B", "General Amern Invs Inc [Gam/Pb]"],
 ["GATX", "GATX Corp"],
 ["GBAB", "Guggenheim Build America Bonds"],
 ["GBL", "Gamco Investors"],
@@ -4745,13 +4745,13 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["GDDY", "Godaddy Inc"],
 ["GDI", "Gardner Denver Holdings Inc"],
 ["GDL", "The Gdl Fund"],
-["GDL-C", "Gdl Fund [Gdl/Pc]"
+["GDL-C", "Gdl Fund [Gdl/Pc]"],
 ["GDO", "Western Asset Global Corporate Defined"],
 ["GDOT", "Green Dot Corp"],
 ["GDV", "Gabelli Dividend"],
-["GDV-A", "Gabelli Dividend & Income Trust [Gdv/Pa]"
-["GDV-G", "Gabelli Dividend & Income Trust [Gdv/Pg]"
-["GDV-H", "Gabelli Dividend & Income Trust [Gdv/Ph]"
+["GDV-A", "Gabelli Dividend & Income Trust [Gdv/Pa]"],
+["GDV-G", "Gabelli Dividend & Income Trust [Gdv/Pg]"],
+["GDV-H", "Gabelli Dividend & Income Trust [Gdv/Ph]"],
 ["GE", "General Electric Company"],
 ["GEF", "Greif Bros. Corp"],
 ["GEF.B", "Greif Bros. Corp Cl B"],
@@ -4770,10 +4770,10 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["GGG", "Graco Inc"],
 ["GGM", "Guggenheim Credit Allocation F"],
 ["GGT", "Gabelli Global Multi-Media Trust"],
-["GGT-E", "Gabelli Multimedia Trust Inc [Ggt/Pe]"
+["GGT-E", "Gabelli Multimedia Trust Inc [Ggt/Pe]"],
 ["GGT-G", "Gabelli Multimedia Trust Inc 5.125% Prf Perpetua"],
 ["GGZ", "Gabelli Global Small and Mid CA"],
-["GGZ-A", "Gabelli Global Small & Mid Cap Val [Ggz/Pa]"
+["GGZ-A", "Gabelli Global Small & Mid Cap Val [Ggz/Pa]"],
 ["GHC", "Graham Holdings Company"],
 ["GHG", "Greentree Hospitality Group Ltd ADR"],
 ["GHL", "Greenhill & Co. Inc"],
@@ -4784,9 +4784,9 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["GIM", "Templeton Global"],
 ["GIS", "General Mills"],
 ["GIX", "Gigcapital2 Inc"],
-["GIX.P", "Gigcapital2 Inc [Gix/R]"
+["GIX.P", "Gigcapital2 Inc [Gix/R]"],
 ["GIX.U", "Gigcapital2 Inc"],
-["GIX.W", "Gigcapital2 Inc WT [Gix/W]"
+["GIX.W", "Gigcapital2 Inc WT [Gix/W]"],
 ["GJH", "Strats Sm Trust For United States Cellular Corp"],
 ["GJO", "Strats Sm Trust For Wal-Mart Stores Inc Securiti"],
 ["GJP", "Strats Sm Trust For Dominion Resources Inc Secur"],
@@ -4795,39 +4795,39 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["GJT", "Strats Sm Trust For Allstate Corp Securities Ser"],
 ["GKOS", "Glaukos Corp"],
 ["GL", "Globe Life Inc"],
-["GL-C", "Globe Life Inc [Gl/Pc]"
-["GLE.U", "Galileo Acquisition Corp [Gleo.U]"
-["GLE.W", "Galileo Acquisition Corp [Gleo/W]"
+["GL-C", "Globe Life Inc [Gl/Pc]"],
+["GLE.U", "Galileo Acquisition Corp [Gleo.U]"],
+["GLE.W", "Galileo Acquisition Corp [Gleo/W]"],
 ["GLEO", "Galileo Acquisition Corp"],
-["GLO-A", "Gaslog Partners LP [Glop/Pa]"
-["GLO-B", "Gaslog Partners LP [Glop/Pb]"
-["GLO-C", "Gaslog Partners LP [Glop/Pc]"
-["GLO-G", "Gaslog Ltd [Glog/Pa]"
+["GLO-A", "Gaslog Partners LP [Glop/Pa]"],
+["GLO-B", "Gaslog Partners LP [Glop/Pb]"],
+["GLO-C", "Gaslog Partners LP [Glop/Pc]"],
+["GLO-G", "Gaslog Ltd [Glog/Pa]"],
 ["GLOB", "Globant S.A."],
 ["GLOG", "Gaslog Ltd"],
 ["GLOP", "Gaslog Partners LP"],
 ["GLP", "Global Partners LP"],
-["GLP-A", "Global Partners LP [Glp/Pa]"
+["GLP-A", "Global Partners LP [Glp/Pa]"],
 ["GLT", "Glatfelter"],
 ["GLW", "Corning Inc"],
 ["GM", "General Motors Company"],
 ["GME", "Gamestop Corp"],
 ["GMED", "Globus Medical Inc"],
-["GMR-A", "Global Med REIT Inc [Gmre/Pa]"
+["GMR-A", "Global Med REIT Inc [Gmre/Pa]"],
 ["GMRE", "Global Medical REIT Inc"],
 ["GMS", "Gms Inc"],
 ["GMTA", "GATX Corp 5.625% Senior"],
 ["GMZ", "Goldman Sachs MLP Income Oppor"],
 ["GNC", "GNC Holdings Inc"],
 ["GNE", "Genie Energy Ltd Cl B"],
-["GNE-A", "Genie Energy Ltd [Gne/Pa]"
+["GNE-A", "Genie Energy Ltd [Gne/Pa]"],
 ["GNK", "Genco Shipping & Trading Ltd"],
 ["GNL", "Global Net Lease Inc"],
-["GNL-A", "Global Net Lease Inc [Gnl/Pa]"
+["GNL-A", "Global Net Lease Inc [Gnl/Pa]"],
 ["GNL-B", "Global Net Lease Inc 6.875% Prf Perpetual USD 25"],
 ["GNRC", "Generac Holdings Inc"],
 ["GNT", "Gabelli Natural Resources Gold"],
-["GNT-A", "Gamco Nat Res Gold & Income TR [Gnt/Pa]"
+["GNT-A", "Gamco Nat Res Gold & Income TR [Gnt/Pa]"],
 ["GNW", "Genworth Financial Inc"],
 ["GOF", "Claymore/Guggenheim Strategic Fund"],
 ["GOL", "Gol Linhas Aereas Inteligentes S.A."],
@@ -4845,28 +4845,28 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["GPS", "Gap Inc"],
 ["GPX", "Gp Strategies Corp"],
 ["GRA", "W.R. Grace & Company"],
-["GRA.U", "Graf Indl Corp [Graf.U]"
-["GRA.W", "Graf Indl Corp WT [Graf/W]"
+["GRA.U", "Graf Indl Corp [Graf.U]"],
+["GRA.W", "Graf Indl Corp WT [Graf/W]"],
 ["GRAF", "Graf Industrial Corp"],
 ["GRAM", "Grana Y Montero S.A.A."],
 ["GRC", "Gorman-Rupp Company"],
 ["GRP.U", "Granite Real Estate Invt TR"],
 ["GRUB", "Grubhub Inc"],
 ["GRX", "The Gabelli Healthcare & Wellness Trust"],
-["GRX-A", "Gabelli Healthcare & Wellness TR [Grx/Pa]"
-["GRX-B", "Gabelli Healthcare & Wellness TR [Grx/Pb]"
+["GRX-A", "Gabelli Healthcare & Wellness TR [Grx/Pa]"],
+["GRX-B", "Gabelli Healthcare & Wellness TR [Grx/Pb]"],
 ["GS", "Goldman Sachs Group"],
-["GS-A", "Goldman Sachs Group Inc [Gs/Pa]"
-["GS-C", "Goldman Sachs Group Inc [Gs/Pc]"
-["GS-D", "Goldman Sachs Group Inc [Gs/Pd]"
-["GS-J", "Goldman Sachs Group Inc [Gs/Pj]"
-["GS-K", "Goldman Sachs Group Inc [Gs/Pk]"
-["GS-N", "Goldman Sachs Group Inc [Gs/Pn]"
+["GS-A", "Goldman Sachs Group Inc [Gs/Pa]"],
+["GS-C", "Goldman Sachs Group Inc [Gs/Pc]"],
+["GS-D", "Goldman Sachs Group Inc [Gs/Pd]"],
+["GS-J", "Goldman Sachs Group Inc [Gs/Pj]"],
+["GS-K", "Goldman Sachs Group Inc [Gs/Pk]"],
+["GS-N", "Goldman Sachs Group Inc [Gs/Pn]"],
 ["GSBD", "Goldman Sachs Bdc Inc"],
 ["GSH", "Guangshen Railway"],
 ["GSK", "Glaxosmithkline Plc"],
 ["GSL", "Global Ship Lease Inc"],
-["GSL-B", "Global Ship Lease Inc [Gsl/Pb]"
+["GSL-B", "Global Ship Lease Inc [Gsl/Pb]"],
 ["GSLD", "Global Ship Lease Inc 8.00% Senior Notes Due 20"],
 ["GSX", "Gsx Techedu Inc ADR"],
 ["GTES", "Gates Industrial Corp Plc"],
@@ -4877,8 +4877,8 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["GTX", "Garrett Motion Inc"],
 ["GTY", "Getty Realty Corp"],
 ["GUT", "Gabelli Utility Trust"],
-["GUT-A", "Gabelli Utility Trust [Gut/Pa]"
-["GUT-C", "Gabelli Utility Trust [Gut/Pc]"
+["GUT-A", "Gabelli Utility Trust [Gut/Pa]"],
+["GUT-C", "Gabelli Utility Trust [Gut/Pc]"],
 ["GVA", "Granite Construction Inc"],
 ["GWB", "Great Western Bancorp Inc"],
 ["GWRE", "Guidewire Software Inc"],
@@ -4910,7 +4910,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["HESM", "Hess Midstream Partners LP"],
 ["HEXO", "Hexo Corp"],
 ["HFC", "Hollyfrontier Corp"],
-["HFR-A", "Highland Income Fund [Hfro/Pa]"
+["HFR-A", "Highland Income Fund [Hfro/Pa]"],
 ["HFRO", "Highland Floating Rate Opportunities Fund"],
 ["HGH", "The Hartford Financial Srvcs G"],
 ["HGLB", "Highland Global Allocation Fund"],
@@ -4920,7 +4920,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["HI", "Hillenbrand Inc"],
 ["HIE", "Miller/Howard High Income Eqty"],
 ["HIG", "Hartford Financial Services Group"],
-["HIG-G", "Hartford Financial Services Grp Inc [Hig/Pg]"
+["HIG-G", "Hartford Financial Services Grp Inc [Hig/Pg]"],
 ["HII", "Huntington Ingalls Industries"],
 ["HIL", "Hill International Inc"],
 ["HIO", "Western Asset High"],
@@ -4929,14 +4929,14 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["HJV", "MS S.A.C. Saturns Ge Series 2002-14"],
 ["HKIB", "Amtd International Inc"],
 ["HL", "Hecla Mining Company"],
-["HL-B", "Hecla Mining Co. [Hl/Pb]"
+["HL-B", "Hecla Mining Co. [Hl/Pb]"],
 ["HLF", "Herbalife Ltd"],
 ["HLI", "Houlihan Lokey"],
 ["HLT", "Hilton Inc"],
 ["HLX", "Helix Energy Solutions Group"],
 ["HMC", "Honda Motor Company"],
 ["HMI", "Huami Corp ADR"],
-["HML-A", "Hoegh Lng Partners LP [Hmlp/Pa]"
+["HML-A", "Hoegh Lng Partners LP [Hmlp/Pa]"],
 ["HMLP", "Hoegh Lng Partners LP"],
 ["HMN", "Horace Mann Educators Corp"],
 ["HMY", "Harmony Gold Mining Co. Ltd"],
@@ -4963,15 +4963,15 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["HRI", "Herc Holdings Inc"],
 ["HRL", "Hormel Foods Corp"],
 ["HRTG", "Heritage Insurance Holdings"],
-["HSB-A", "HSBC Hlds Plc [Hsbc/Pa]"
+["HSB-A", "HSBC Hlds Plc [Hsbc/Pa]"],
 ["HSBC", "HSBC Holdings Plc"],
 ["HSC", "Harsco Corp"],
 ["HST", "Host Marriott Financial Trust"],
 ["HSY", "Hershey Foods Corp"],
 ["HT", "Hersha Hospitality Trust"],
-["HT-C", "Hersha Hospitality TR [Ht/Pc]"
-["HT-D", "Hersha Hospitality TR [Ht/Pd]"
-["HT-E", "Hersha Hospitality TR [Ht/Pe]"
+["HT-C", "Hersha Hospitality TR [Ht/Pc]"],
+["HT-D", "Hersha Hospitality TR [Ht/Pd]"],
+["HT-E", "Hersha Hospitality TR [Ht/Pe]"],
 ["HTA", "Healthcare Trust of America"],
 ["HTD", "John Hancock Tax Advantaged Dividend"],
 ["HTFA", "Horizon Technology Finance 6.25% Notes Due 2022"],
@@ -5026,7 +5026,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["IID", "VOYA International High Dividend Equity"],
 ["IIF", "Morgan Stanley India Investment Fund Inc"],
 ["IIM", "Invesco Insured Muni Income Trust"],
-["IIP-A", "Innovative Indl Pptys Inc [Iipr/Pa]"
+["IIP-A", "Innovative Indl Pptys Inc [Iipr/Pa]"],
 ["IIPR", "Innovative Industrial Properties"],
 ["IMAX", "Imax Corp"],
 ["INF", "Brookfield Global Listed Infra"],
@@ -5035,9 +5035,9 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["ING", "ING Groep N.V. ADR"],
 ["INGR", "Ingredion Inc"],
 ["INN", "Summit Hotel Properties"],
-["INN-D", "Summit Hotel Pptys Inc [Inn/Pd]"
-["INN-E", "Summit Hotel Pptys Inc [Inn/Pe]"
-["INS-A", "International Seaways Inc [Insw/Pa]"
+["INN-D", "Summit Hotel Pptys Inc [Inn/Pd]"],
+["INN-E", "Summit Hotel Pptys Inc [Inn/Pe]"],
+["INS-A", "International Seaways Inc [Insw/Pa]"],
 ["INSI", "Insight Select Income Fund"],
 ["INSP", "Inspire Medical Systems Inc"],
 ["INST", "Instructure Inc"],
@@ -5056,7 +5056,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["IQI", "Invesco Quality Muni Income Trust"],
 ["IQV", "Iqvia Holdings Inc"],
 ["IR", "Ingersoll Rand Inc."],
-["IRE-C", "Investors Real Estate TR [Iret/Pc]"
+["IRE-C", "Investors Real Estate TR [Iret/Pc]"],
 ["IRET", "Investors Real Estate Trust"],
 ["IRL", "Irish Investment Fund"],
 ["IRM", "Iron Mountain Inc"],
@@ -5074,9 +5074,9 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["IVC", "Invacare Corp"],
 ["IVH", "Ivy High Income Opportunities"],
 ["IVR", "Invesco Mortgage Capital Inc"],
-["IVR-A", "Invesco Mortgage Capital Inc [Ivr/Pa]"
-["IVR-B", "Invesco Mortgage Capital Inc [Ivr/Pb]"
-["IVR-C", "Invesco Mortgage Capital Inc [Ivr/Pc]"
+["IVR-A", "Invesco Mortgage Capital Inc [Ivr/Pa]"],
+["IVR-B", "Invesco Mortgage Capital Inc [Ivr/Pb]"],
+["IVR-C", "Invesco Mortgage Capital Inc [Ivr/Pc]"],
 ["IVZ", "Invesco Plc"],
 ["IX", "Orix Corp ADR"],
 ["J", "Jacobs Engineering Group Inc"],
@@ -5087,7 +5087,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["JBN", "Select Asset Inc"],
 ["JBR", "Select Asset Inc"],
 ["JBT", "John Bean Technologies Corp"],
-["JCA-B", "Jernigan Cap Inc [Jcap/Pb]"
+["JCA-B", "Jernigan Cap Inc [Jcap/Pb]"],
 ["JCAP", "Jernigan Capital Inc"],
 ["JCE", "Nuveen Core Equity Alpha Fund"],
 ["JCI", "Johnson Controls Intl"],
@@ -5095,7 +5095,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["JCP", "J.C. Penney Company Inc"],
 ["JDD", "Nuveen Diversified Dividend and"],
 ["JE", "Just Energy Group Inc"],
-["JE-A", "Just Energy Group Inc [Je/Pa]"
+["JE-A", "Just Energy Group Inc [Je/Pa]"],
 ["JEF", "Jefferies Financial Group Inc"],
 ["JELD", "Jeld-Wen Holding Inc"],
 ["JEMD", "Nuveen Emerging Markets Debt 2022 Target Term Fu"],
@@ -5130,11 +5130,11 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["JPC", "Nuveen Preferred and Convertible"],
 ["JPI", "Nuveen Preferred and Income Term Fund"],
 ["JPM", "JP Morgan Chase & Company"],
-["JPM-C", "Jpmorgan Chase & Co. [Jpm/Pc]"
-["JPM-D", "Jpmorgan Chase & Co. [Jpm/Pd]"
-["JPM-F", "Jpmorgan Chase & Co. [Jpm/Pf]"
-["JPM-G", "Jpmorgan Chase & Co. [Jpm/Pg]"
-["JPM-H", "Jpmorgan Chase & Co. [Jpm/Ph]"
+["JPM-C", "Jpmorgan Chase & Co. [Jpm/Pc]"],
+["JPM-D", "Jpmorgan Chase & Co. [Jpm/Pd]"],
+["JPM-F", "Jpmorgan Chase & Co. [Jpm/Pf]"],
+["JPM-G", "Jpmorgan Chase & Co. [Jpm/Pg]"],
+["JPM-H", "Jpmorgan Chase & Co. [Jpm/Ph]"],
 ["JPM-J", "Jpmorgan Chase & Co. Prf Perpetual USD 1/400Th I"],
 ["JPS", "Nuveen Quality Preferred 2"],
 ["JPT", "Nuveen Preferred and Income 2022 Term Fund"],
@@ -5163,21 +5163,21 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["KEP", "Korea Electric Power Corp"],
 ["KEX", "Kirby Corp"],
 ["KEY", "Keycorp"],
-["KEY-I", "Keycorp [Key/Pi]"
-["KEY-J", "Keycorp [Key/Pj]"
-["KEY-K", "Keycorp [Key/Pk]"
+["KEY-I", "Keycorp [Key/Pi]"],
+["KEY-J", "Keycorp [Key/Pj]"],
+["KEY-K", "Keycorp [Key/Pk]"],
 ["KEYS", "Keysight Technologies Inc Comm"],
 ["KF", "Korea Fund"],
 ["KFS", "Kingsway Financial Services"],
 ["KFY", "Korn/Ferry International"],
 ["KGC", "Kinross Gold Corp"],
 ["KIM", "Kimco Realty Corp"],
-["KIM-L", "Kimco Rlty Corp [Kim/Pl]"
+["KIM-L", "Kimco Rlty Corp [Kim/Pl]"],
 ["KIM-M", "Kimco Realty Corp Dep Shs Repstg 1/1000 Shs Cl M"],
 ["KIO", "KKR Income Opportunities Fund"],
 ["KKR", "KKR & Co. LP"],
-["KKR-A", "KKR & Co. Inc [Kkr/Pa]"
-["KKR-B", "KKR & Co. Inc [Kkr/Pb]"
+["KKR-A", "KKR & Co. Inc [Kkr/Pa]"],
+["KKR-B", "KKR & Co. Inc [Kkr/Pb]"],
 ["KL", "Kirkland Lake Gold Ltd"],
 ["KMB", "Kimberly-Clark Corp"],
 ["KMF", "Kayne Anderson Midstream Energy Fund"],
@@ -5204,9 +5204,9 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["KSM", "Scudder Strategic Municiple Income Trust"],
 ["KSS", "Kohl's Corp"],
 ["KSU", "Kansas City Southern"],
-["KSU.P", "Kansas City Southern [Ksu/P]"
+["KSU.P", "Kansas City Southern [Ksu/P]"],
 ["KT", "Korea Telecom Corp"],
-["KTB", "Kontoor Brands Inc [Ktb/I]"
+["KTB", "Kontoor Brands Inc [Ktb/I]"],
 ["KTF", "Scudder Municiple Income Trust"],
 ["KTH", "Lehman Abs Corp"],
 ["KTN", "Lehman Abs Corp"],
@@ -5214,7 +5214,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["KW", "Kennedy-Wilson Holdings Inc"],
 ["KWR", "Quaker Chemical Corp"],
 ["KYN", "Kayne Anderson MLP Investment Company"],
-["KYN-F", "Kayne Anderson MLP Midstream Invest [Kyn/Pf]"
+["KYN-F", "Kayne Anderson MLP Midstream Invest [Kyn/Pf]"],
 ["L", "Loews Corp"],
 ["LAC", "Lithium Americas Corp"],
 ["LAD", "Lithia Motors"],
@@ -5240,15 +5240,15 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["LEVI", "Levi Strauss & Co. Cl A"],
 ["LFC", "China Life Insurance Company Ltd"],
 ["LGC", "Legacy Acquisition Corp"],
-["LGC.U", "Legacy Acquisition Corp [Lgc/U]"
-["LGC.W", "Legacy Acquisition Corp WT [Lgc/W]"
+["LGC.U", "Legacy Acquisition Corp [Lgc/U]"],
+["LGC.W", "Legacy Acquisition Corp WT [Lgc/W]"],
 ["LGF.A", "Lions Gate Entertainment Corp Cl A"],
 ["LGF.B", "Lions Gate Entertainment Corp Cl B"],
 ["LGI", "Lazard Global Total Return and"],
 ["LH", "Laboratory Corp of America Holdings"],
 ["LHC", "Leo Holdings Corp Cl A"],
 ["LHC.U", "Leo Holdings Corp"],
-["LHC.W", "Leo Holdings Corp WT [Lhc/W]"
+["LHC.W", "Leo Holdings Corp WT [Lhc/W]"],
 ["LHX", "L3Harris Technologies Inc"],
 ["LII", "Lennox International"],
 ["LIN", "Linde Plc"],
@@ -5281,7 +5281,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["LW", "Lamb Weston Holdings Inc"],
 ["LXFR", "Luxfer Holdings Plc"],
 ["LXP", "Lexington Realty Trust"],
-["LXP-C", "Lexington Realty Trust [Lxp/Pc]"
+["LXP-C", "Lexington Realty Trust [Lxp/Pc]"],
 ["LXU", "Lsb Industries Inc"],
 ["LYB", "Lyondellbasell Industries NV"],
 ["LYG", "Lloyds Banking Group Plc"],
@@ -5290,7 +5290,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["M", "Macy's Inc"],
 ["MA", "Mastercard Inc"],
 ["MAA", "Mid-America Apartment Communities"],
-["MAA-I", "Mid Amer Apt Cmntys Inc [Maa/Pi]"
+["MAA-I", "Mid Amer Apt Cmntys Inc [Maa/Pi]"],
 ["MAC", "Macerich Company"],
 ["MAIN", "Main Street Capital Corp"],
 ["MAN", "Manpower Inc"],
@@ -5328,16 +5328,16 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["MED", "Medifast Inc"],
 ["MEI", "Methode Electronics"],
 ["MEN", "Blackrock Munienhanced Fund"],
-["MER-K", "Bank of America Corp [Mer/Pk]"
+["MER-K", "Bank of America Corp [Mer/Pk]"],
 ["MET", "Metlife Inc"],
-["MET-A", "Metlife Inc [Met/Pa]"
-["MET-E", "Metlife Inc [Met/Pe]"
+["MET-A", "Metlife Inc [Met/Pa]"],
+["MET-E", "Metlife Inc [Met/Pe]"],
 ["MET-F", "Metlife Inc 4.75% Prf Perpetual USD 25 1/1000Th"],
 ["MFA", "MFA Financial Inc"],
-["MFA-B", "MFA Finl Inc [Mfa/Pb]"
+["MFA-B", "MFA Finl Inc [Mfa/Pb]"],
 ["MFA-C", "MFA Financial Inc."],
-["MFA.U", "Megalith Finl Acquisition Corp [Mfac.U]"
-["MFA.W", "Megalith Finl Acquisition Corp WT [Mfac/W]"
+["MFA.U", "Megalith Finl Acquisition Corp [Mfac.U]"],
+["MFA.W", "Megalith Finl Acquisition Corp WT [Mfac/W]"],
 ["MFAC", "Megalith Financial Acquisition Corp Cl A"],
 ["MFC", "Manulife Financial Corp"],
 ["MFD", "Macquarie/First Trust Global"],
@@ -5356,9 +5356,9 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["MGR", "Affiliated Managers Group Inc"],
 ["MGU", "Macquarie Global Infrastructure Total Return Fun"],
 ["MGY", "Magnolia Oil & Gas Corp"],
-["MH-A", "Maiden Holdings Ltd [Mh/Pa]"
-["MH-C", "Maiden Holdings Ltd [Mh/Pc]"
-["MH-D", "Maiden Holdings Ltd [Mh/Pd]"
+["MH-A", "Maiden Holdings Ltd [Mh/Pa]"],
+["MH-C", "Maiden Holdings Ltd [Mh/Pc]"],
+["MH-D", "Maiden Holdings Ltd [Mh/Pd]"],
 ["MHD", "Blackrock Muniholdings Fund"],
 ["MHE", "Massachusetts Health and Education Tax-Exempt TR"],
 ["MHF", "Western Asset Muni High"],
@@ -5371,9 +5371,9 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["MIC", "Macquarie Infrastructure Company Trust"],
 ["MIE", "Cohen & Steers MLP Income and"],
 ["MIN", "MFS Intermediate Income Trust"],
-["MIT-A", "Ag Mtg Invt TR Inc [Mitt/Pa]"
-["MIT-B", "Ag Mtg Invt TR Inc [Mitt/Pb]"
-["MIT-C", "Ag Mtg Invt TR Inc [Mitt/Pc]"
+["MIT-A", "Ag Mtg Invt TR Inc [Mitt/Pa]"],
+["MIT-B", "Ag Mtg Invt TR Inc [Mitt/Pb]"],
+["MIT-C", "Ag Mtg Invt TR Inc [Mitt/Pc]"],
 ["MITT", "Ag Mortgage Investment Trust"],
 ["MIXT", "Mix Telematics Ltd"],
 ["MIY", "Blackrock Muniyield Michigan Quality Fund"],
@@ -5397,7 +5397,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["MNK", "Mallinckrodt Plc"],
 ["MNP", "Western Asset Muni Partners Fund"],
 ["MNR", "Monmouth Real Estate Investment Corp"],
-["MNR-C", "Monmouth Real Estate Invt Corp [Mnr/Pc]"
+["MNR-C", "Monmouth Real Estate Invt Corp [Mnr/Pc]"],
 ["MNRL", "Brigham Minerals Inc"],
 ["MO", "Altria Group"],
 ["MOD", "Modine Manufacturing Company"],
@@ -5421,11 +5421,11 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["MRK", "Merck & Company"],
 ["MRO", "Marathon Oil Corp"],
 ["MS", "Morgan Stanley"],
-["MS-A", "Morgan Stanley [Ms/Pa]"
-["MS-E", "Morgan Stanley [Ms/Pe]"
-["MS-F", "Morgan Stanley [Ms/Pf]"
-["MS-I", "Morgan Stanley [Ms/Pi]"
-["MS-K", "Morgan Stanley [Ms/Pk]"
+["MS-A", "Morgan Stanley [Ms/Pa]"],
+["MS-E", "Morgan Stanley [Ms/Pe]"],
+["MS-F", "Morgan Stanley [Ms/Pf]"],
+["MS-I", "Morgan Stanley [Ms/Pi]"],
+["MS-K", "Morgan Stanley [Ms/Pk]"],
 ["MS-L", "Morgan Stanley 4.875% Prf Perpetual USD 25 1/100"],
 ["MSA", "Msa Safety Inc"],
 ["MSB", "Mesabi Trust"],
@@ -5443,7 +5443,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["MTG", "Mgic Investment Corp"],
 ["MTH", "Meritage Corp"],
 ["MTL", "Mechel Oao"],
-["MTL.P", "Mechel Pao [Mtl/P]"
+["MTL.P", "Mechel Pao [Mtl/P]"],
 ["MTN", "Vail Resorts"],
 ["MTOR", "Meritor Inc"],
 ["MTR", "Mesa Royalty Trust"],
@@ -5487,29 +5487,29 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["NAN", "Nuveen New York Divadv Fund"],
 ["NAT", "Nordic American Tanker Shipping Ltd"],
 ["NAV", "Navistar International Corp"],
-["NAV-D", "Navistar International Corp [Nav/Pd]"
+["NAV-D", "Navistar International Corp [Nav/Pd]"],
 ["NAZ", "Nuveen Arizona Premium Fund"],
 ["NBB", "Nuveen Build America Bond Fund"],
 ["NBHC", "National Bank Holdings Corp"],
 ["NBR", "Nabors Industries"],
-["NBR-A", "Nabors Industries Inc [Nbr/Pa]"
+["NBR-A", "Nabors Industries Inc [Nbr/Pa]"],
 ["NC", "Nacco Industries"],
 ["NCA", "Nuveen California Muni Value Fund"],
 ["NCB", "Nuveen California Muni Value Fund 2"],
 ["NCLH", "Norwegian Cruise Ord"],
 ["NCR", "NCR Corp"],
 ["NCV", "Agic Convertible &"],
-["NCV-A", "Allianzgi Conv Income Fd [Ncv/Pa]"
+["NCV-A", "Allianzgi Conv Income Fd [Ncv/Pa]"],
 ["NCZ", "Agic Convertible & II"],
-["NCZ-A", "Allianzgi Conv Income Fd II [Ncz/Pa]"
+["NCZ-A", "Allianzgi Conv Income Fd II [Ncz/Pa]"],
 ["NDP", "Tortoise Energy Independence F"],
 ["NE", "Noble Corp"],
 ["NEA", "Nuveen Insured Tax-Free Advantage Fund"],
 ["NEE", "Nextera Energy"],
-["NEE-I", "Nextera Energy Capital Hlds Inc [Nee/Pi]"
-["NEE-J", "Nextera Energy Capital Hlds Inc [Nee/Pj]"
-["NEE-K", "Nextera Energy Capital Hlds Inc [Nee/Pk]"
-["NEE-N", "Nextera Energy Capital Hlds Inc [Nee/Pn]"
+["NEE-I", "Nextera Energy Capital Hlds Inc [Nee/Pi]"],
+["NEE-J", "Nextera Energy Capital Hlds Inc [Nee/Pj]"],
+["NEE-K", "Nextera Energy Capital Hlds Inc [Nee/Pk]"],
+["NEE-N", "Nextera Energy Capital Hlds Inc [Nee/Pn]"],
 ["NEE-O", "Nextera Energy Inc 4.872% Corporate Units"],
 ["NEE-P", "Nextera Energy Inc"],
 ["NEM", "Newmont Mining Corp"],
@@ -5527,8 +5527,8 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["NFJ", "Nfj Dividend Interest & Premium Strategy Fund"],
 ["NGG", "National Grid Transco Plc"],
 ["NGL", "Ngl Energy Partners LP"],
-["NGL-A", "Targa Resources Partners LP [Ngls/Pa]"
-["NGL-B", "Ngl Energy Partners LP [Ngl/Pb]"
+["NGL-A", "Targa Resources Partners LP [Ngls/Pa]"],
+["NGL-B", "Ngl Energy Partners LP [Ngl/Pb]"],
 ["NGL-C", "Ngl Energy Partners LP Perp Pfd Unit Cl C Fixed"],
 ["NGS", "Natural Gas Services Group"],
 ["NGVC", "Natural Grocers By Vitamin Cottage Inc"],
@@ -5537,7 +5537,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["NHF", "Nexpoint Credit Strategies Fund"],
 ["NHI", "National Health Investors"],
 ["NI", "NiSource Inc"],
-["NI-B", "NiSource Inc [Ni/Pb]"
+["NI-B", "NiSource Inc [Ni/Pb]"],
 ["NID", "Nuveen Intermediate Duration M"],
 ["NIE", "Agic Equity & Convertible"],
 ["NIM", "Nuveen Maturities Fund"],
@@ -5553,19 +5553,19 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["NLS", "Nautilus Group"],
 ["NLSN", "Nielsen Holdings Plc"],
 ["NLY", "Annaly Capital Management Inc"],
-["NLY-D", "Annaly Cap Mgmt Inc [Nly/Pd]"
-["NLY-F", "Annaly Cap Mgmt Inc [Nly/Pf]"
-["NLY-G", "Annaly Cap Mgmt Inc [Nly/Pg]"
-["NLY-I", "Annaly Cap Mgmt Inc [Nly/Pi]"
+["NLY-D", "Annaly Cap Mgmt Inc [Nly/Pd]"],
+["NLY-F", "Annaly Cap Mgmt Inc [Nly/Pf]"],
+["NLY-G", "Annaly Cap Mgmt Inc [Nly/Pg]"],
+["NLY-I", "Annaly Cap Mgmt Inc [Nly/Pi]"],
 ["NM", "Navios Maritime Holdings Inc"],
-["NM-G", "Navios Maritime Hlds Inc [Nm/Pg]"
-["NM-H", "Navios Maritime Hlds Inc [Nm/Ph]"
+["NM-G", "Navios Maritime Hlds Inc [Nm/Pg]"],
+["NM-H", "Navios Maritime Hlds Inc [Nm/Ph]"],
 ["NMCO", "Nuveen Municipal Credit Opportunities Fund"],
 ["NMFC", "New Mountain Finance Corp"],
 ["NMFX", "New Mountain Finance Corp"],
 ["NMI", "Nuveen Muni"],
-["NMK-B", "Niagara Mohawk Power Corp [Nmk/Pb]"
-["NMK-C", "Niagara Mohawk Power Corp [Nmk/Pc]"
+["NMK-B", "Niagara Mohawk Power Corp [Nmk/Pb]"],
+["NMK-C", "Niagara Mohawk Power Corp [Nmk/Pc]"],
 ["NMM", "Navios Maritime Partners LP"],
 ["NMR", "Nomura Holdings Inc ADR"],
 ["NMS", "Nuveen Minnesota Municipal Inco"],
@@ -5575,7 +5575,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["NNA", "Navios Maritime Acquisition Corp"],
 ["NNI", "Nelnet Inc"],
 ["NNN", "National Retail Properties"],
-["NNN-F", "National Retail Pptys Inc [NNn/Pf]"
+["NNN-F", "National Retail Pptys Inc [NNn/Pf]"],
 ["NNY", "Nuveen New York Muni Value Fund"],
 ["NOA", "North American Energy Partners"],
 ["NOAH", "Noah Holdings Ltd"],
@@ -5602,24 +5602,23 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["NRT", "North European Oil Royality Trust"],
 ["NRUC", "National Rural Utilities Coop Finance Corp 5.500"],
 ["NRZ", "New Residential Investment Corp"],
-["NRZ-A", "New Residential Invt Corp [Nrz/Pa]"
-["NRZ-B", "New Residential Invt Corp [Nrz/Pb]"
+["NRZ-A", "New Residential Invt Corp [Nrz/Pa]"],
+["NRZ-B", "New Residential Invt Corp [Nrz/Pb]"],
 ["NRZ-C", "New Residential Investment Corp Fxdfr Prf Perpet"],
 ["NS", "Nustar Energy LP"],
-["NS-A", "Nustar Energy LP [Ns/Pa]"
-["NS-B", "Nustar Energy LP [Ns/Pb]"
-["NS-C", "Nustar Energy LP [Ns/Pc]"
+["NS-A", "Nustar Energy LP [Ns/Pa]"],
+["NS-B", "Nustar Energy LP [Ns/Pb]"],
+["NS-C", "Nustar Energy LP [Ns/Pc]"],
 ["NSA", "National Storage Affiliates Tru"],
-["NSA-A", "National Storage Affiliates TR [Nsa/Pa]"
+["NSA-A", "National Storage Affiliates TR [Nsa/Pa]"],
 ["NSC", "Norfolk Southern Corp"],
-["NSC.W", "Nesco Hlds Inc WT [Nsco/W]"
+["NSC.W", "Nesco Hlds Inc WT [Nsco/W]"],
 ["NSCO", "Nesco Holdings Inc"],
 ["NSL", "Nuveen Senior"],
 ["NSP", "Insperity Inc"],
 ["NSS", "Nustar Logistics LP"],
 ["NTB", "Bank of Butterfield Ltd"],
 ["NTCO", "Natura &Co Holding S.A. ADR"],
-],[
 ["NTG", "Tortoise MLP Fund"],
 ["NTP", "Nam Tai Electronics"],
 ["NTR", "Nutrien Ltd"],
@@ -5651,8 +5650,8 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["NXQ", "Nuveen Tax Free Income Portfolio II"],
 ["NXR", "Nuveen Tax Free Income Portfolio III"],
 ["NXRT", "Nexpoint Residential Trust Inc"],
-["NYC-A", "New York Community Bancorp Inc [Nycb/Pa]"
-["NYC-U", "New York Cmnty Cap TR V [Nycb/Pu]"
+["NYC-A", "New York Community Bancorp Inc [Nycb/Pa]"],
+["NYC-U", "New York Cmnty Cap TR V [Nycb/Pu]"],
 ["NYCB", "New York Community Bancorp"],
 ["NYT", "New York Times Company"],
 ["NYV", "Nuveen New York Muni Value Fund 2"],
@@ -5661,8 +5660,8 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["OAC", "Oaktree Acquisition Corp Cl A"],
 ["OAC.U", "Oaktree Acquisition Corp"],
 ["OAC.W", "Oaktree Acquisition Corp WT"],
-["OAK-A", "Oaktree Cap Group Llc [Oak/Pa]"
-["OAK-B", "Oaktree Cap Group Llc [Oak/Pb]"
+["OAK-A", "Oaktree Cap Group Llc [Oak/Pa]"],
+["OAK-B", "Oaktree Cap Group Llc [Oak/Pb]"],
 ["OBE", "Obsidian Energy Ltd"],
 ["OC", "Owens Corning Inc"],
 ["OCFT", "Oneconnect Financial Technology Co. Ltd America"],
@@ -5671,15 +5670,15 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["OEC", "Orion Engineered Carbons S.A R"],
 ["OFC", "Corporate Office Properties"],
 ["OFG", "Oriental Financial Group"],
-["OFG-A", "Ofg Bancorp [Ofg/Pa]"
-["OFG-B", "Ofg Bancorp [Ofg/Pb]"
-["OFG-D", "Ofg Bancorp [Ofg/Pd]"
+["OFG-A", "Ofg Bancorp [Ofg/Pa]"],
+["OFG-B", "Ofg Bancorp [Ofg/Pb]"],
+["OFG-D", "Ofg Bancorp [Ofg/Pd]"],
 ["OGE", "Oge Energy Corp"],
 ["OGS", "One Gas Inc"],
 ["OHI", "Omega Healthcare Investors"],
 ["OI", "Owens-Illinois"],
 ["OIA", "Invesco Muni Income Trust"],
-["OIB.C", "Oi S.A. [Oibr.C]"
+["OIB.C", "Oi S.A. [Oibr.C]"],
 ["OII", "Oceaneering International"],
 ["OIS", "Oil States International"],
 ["OKE", "Oneok Inc"],
@@ -5713,7 +5712,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["OXY", "Occidental Petroleum Corp"],
 ["PAA", "Plains All American Pipeline LP"],
 ["PAC", "Grupo Aeroportuario Del Pacifico"],
-["PAC.W", "Ranpak Hlds Corp  Wt[Pack/W]"
+["PAC.W", "Ranpak Hlds Corp  Wt[Pack/W]"],
 ["PACD", "Pacific Drilling S.A."],
 ["PACK", "Ranpak Holdings Corp"],
 ["PAG", "Penske Automotive Group"],
@@ -5733,7 +5732,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["PBFX", "PBF Logistics LP"],
 ["PBH", "Prestige Brand Holdings"],
 ["PBI", "Pitney Bowes Inc"],
-["PBI-B", "Pitney Bowes Inc [Pbi/Pb]"
+["PBI-B", "Pitney Bowes Inc [Pbi/Pb]"],
 ["PBR", "Petroleo Brasileiro S.A. Petrobras"],
 ["PBR.A", "Petroleo Brasileiro Sa Petrobr ADR"],
 ["PBT", "Permian Basin Royalty Trust"],
@@ -5753,15 +5752,15 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["PE", "Parsley Energy"],
 ["PEAK", "Healthpeak Properties Inc."],
 ["PEB", "Pebblebrook Hotel Trust"],
-["PEB-C", "Pebblebrook Hotel TR [Peb/Pc]"
-["PEB-D", "Pebblebrook Hotel TR [Peb/Pd]"
-["PEB-E", "Pebblebrook Hotel TR [Peb/Pe]"
-["PEB-F", "Pebblebrook Hotel TR [Peb/Pf]"
+["PEB-C", "Pebblebrook Hotel TR [Peb/Pc]"],
+["PEB-D", "Pebblebrook Hotel TR [Peb/Pd]"],
+["PEB-E", "Pebblebrook Hotel TR [Peb/Pe]"],
+["PEB-F", "Pebblebrook Hotel TR [Peb/Pf]"],
 ["PEG", "Public Service Enterprise Group Inc"],
 ["PEI", "Pennsylvania Real Estate Investment"],
-["PEI-B", "Pennsylvania Rl Estate Invt TR [Pei/Pb]"
-["PEI-C", "Pennsylvania Rl Estate Invt TR [Pei/Pc]"
-["PEI-D", "Pennsylvania Rl Estate Invt TR [Pei/Pd]"
+["PEI-B", "Pennsylvania Rl Estate Invt TR [Pei/Pb]"],
+["PEI-C", "Pennsylvania Rl Estate Invt TR [Pei/Pc]"],
+["PEI-D", "Pennsylvania Rl Estate Invt TR [Pei/Pd]"],
 ["PEN", "Penumbra Inc"],
 ["PEO", "Adams Natural Resources Fund Inc"],
 ["PER", "Sandridge Permian Trust"],
@@ -5791,7 +5790,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["PHX", "Panhandle Royalty Company"],
 ["PIC", "Pivotal Investment Corp II Cl A"],
 ["PIC.U", "Pivotal Invt Corp II"],
-["PIC.W", "Pivotal Invt Corp II WT [Pic/W]"
+["PIC.W", "Pivotal Invt Corp II WT [Pic/W]"],
 ["PII", "Polaris Industries Inc"],
 ["PIM", "Putnam Master Intermediate Income"],
 ["PINE", "Alpine Income Property Trust Inc"],
@@ -5820,12 +5819,12 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["PMM", "Putnam Managed Muni Income Trust"],
 ["PMO", "Putnam Muni Opportunities Trust"],
 ["PMT", "Pennymac Mortgage Investment Trust"],
-["PMT-A", "Pennymac Mtg Invt TR [Pmt/Pa]"
-["PMT-B", "Pennymac Mtg Invt TR [Pmt/Pb]"
+["PMT-A", "Pennymac Mtg Invt TR [Pmt/Pa]"],
+["PMT-B", "Pennymac Mtg Invt TR [Pmt/Pb]"],
 ["PMX", "Pimco Muni Income Fund III"],
 ["PNC", "PNC Bank"],
-["PNC-P", "PNC Financial Services Group [Pnc/Pp]"
-["PNC-Q", "PNC Financial Services Group [Pnc/Pq]"
+["PNC-P", "PNC Financial Services Group [Pnc/Pp]"],
+["PNC-Q", "PNC Financial Services Group [Pnc/Pq]"],
 ["PNF", "Pimco New York Muni"],
 ["PNI", "Pimco New York Muni II"],
 ["PNM", "PNM Resources Inc"],
@@ -5841,17 +5840,17 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["PPX", "PPL Capital Funding Inc"],
 ["PQG", "Pq Group Holdings Inc"],
 ["PRA", "Pro-Assurance Corp"],
-["PRE-F", "Partnerre Ltd [Pre/Pf]"
-["PRE-G", "Partnerre Ltd [Pre/Pg]"
-["PRE-H", "Partnerre Ltd [Pre/Ph]"
-["PRE-I", "Partnerre Ltd [Pre/Pi]"
+["PRE-F", "Partnerre Ltd [Pre/Pf]"],
+["PRE-G", "Partnerre Ltd [Pre/Pg]"],
+["PRE-H", "Partnerre Ltd [Pre/Ph]"],
+["PRE-I", "Partnerre Ltd [Pre/Pi]"],
 ["PRGO", "Perrigo Company"],
 ["PRH", "Prudential Financial Inc"],
 ["PRI", "Primerica Inc"],
-["PRI-A", "Priority Income Fund Inc [Prif/Pa]"
-["PRI-B", "Priority Income Fund Inc [Prif/Pb]"
-["PRI-C", "Priority Income Fund Inc [Prif/Pc]"
-["PRI-D", "Priority Income Fund Inc [Prif/Pd]"
+["PRI-A", "Priority Income Fund Inc [Prif/Pa]"],
+["PRI-B", "Priority Income Fund Inc [Prif/Pb]"],
+["PRI-C", "Priority Income Fund Inc [Prif/Pc]"],
+["PRI-D", "Priority Income Fund Inc [Prif/Pd]"],
 ["PRI-E", "Priority Income Fund Inc 6.375% Prf Redeem 31/12"],
 ["PRI-F", "Priority Income Fund Inc 6.625% Prf Redeem 30/06"],
 ["PRLB", "Proto Labs Inc"],
@@ -5864,23 +5863,23 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["PRTY", "Party City Holdco Inc"],
 ["PRU", "Prudential Financial Inc"],
 ["PSA", "Public Storage"],
-["PSA-B", "Public Storage [Psa/Pb]"
-["PSA-C", "Public Storage [Psa/Pc]"
-["PSA-D", "Public Storage [Psa/Pd]"
-["PSA-E", "Public Storage [Psa/Pe]"
-["PSA-F", "Public Storage [Psa/Pf]"
-["PSA-G", "Public Storage [Psa/Pg]"
-["PSA-H", "Public Storage [Psa/Ph]"
-["PSA-I", "Public Storage [Psa/Pi]"
+["PSA-B", "Public Storage [Psa/Pb]"],
+["PSA-C", "Public Storage [Psa/Pc]"],
+["PSA-D", "Public Storage [Psa/Pd]"],
+["PSA-E", "Public Storage [Psa/Pe]"],
+["PSA-F", "Public Storage [Psa/Pf]"],
+["PSA-G", "Public Storage [Psa/Pg]"],
+["PSA-H", "Public Storage [Psa/Ph]"],
+["PSA-I", "Public Storage [Psa/Pi]"],
 ["PSA-J", "Public Storage 4.70% Prf Perpetual USD 25 Ser J"],
 ["PSA-K", "Public Storage 4.75% Prf Perpetual USD 25 Dp RP"],
-["PSA-V", "Public Storage [Psa/Pv]"
-["PSA-W", "Public Storage [Psa/Pw]"
-["PSA-X", "Public Storage [Psa/Px]"
+["PSA-V", "Public Storage [Psa/Pv]"],
+["PSA-W", "Public Storage [Psa/Pw]"],
+["PSA-X", "Public Storage [Psa/Px]"],
 ["PSB", "Business Parks"],
-["PSB-W", "PS Business Pks Inc Calif [Psb/Pw]"
-["PSB-X", "PS Business Pks Inc Calif [Psb/Px]"
-["PSB-Y", "PS Business Pks Inc Calif [Psb/Py]"
+["PSB-W", "PS Business Pks Inc Calif [Psb/Pw]"],
+["PSB-X", "PS Business Pks Inc Calif [Psb/Px]"],
+["PSB-Y", "PS Business Pks Inc Calif [Psb/Py]"],
 ["PSB-Z", "PS Business Parks Inc Prf Perpetual USD 25 Dp Sh"],
 ["PSF", "Cohen & Steers Preferred Fund"],
 ["PSN", "Parsons Corp"],
@@ -5893,8 +5892,8 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["PTR", "Petrochina Company Ltd"],
 ["PTY", "Pimco Corporate Opportunity Fund"],
 ["PUK", "Prudential Public Ltd Company"],
-["PUK-A", "Prudential [Puk/Pa]"
-["PUK.P", "Prudential [Puk/P]"
+["PUK-A", "Prudential [Puk/Pa]"],
+["PUK.P", "Prudential [Puk/P]"],
 ["PUMP", "Propetro Holding Corp"],
 ["PVG", "Pretium Res Inc"],
 ["PVH", "Phillips-Van Heusen Corp"],
@@ -5914,8 +5913,8 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["QHC", "Quorum Health Corp"],
 ["QSR", "Restaurant Brands International"],
 ["QTS", "Qts Realty Trust Inc"],
-["QTS-A", "Qts Rlty TR Inc [Qts/Pa]"
-["QTS-B", "Qts Rlty TR Inc [Qts/Pb]"
+["QTS-A", "Qts Rlty TR Inc [Qts/Pa]"],
+["QTS-B", "Qts Rlty TR Inc [Qts/Pb]"],
 ["QTWO", "Q2 Holdings Inc"],
 ["QUAD", "Quad Graphics Inc"],
 ["QUOT", "Quotient Technology Inc"],
@@ -5949,15 +5948,15 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["REV", "Revlon Inc"],
 ["REVG", "Rev Group Inc"],
 ["REX", "Rex American Resources Corp"],
-["REX-A", "Rexford Indl Rlty Inc [Rexr/Pa]"
-["REX-B", "Rexford Indl Rlty Inc [Rexr/Pb]"
+["REX-A", "Rexford Indl Rlty Inc [Rexr/Pa]"],
+["REX-B", "Rexford Indl Rlty Inc [Rexr/Pb]"],
 ["REX-C", "Rexford Industrial Realty Inc 5.625% Prf Perpetu"],
 ["REXR", "Rexford Industrial Realty Inc"],
 ["REZI", "Resideo Technologies Inc"],
 ["RF", "Regions Financial Corp"],
-["RF-A", "Regions Financial Corp [Rf/Pa]"
-["RF-B", "Regions Financial Corp [Rf/Pb]"
-["RF-C", "Regions Financial Corp [Rf/Pc]"
+["RF-A", "Regions Financial Corp [Rf/Pa]"],
+["RF-B", "Regions Financial Corp [Rf/Pb]"],
+["RF-C", "Regions Financial Corp [Rf/Pc]"],
 ["RFI", "Cohen & Steers Total Return Realty Fund"],
 ["RFL", "Rafael Holdings Inc"],
 ["RFP", "Resolute Forest Products Inc"],
@@ -5977,41 +5976,41 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["RLH", "Red Lion Hotels Corp"],
 ["RLI", "Rli Corp"],
 ["RLJ", "Rlj Lodging Trust"],
-["RLJ-A", "Rlj Lodging TR [Rlj/Pa]"
+["RLJ-A", "Rlj Lodging TR [Rlj/Pa]"],
 ["RM", "Regional Managment Corp"],
 ["RMAX", "Re/Max Holdings Inc"],
 ["RMD", "Resmed Inc"],
 ["RMED", "Ra Medical Systems Inc"],
 ["RMG", "Rmg Acquisition Corp Cl A"],
 ["RMG.U", "Rmg Acquisition Corp"],
-["RMG.W", "Rmg Acquisition Corp WT [Rmg/W]"
+["RMG.W", "Rmg Acquisition Corp WT [Rmg/W]"],
 ["RMI", "Rivernorth Opportunistic Municipal Income Fund"],
 ["RMM", "Rivernorth Managed Duration Municipal Income Fun"],
-["RMP.P", "Rivernorth Marketplace Lending Corp [Rmpl/P]"
+["RMP.P", "Rivernorth Marketplace Lending Corp [Rmpl/P]"],
 ["RMT", "Royce Micro-Cap Trust"],
 ["RNG", "Ringcentral Inc"],
 ["RNGR", "Ranger Energy Services Inc Cl A"],
 ["RNP", "Cohen & Steers REIT and Preferred"],
 ["RNR", "Renaissancere Holdings Ltd"],
-["RNR-C", "Renaissancere Holdings Ltd [Rnr/Pc]"
-["RNR-E", "Renaissancere Holdings Ltd [Rnr/Pe]"
-["RNR-F", "Renaissancere Holdings Ltd [Rnr/Pf]"
+["RNR-C", "Renaissancere Holdings Ltd [Rnr/Pc]"],
+["RNR-E", "Renaissancere Holdings Ltd [Rnr/Pe]"],
+["RNR-F", "Renaissancere Holdings Ltd [Rnr/Pf]"],
 ["ROG", "Rogers Corp"],
 ["ROK", "Rockwell Automation Inc"],
 ["ROL", "Rollins Inc"],
 ["ROP", "Roper Industries"],
 ["ROYT", "Pacific Coast Oil Trust"],
 ["RPAI", "Retail Properties of America"],
-["RPL.U", "Replay Acquisition Corp [Rpla.U]"
-["RPL.W", "Replay Acquisition Corp WT [Rpla/W]"
+["RPL.U", "Replay Acquisition Corp [Rpla.U]"],
+["RPL.W", "Replay Acquisition Corp WT [Rpla/W]"],
 ["RPLA", "Replay Acquisition Corp"],
 ["RPM", "RPM International Inc"],
 ["RPT", "Ramco-Gershenson Properties Trust"],
-["RPT-D", "Rpt Realty [Rpt/Pd]"
+["RPT-D", "Rpt Realty [Rpt/Pd]"],
 ["RQI", "Cohen & Steers Quality Income Realty Fund Inc"],
-["RQI.P", "Cohen & Steers Quality Rlty [Rqi/R]"
+["RQI.P", "Cohen & Steers Quality Rlty [Rqi/R]"],
 ["RRC", "Range Resources Corp"],
-["RRD", "Donnelley [R.R.] & Sons Company"
+["RRD", "Donnelley [R.R.] & Sons Company"],
 ["RRTS", "Roadrunner Transportation Systems Inc"],
 ["RS", "Reliance Steel & Aluminum Company"],
 ["RSF", "Rivernorth Marketplace Lending Corp"],
@@ -6026,7 +6025,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["RWT", "Redwood Trust"],
 ["RXN", "Rexnord Corp"],
 ["RY", "Royal Bank of Canada"],
-["RY-T", "Royal Bank of Canada [Ry/Pt]"
+["RY-T", "Royal Bank of Canada [Ry/Pt]"],
 ["RYAM", "Rayonier Advanced Materials Inc"],
 ["RYB", "Ryb Education Inc Aps"],
 ["RYCE", "Amira Nature Foods Ltd"],
@@ -6044,14 +6043,14 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["SALT", "Scorpio Bulkers Inc"],
 ["SAM", "Boston Beer Company"],
 ["SAN", "Banco Santander"],
-["SAN-B", "Banco Santander Sa [San/Pb]"
+["SAN-B", "Banco Santander Sa [San/Pb]"],
 ["SAND", "Sandstorm Gold Ltd"],
 ["SAP", "SAP Ag"],
 ["SAR", "Saratoga Investment Corp"],
 ["SAVE", "Spirit Airlines Inc"],
 ["SB", "Safe Bulkers Inc"],
-["SB-C", "Safe Bulkers Inc [Sb/Pc]"
-["SB-D", "Safe Bulkers Inc [Sb/Pd]"
+["SB-C", "Safe Bulkers Inc [Sb/Pc]"],
+["SB-D", "Safe Bulkers Inc [Sb/Pd]"],
 ["SBE", "Switchback Energy Acquisition Corp Cl A"],
 ["SBE.U", "Switchback Energy Acquisition Corp"],
 ["SBE.W", "Switchback Energy Acquisition Corp WT"],
@@ -6067,23 +6066,23 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["SCA", "Stellus Capital Investment 5.75% Notes Due 2022"],
 ["SCCO", "Southern Peru Copper Corp"],
 ["SCD", "Lmp Capital and Income Fund Inc"],
-["SCE-G", "Sce Trust II [Sce/Pg]"
-["SCE-H", "Sce TR III [Sce/Ph]"
-["SCE-J", "Sce TR IV [Sce/Pj]"
-["SCE-K", "Sce Trust V [Sce/Pk]"
-["SCE-L", "Sce Trust Vi [Sce/Pl]"
-["SCH-C", "Charles Schwab Corp [Schw/Pc]"
-["SCH-D", "Charles Schwab Corp [Schw/Pd]"
+["SCE-G", "Sce Trust II [Sce/Pg]"],
+["SCE-H", "Sce TR III [Sce/Ph]"],
+["SCE-J", "Sce TR IV [Sce/Pj]"],
+["SCE-K", "Sce Trust V [Sce/Pk]"],
+["SCE-L", "Sce Trust Vi [Sce/Pl]"],
+["SCH-C", "Charles Schwab Corp [Schw/Pc]"],
+["SCH-D", "Charles Schwab Corp [Schw/Pd]"],
 ["SCHW", "The Charles Schwab Corp"],
 ["SCI", "Service Corp International"],
 ["SCL", "Stepan Company"],
 ["SCM", "Stellus Capital Investment Cor"],
-["SCP.U", "SC Health Corp [Scpe.U]"
-["SCP.W", "SC Health Corp WT [Scpe/W]"
+["SCP.U", "SC Health Corp [Scpe.U]"],
+["SCP.W", "SC Health Corp WT [Scpe/W]"],
 ["SCPE", "SC Health Corp Cl A"],
 ["SCS", "Steelcase Inc"],
 ["SCU", "Sculptor Capital Management Inc"],
-["SCV.U", "Scvx Corp [Scvx.U]"
+["SCV.U", "Scvx Corp [Scvx.U]"],
 ["SCX", "L.S. Starrett Company"],
 ["SD", "Sandridge Energy Inc"],
 ["SDRL", "Seadrill Ltd"],
@@ -6093,33 +6092,33 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["SEM", "Select Medical Holdings Corp"],
 ["SERV", "Servicemaster Global Holdings"],
 ["SF", "Stifel Financial Corp"],
-["SF-A", "Stifel Financial Corp [Sf/Pa]"
-["SF-B", "Stifel Financial Corp [Sf/Pb]"
+["SF-A", "Stifel Financial Corp [Sf/Pa]"],
+["SF-B", "Stifel Financial Corp [Sf/Pb]"],
 ["SFB", "Stifel Financial Corp 5.20% Senior Notes"],
 ["SFE", "Safeguard Scientifics"],
 ["SFL", "Ship Finance International"],
-["SFT.U", "Osprey Technology Acquisition Corp [Sftw.U]"
-["SFT.W", "Osprey Technlgy Aquistion Corp [Sftw/W]"
+["SFT.U", "Osprey Technology Acquisition Corp [Sftw.U]"],
+["SFT.W", "Osprey Technlgy Aquistion Corp [Sftw/W]"],
 ["SFTW", "Osprey Technology Acquisition Corp Cl A"],
 ["SFUN", "Soufun Holdings"],
 ["SGU", "Star Gas Partners LP"],
 ["SHAK", "Shake Shack Inc"],
 ["SHG", "Shinhan Financial Group Co. Ltd"],
 ["SHI", "Sinopec Shangai Petrochemical Company Ltd"],
-["SHL.U", "Tortoise Acquisition Corp [Shll.U]"
-["SHL.W", "Tortoise Acquisition Corp WT [Shll/W]"
+["SHL.U", "Tortoise Acquisition Corp [Shll.U]"],
+["SHL.W", "Tortoise Acquisition Corp WT [Shll/W]"],
 ["SHLL", "Tortoise Acquisition Corp Cl A"],
 ["SHLX", "Shell Midstream Partners LP"],
 ["SHO", "Sunstone Hotel Investors"],
-["SHO-E", "Sunstone Hotel Invs Inc [Sho/Pe]"
-["SHO-F", "Sunstone Hotel Invs Inc [Sho/Pf]"
+["SHO-E", "Sunstone Hotel Invs Inc [Sho/Pe]"],
+["SHO-F", "Sunstone Hotel Invs Inc [Sho/Pf]"],
 ["SHOP", "Shopify Inc"],
 ["SHW", "Sherwin-Williams Company"],
 ["SI", "Silvergate Capital Corporation Cl A"],
 ["SID", "Companhia Siderurgica Nacional"],
 ["SIG", "Signet Jewelers Ltd"],
 ["SIT-A", "Site Centers Corp Shs Pfd Cl A"],
-["SIT-K", "Site Centers Corp [Sitc/Pk]"
+["SIT-K", "Site Centers Corp [Sitc/Pk]"],
 ["SITC", "Site Centers Corp"],
 ["SITE", "Siteone Landscape Supply"],
 ["SIX", "Six Flags Entertainment Corp"],
@@ -6138,7 +6137,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["SLCA", "U.S. Silica Holdings Inc"],
 ["SLF", "Sun Life Financial Inc"],
 ["SLG", "SL Green Realty Corp"],
-["SLG-I", "SL Green Rlty Corp [Slg/Pi]"
+["SLG-I", "SL Green Rlty Corp [Slg/Pi]"],
 ["SM", "Sm Energy Company"],
 ["SMAR", "Smartsheet Inc Cl A"],
 ["SMFG", "Sumitomo Mitsui Financial Group Inc"],
@@ -6155,8 +6154,8 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["SNP", "China Petroleum & Chemical Corp"],
 ["SNR", "New Senior Investment Group Inc"],
 ["SNV", "Synovus Financial Corp"],
-["SNV-D", "Synovus Financial Corp [Snv/Pd]"
-["SNV-E", "Synovus Finl Corp [Snv/Pe]"
+["SNV-D", "Synovus Financial Corp [Snv/Pd]"],
+["SNV-E", "Synovus Finl Corp [Snv/Pe]"],
 ["SNX", "Synnex Corp"],
 ["SO", "Southern Company"],
 ["SOGO", "Sogou Inc"],
@@ -6169,20 +6168,20 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["SOLN", "Southern Company"],
 ["SON", "Sonoco Products Company"],
 ["SOR", "Source Capital"],
-["SPA.U", "Spartan Energy Acquisiton Corp [Spaq.U]"
-["SPA.W", "Spartan Energy Acquisiton Corp WT [Spaq/W]"
+["SPA.U", "Spartan Energy Acquisiton Corp [Spaq.U]"],
+["SPA.W", "Spartan Energy Acquisiton Corp WT [Spaq/W]"],
 ["SPAQ", "Spartan Energy Acquisition Corp Cl A"],
 ["SPB", "Spectrum Brands Holdings Inc"],
-["SPC.U", "Virgin Galactic Hlds Inc [Spce.U]"
-["SPC.W", "Virgin Galactic Hlds Inc [Spce/W]"
+["SPC.U", "Virgin Galactic Hlds Inc [Spce.U]"],
+["SPC.W", "Virgin Galactic Hlds Inc [Spce/W]"],
 ["SPCE", "Virgin Galactic Holdings Inc"],
 ["SPE", "Special Opportunities Fund Inc"],
-["SPE-B", "Special Opportunities Fd Inc [Spe/Pb]"
+["SPE-B", "Special Opportunities Fd Inc [Spe/Pb]"],
 ["SPG", "Simon Property Group"],
-["SPG-J", "Simon Ppty Group Inc [Spg/Pj]"
+["SPG-J", "Simon Ppty Group Inc [Spg/Pj]"],
 ["SPGI", "S&P Global Inc"],
 ["SPH", "Suburban Propane Partners LP"],
-["SPL-A", "Steel Partners Holdings LP [Splp/Pa]"
+["SPL-A", "Steel Partners Holdings LP [Splp/Pa]"],
 ["SPLP", "Steel Partners Hlds"],
 ["SPN", "Superior Energy Services"],
 ["SPOT", "Spotify Technology S.A."],
@@ -6193,16 +6192,16 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["SQM", "Sociedad Quimica Y Minera S.A."],
 ["SQNS", "Sequans Communications S A"],
 ["SR", "Spire Inc"],
-["SR-A", "Spire Inc [Sr/Pa]"
+["SR-A", "Spire Inc [Sr/Pa]"],
 ["SRC", "Spirit Realty Capital Inc"],
-["SRC-A", "Spirit Rlty Cap Inc [Src/Pa]"
+["SRC-A", "Spirit Rlty Cap Inc [Src/Pa]"],
 ["SRE", "Sempra Energy"],
-["SRE-A", "Sempra Energy [Sre/Pa]"
-["SRE-B", "Sempra Energy [Sre/Pb]"
+["SRE-A", "Sempra Energy [Sre/Pa]"],
+["SRE-B", "Sempra Energy [Sre/Pb]"],
 ["SREA", "Sempra Energy 5.750% Junior Subordinated Notes D"],
 ["SRF", "The Cushing Royalty & Income Fund"],
 ["SRG", "Seritage Growth Properties"],
-["SRG-A", "Seritage Growth Pptys [Srg/Pa]"
+["SRG-A", "Seritage Growth Pptys [Srg/Pa]"],
 ["SRI", "Stoneridge Inc"],
 ["SRL", "Scully Royalty Ltd"],
 ["SRLP", "Sprague Resources LP"],
@@ -6213,17 +6212,17 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["SSL", "Sasol Ltd"],
 ["SSTK", "Shutterstock Inc"],
 ["SSW", "Seaspan Corp"],
-["SSW-D", "Seaspan Corp [Ssw/Pd]"
-["SSW-E", "Seaspan Corp [Ssw/Pe]"
-["SSW-G", "Seaspan Corp [Ssw/Pg]"
-["SSW-H", "Seaspan Corp [Ssw/Ph]"
-["SSW-I", "Seaspan Corp [Ssw/Pi]"
+["SSW-D", "Seaspan Corp [Ssw/Pd]"],
+["SSW-E", "Seaspan Corp [Ssw/Pe]"],
+["SSW-G", "Seaspan Corp [Ssw/Pg]"],
+["SSW-H", "Seaspan Corp [Ssw/Ph]"],
+["SSW-I", "Seaspan Corp [Ssw/Pi]"],
 ["SSWA", "Seaspan Corp 7.125% Notes Due 2027"],
 ["ST", "Sensata Technologies Holding N.V."],
-["STA-C", "Stag Indl Inc [Stag/Pc]"
-["STA-D", "Istar Inc [Star/Pd]"
-["STA-G", "Istar Inc [Star/Pg]"
-["STA-I", "Istar Inc [Star/Pi]"
+["STA-C", "Stag Indl Inc [Stag/Pc]"],
+["STA-D", "Istar Inc [Star/Pd]"],
+["STA-G", "Istar Inc [Star/Pg]"],
+["STA-I", "Istar Inc [Star/Pi]"],
 ["STAG", "STI Inc"],
 ["STAR", "Istar Financial Inc"],
 ["STC", "Stewart Information Services Corp"],
@@ -6231,16 +6230,16 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["STG", "Sunlands Online Education Group ADR"],
 ["STK", "Columbia Seligman Premium Technology"],
 ["STL", "Sterling Bancorp"],
-["STL-A", "Sterling Bancorp D [Stl/Pa]"
+["STL-A", "Sterling Bancorp D [Stl/Pa]"],
 ["STM", "Stmicroelectronics N.V."],
 ["STN", "Stantec Inc"],
 ["STNG", "Scorpio Tankers Inc"],
 ["STON", "Stonemor Partners LP"],
 ["STOR", "Store Capital Corpstore Capital"],
 ["STT", "State Street Corp"],
-["STT-C", "State Street Corp [Stt/Pc]"
-["STT-D", "State Street Corp [Stt/Pd]"
-["STT-G", "State Street Corp [Stt/Pg]"
+["STT-C", "State Street Corp [Stt/Pc]"],
+["STT-D", "State Street Corp [Stt/Pd]"],
+["STT-G", "State Street Corp [Stt/Pg]"],
 ["STWD", "Starwood Property Trust"],
 ["STZ", "Constellation Brands Inc"],
 ["STZ.B", "Constellation Brd Cl B"],
@@ -6284,8 +6283,8 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["TBI", "Trueblue Inc"],
 ["TCI", "Transcontinental Realty Investors"],
 ["TCO", "Taubman Centers"],
-["TCO-J", "Taubman Ctrs Inc [Tco/Pj]"
-["TCO-K", "Taubman Ctrs Inc [Tco/Pk]"
+["TCO-J", "Taubman Ctrs Inc [Tco/Pj]"],
+["TCO-K", "Taubman Ctrs Inc [Tco/Pk]"],
 ["TCP", "TCP Pipelines"],
 ["TCRW", "THL Credit Inc 6.125% Notes Due 2023"],
 ["TCRZ", "THL Credit Inc"],
@@ -6301,8 +6300,8 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["TDOC", "Teladoc Health Inc"],
 ["TDS", "Telephone and Data Systems"],
 ["TDW", "Tidewater Inc"],
-["TDW.A", "Tidewater Inc [Tdw/Wa]"
-["TDW.B", "Tidewater Inc [Tdw/Wb]"
+["TDW.A", "Tidewater Inc [Tdw/Wa]"],
+["TDW.B", "Tidewater Inc [Tdw/Wb]"],
 ["TDY", "Teledyne Technologies Inc"],
 ["TEAF", "Tortoise Essential Assets Income Term Fund"],
 ["TECK", "Teck Resources Ltd"],
@@ -6314,9 +6313,9 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["TEVA", "Teva Pharmaceutical Industries Ltd"],
 ["TEX", "Terex Corp"],
 ["TFC", "Truist Financial Corp."],
-["TFC-F", "Truist Financial Corp [Tfc/Pf]"
-["TFC-G", "Truist Financial Corp. [Tfc/Pg]"
-["TFC-H", "Truist Financial Corp. [Tfc/Ph]"
+["TFC-F", "Truist Financial Corp [Tfc/Pf]"],
+["TFC-G", "Truist Financial Corp. [Tfc/Pg]"],
+["TFC-H", "Truist Financial Corp. [Tfc/Ph]"],
 ["TFC-I", "Truist Financial Corporation Depositary Shares"],
 ["TFII", "Tfi International Inc."],
 ["TFX", "Teleflex Inc"],
@@ -6326,8 +6325,8 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["TGI", "Triumph Group"],
 ["TGNA", "Tegna Inc"],
 ["TGP", "Teekay Lng Partners LP"],
-["TGP-A", "Teekay Lng Partners LP [Tgp/Pa]"
-["TGP-B", "Teekay Lng Partners LP [Tgp/Pb]"
+["TGP-A", "Teekay Lng Partners LP [Tgp/Pa]"],
+["TGP-B", "Teekay Lng Partners LP [Tgp/Pb]"],
 ["TGS", "Transportadora DE Gas Sa Ord B"],
 ["TGT", "Target Corp"],
 ["THC", "Tenet Healthcare Corp"],
@@ -6358,14 +6357,14 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["TNET", "Trinet Group Inc"],
 ["TNK", "Teekay Tankers Ltd"],
 ["TNP", "Tsakos Energy Navigation Ltd"],
-["TNP-C", "Tsakos Energy Navigation [Tnp/Pc]"
-["TNP-D", "Tsakos Energy Navigation [Tnp/Pd]"
-["TNP-E", "Tsakos Energy Navigation [Tnp/Pe]"
-["TNP-F", "Tsakos Energy Navigation [Tnp/Pf]"
+["TNP-C", "Tsakos Energy Navigation [Tnp/Pc]"],
+["TNP-D", "Tsakos Energy Navigation [Tnp/Pd]"],
+["TNP-E", "Tsakos Energy Navigation [Tnp/Pe]"],
+["TNP-F", "Tsakos Energy Navigation [Tnp/Pf]"],
 ["TOL", "Toll Brothers Inc"],
-["TOO-A", "Teekay Offshore Partners LP [Too/Pa]"
-["TOO-B", "Teekay Offshore Partners LP [Too/Pb]"
-["TOO-E", "Teekay Offshore Partners LP [Too/Pe]"
+["TOO-A", "Teekay Offshore Partners LP [Too/Pa]"],
+["TOO-B", "Teekay Offshore Partners LP [Too/Pb]"],
+["TOO-E", "Teekay Offshore Partners LP [Too/Pe]"],
 ["TOT", "Totalfinaelf S.A."],
 ["TPB", "Turning Point Brands"],
 ["TPC", "Tutor Perini Corp"],
@@ -6384,17 +6383,17 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["TRGP", "Targa Resources"],
 ["TRI", "Thomson Reuters Corp"],
 ["TRN", "Trinity Industries"],
-["TRN.U", "Trine Acquisition Corp [Trne.U]"
-["TRN.W", "Trine Acquisition Corp WT [Trne/W]"
+["TRN.U", "Trine Acquisition Corp [Trne.U]"],
+["TRN.W", "Trine Acquisition Corp WT [Trne/W]"],
 ["TRNE", "Trine Acquisition Corp Cl A"],
 ["TRNO", "Terreno Realty Corp"],
 ["TROX", "Tronox Inc"],
 ["TRP", "Transcananda Pipelines"],
 ["TRQ", "Turquoise Hill Resources Ltd"],
-["TRT-A", "Triton Intl Ltd [Trtn/Pa]"
-["TRT-B", "Triton Intl Ltd [Trtn/Pb]"
+["TRT-A", "Triton Intl Ltd [Trtn/Pa]"],
+["TRT-B", "Triton Intl Ltd [Trtn/Pb]"],
 ["TRT-C", "Triton International Ltd 7.375% Prf Perpetual US"],
-["TRT-D", "Triton Intl Ltd [Trtn/Pd]"
+["TRT-D", "Triton Intl Ltd [Trtn/Pd]"],
 ["TRTN", "Triton International Ltd"],
 ["TRTX", "Tpg Re Finance Trust Inc"],
 ["TRU", "Transunion"],
@@ -6424,16 +6423,16 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["TWLO", "Twilio"],
 ["TWN", "Taiwan Fund"],
 ["TWO", "Two Harbors Investments Corp"],
-["TWO-A", "Two Hbrs Invt Corp [Two/Pa]"
-["TWO-B", "Two Hbrs Invt Corp [Two/Pb]"
-["TWO-C", "Two Hbrs Invt Corp [Two/Pc]"
-["TWO-D", "Two Hbrs Invt Corp [Two/Pd]"
-["TWO-E", "Two Hbrs Invt Corp [Two/Pe]"
+["TWO-A", "Two Hbrs Invt Corp [Two/Pa]"],
+["TWO-B", "Two Hbrs Invt Corp [Two/Pb]"],
+["TWO-C", "Two Hbrs Invt Corp [Two/Pc]"],
+["TWO-D", "Two Hbrs Invt Corp [Two/Pd]"],
+["TWO-E", "Two Hbrs Invt Corp [Two/Pe]"],
 ["TWTR", "Twitter Inc"],
 ["TX", "Ternium S.A."],
 ["TXT", "Textron Inc"],
 ["TY", "Tri Continental Corp"],
-["TY.P", "Tri Contl Corp [Ty/P]"
+["TY.P", "Tri Contl Corp [Ty/P]"],
 ["TYG", "Tortoise Energy Infrastructure Corp"],
 ["TYL", "Tyler Technologies"],
 ["UA", "Under Armour Inc Cl C"],
@@ -6442,7 +6441,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["UBA", "Urstadt Biddle Properties Inc"],
 ["UBER", "Uber Technologies Inc"],
 ["UBP", "Urstadt Biddle Properties Inc"],
-["UBP-H", "Urstadt Biddle Pptys Inc [Ubp/Ph]"
+["UBP-H", "Urstadt Biddle Pptys Inc [Ubp/Ph]"],
 ["UBP-K", "Urstadt Biddle Properties Inc 5.875% Prf Perpetu"],
 ["UBS", "UBS Group Ag"],
 ["UDR", "United Dominion Realty Trust"],
@@ -6458,9 +6457,9 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["UL", "Unilever Plc"],
 ["UMC", "United Microelectronics Corp"],
 ["UMH", "Umh Properties"],
-["UMH-B", "Umh Pptys Inc [Umh/Pb]"
-["UMH-C", "Umh Pptys Inc [Umh/Pc]"
-["UMH-D", "Umh Pptys Inc [Umh/Pd]"
+["UMH-B", "Umh Pptys Inc [Umh/Pb]"],
+["UMH-C", "Umh Pptys Inc [Umh/Pc]"],
+["UMH-D", "Umh Pptys Inc [Umh/Pd]"],
 ["UN", "Unilever NV"],
 ["UNF", "Unifirst Corp"],
 ["UNFI", "United Nat Foods"],
@@ -6475,11 +6474,11 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["USA", "Liberty All-Star Equity Fund"],
 ["USAC", "USA Compression Partners LP"],
 ["USB", "U.S. Bancorp"],
-["USB-A", "US Bancorp [Usb/Pa]"
-["USB-H", "US Bancorp [Usb/Ph]"
-["USB-M", "US Bancorp [Usb/Pm]"
-["USB-O", "US Bancorp [Usb/Po]"
-["USB-P", "US Bancorp Del [Usb/Pp]"
+["USB-A", "US Bancorp [Usb/Pa]"],
+["USB-H", "US Bancorp [Usb/Ph]"],
+["USB-M", "US Bancorp [Usb/Pm]"],
+["USB-O", "US Bancorp [Usb/Po]"],
+["USB-P", "US Bancorp Del [Usb/Pp]"],
 ["USDP", "USD Partners LP"],
 ["USFD", "US Foods Holding"],
 ["USM", "United States Cellular Corp"],
@@ -6511,8 +6510,8 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["VEEV", "Veeva Systems Inc"],
 ["VEL", "Velocity Financial Inc"],
 ["VER", "Vereit Inc"],
-["VER-F", "Vereit Inc [Ver/Pf]"
-["VER.U", "Vertiv Hldg CO [Vert.U]"
+["VER-F", "Vereit Inc [Ver/Pf]"],
+["VER.U", "Vertiv Hldg CO [Vert.U]"],
 ["VET", "Vermilion Energy Inc"],
 ["VFC", "V.F. Corp"],
 ["VGI", "Virtus Global Multi-Sector Inc"],
@@ -6535,12 +6534,12 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["VNCE", "Vince Holding Corp"],
 ["VNE", "Veoneer Inc"],
 ["VNO", "Vornado Realty Trust"],
-["VNO-K", "Vornado Rlty TR [Vno/Pk]"
-["VNO-L", "Vornado Rlty TR [Vno/Pl]"
-["VNO-M", "Vornado Rlty TR [Vno/Pm]"
+["VNO-K", "Vornado Rlty TR [Vno/Pk]"],
+["VNO-L", "Vornado Rlty TR [Vno/Pl]"],
+["VNO-M", "Vornado Rlty TR [Vno/Pm]"],
 ["VNTR", "Venator Materials Plc"],
 ["VOC", "Voc Energy Trust"],
-["VOY-B", "VOYA Finl Inc [Voya/Pb]"
+["VOY-B", "VOYA Finl Inc [Voya/Pb]"],
 ["VOYA", "VOYA Financial Inc"],
 ["VPG", "Vishay Precision Group"],
 ["VPV", "Invesco Pennsylvania Muni"],
@@ -6551,13 +6550,13 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["VSH", "Vishay Intertechnology"],
 ["VSLR", "Vivint Solar Inc"],
 ["VST", "Vistra Energy Corp"],
-["VST.A", "Vistra Energy Corp [Vst/Wa]"
+["VST.A", "Vistra Energy Corp [Vst/Wa]"],
 ["VSTO", "Vista Outdoor Inc"],
 ["VTA", "Invesco Dynamic Credit Fund"],
 ["VTN", "Invesco Trust New York Muni"],
 ["VTR", "Ventas Inc"],
 ["VVI", "Viad Corp"],
-["VVN.W", "Mosaic Acquisition Corp WT [Mosc/W]"
+["VVN.W", "Mosaic Acquisition Corp WT [Mosc/W]"],
 ["VVNT", "Vivint Smart Home Inc."],
 ["VVR", "Invesco Senior Income Trust"],
 ["VVV", "Valvoline Inc"],
@@ -6572,7 +6571,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["WBC", "Wabco Holdings Inc"],
 ["WBK", "Westpac Banking Corp"],
 ["WBS", "Webster Financial Corp"],
-["WBS-F", "Webster Financial Corp [Wbs/Pf]"
+["WBS-F", "Webster Financial Corp [Wbs/Pf]"],
 ["WBT", "Welbilt Inc"],
 ["WCC", "Wesco International"],
 ["WCN", "Waste Connections Inc"],
@@ -6586,17 +6585,17 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["WEX", "Wex Inc"],
 ["WF", "Woori Finance Holdings Co. Ltd"],
 ["WFC", "Wells Fargo & Company"],
-["WFC-L", "Wells Fargo & Company [Wfc/Pl]"
-["WFC-N", "Wells Fargo & Company [Wfc/Pn]"
-["WFC-O", "Wells Fargo & Company [Wfc/Po]"
-["WFC-P", "Wells Fargo & Company [Wfc/Pp]"
-["WFC-Q", "Wells Fargo & Company [Wfc/Pq]"
-["WFC-R", "Wells Fargo & Company [Wfc/Pr]"
-["WFC-T", "Wells Fargo & Company [Wfc/Pt]"
-["WFC-V", "Wells Fargo & Company [Wfc/Pv]"
-["WFC-W", "Wells Fargo & Company [Wfc/Pw]"
-["WFC-X", "Wells Fargo & Company [Wfc/Px]"
-["WFC-Y", "Wells Fargo & Company [Wfc/Py]"
+["WFC-L", "Wells Fargo & Company [Wfc/Pl]"],
+["WFC-N", "Wells Fargo & Company [Wfc/Pn]"],
+["WFC-O", "Wells Fargo & Company [Wfc/Po]"],
+["WFC-P", "Wells Fargo & Company [Wfc/Pp]"],
+["WFC-Q", "Wells Fargo & Company [Wfc/Pq]"],
+["WFC-R", "Wells Fargo & Company [Wfc/Pr]"],
+["WFC-T", "Wells Fargo & Company [Wfc/Pt]"],
+["WFC-V", "Wells Fargo & Company [Wfc/Pv]"],
+["WFC-W", "Wells Fargo & Company [Wfc/Pw]"],
+["WFC-X", "Wells Fargo & Company [Wfc/Px]"],
+["WFC-Y", "Wells Fargo & Company [Wfc/Py]"],
 ["WFC-Z", "Wells Fargo & Co. 4.75% Prf Perpetual USD 25 Ser"],
 ["WGO", "Winnebago Industries"],
 ["WH", "Wyndham Hotels & Resorts Inc"],
@@ -6623,23 +6622,22 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["WOW", "Wideopenwest Inc"],
 ["WPC", "W.P. Carey & Co. Llc"],
 ["WPG", "Washington Prime Group Inc"],
-["WPG-H", "Washington Prime Group [Wpg/Ph]"
-["WPG-I", "Washington Prime Group [Wpg/Pi]"
+["WPG-H", "Washington Prime Group [Wpg/Ph]"],
+["WPG-I", "Washington Prime Group [Wpg/Pi]"],
 ["WPM", "Wheaton Precious Metals"],
 ["WPP", "Wpp Plc ADR"],
 ["WPX", "Wpx Energy Inc"],
 ["WRB", "W.R. Berkley Corp"],
-["WRB-B", "Berkley[W.R.]Corp [Wrb/Pb]"
-["WRB-C", "Berkley[W.R.]Corp [Wrb/Pc]"
-["WRB-D", "Berkley[W.R.]Corp [Wrb/Pd]"
-["WRB-E", "Berkley[W.R.]Corp [Wrb/Pe]"
+["WRB-B", "Berkley[W.R.]Corp [Wrb/Pb]"],
+["WRB-C", "Berkley[W.R.]Corp [Wrb/Pc]"],
+["WRB-D", "Berkley[W.R.]Corp [Wrb/Pd]"],
+["WRB-E", "Berkley[W.R.]Corp [Wrb/Pe]"],
 ["WRB-F", "W.R. Berkley Corporation 5.10% Subordinated Debe"],
 ["WRE", "Washington Real Estate Investment"],
 ["WRI", "Weingarten Realty Investors"],
 ["WRK", "Westrock Company"],
 ["WSM", "Williams-Sonoma"],
 ["WSO", "Watsco Inc"],
-],[
 ["WSO.B", "Watsco Inc Cl B"],
 ["WSR", "Whitestone REIT"],
 ["WST", "West Pharmaceutical Services"],
@@ -6657,7 +6655,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["WYND", "Wyndham Destinations Inc"],
 ["X", "United States Steel Corp"],
 ["XAN", "Exantas Capital Corp"],
-["XAN-C", "Exantas Cap Corp [Xan/Pc]"
+["XAN-C", "Exantas Cap Corp [Xan/Pc]"],
 ["XEC", "Cimarex Energy Company"],
 ["XFLT", "Xai Octagon Floating Alt Income Term Trust Compa"],
 ["XHR", "Xenia Hotels & Resorts Inc"],
@@ -6680,7 +6678,7 @@ const stocks = [["AACG", "Ata Creativity Global"],
 ["ZBH", "Zimmer Biomet Holdings"],
 ["ZEN", "Zendesk Inc"],
 ["ZNH", "China Southern Airlines Company"],
-["ZTO", "Zto Express [Cayman] Inc"
+["ZTO", "Zto Express [Cayman] Inc"],
 ["ZTR", "Virtus Global Divd & Income Fund"],
 ["ZTS", "Zoetis Inc Cl A"],
 ["ZUO", "Zuora Inc"],

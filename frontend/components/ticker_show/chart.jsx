@@ -68,7 +68,7 @@ const Chart = (props) => {
   return (
     <div className="chart">
       <HoverData 
-        companyName={props.symbol} 
+        companyName={props.companyName} 
         price={hoverPrice} 
         dayDifference={hoverDiff} 
         percentage={hoverPerc} 

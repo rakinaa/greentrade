@@ -1,0 +1,37 @@
+.tick-nav {
+  box-shadow: 0 0px 10px 0px $main-green;
+}
+
+.nav-theme {
+  margin-right: 50px;
+}
+
+.results-container {
+  position: absolute;
+  font-size: 15px;
+  top: 40px;
+  width: 300px;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0 0px 10px 0px $main-green;
+}
+
+.search-result {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  color: black;
+  transition: color .2s;
+
+  &:hover {
+    color: $main-green;
+  }
+}
+
+.res-full {
+  width: 180px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: right;
+}

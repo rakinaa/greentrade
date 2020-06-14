@@ -11,7 +11,7 @@ const entitiesReducer = combineReducers({
   news: newsReducer,
   historical: historicalReducer,
   price: priceReducer,
-  porfile: profileReducer
+  profile: profileReducer
 });
 
 export default entitiesReducer;
