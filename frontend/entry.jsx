@@ -18,8 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
     store = configureStore();
   }
 
-  console.log(window.iex_api_key);
-  
   const root = document.getElementById('root');
   ReactDOM.render(<Root store={store} />, root);
 })

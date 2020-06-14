@@ -22,9 +22,8 @@ const Chart = (props) => {
   useEffect(() => {
     const data = props.historical[timeFrame];
     setHoverData(props.stockPrice);
-    if (data) {
-      data[0].close < data[data.length-1].close ? setColor('#21ce99') : setColor('#FF0000')
-    }
+    if (data.length === 0) return
+    data[0].close < data[data.length-1].close ? setColor('#21ce99') : setColor('#FF0000')
   }, [props.stockPrice, props.historical]);
 
   const customToolTip = useCallback((e) => {
@@ -34,6 +33,7 @@ const Chart = (props) => {
   const setHoverData = useCallback((currPrice) => {
     if (formatPrice(currPrice) == hoverPrice) return;
     const data = props.historical[timeFrame];
+    if (data.length === 0) return;
     
     let startingPrice = data[0].close;
     let dayDiff = currPrice - startingPrice;
