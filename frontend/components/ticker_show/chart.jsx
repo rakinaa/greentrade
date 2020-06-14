@@ -14,15 +14,13 @@ const formatPerc = (perc) => {
 
 const Chart = (props) => {
   const [timeFrame, setTF] = useState("1d");
-  const [data, setData] = useState(props.historical[timeFrame]);
   const [hoverPrice, setPrice] = useState(0);
   const [hoverDiff, setDiff] = useState(0);
   const [hoverPerc, setPerc] = useState(0);
-  const [toolTipOffset, setOffset] = useState(-50);
   const [lineColor, setColor] = useState('#21ce99');
 
   useEffect(() => {
-    setData(props.historical[timeFrame]);
+    const data = props.historical[timeFrame];
     setHoverData(props.stockPrice);
     data[0].close < data[data.length-1].close ? setColor('#21ce99') : setColor('#FF0000')
   }, [props.stockPrice, props.historical]);
@@ -33,6 +31,7 @@ const Chart = (props) => {
 
   const setHoverData = useCallback((currPrice) => {
     if (formatPrice(currPrice) == hoverPrice) return;
+    const data = props.historical[timeFrame];
     
     let startingPrice = data[0].close;
     let dayDiff = currPrice - startingPrice;
@@ -58,14 +57,13 @@ const Chart = (props) => {
   const changeTimeFrame = useCallback((tf) => {
     return () => {
       if (timeFrame === tf) return
-      setTF(tf);
       const newData = props.historical[tf];
-      setData(newData);
+      setTF(tf);
       newData[0].close < newData[newData.length-1].close ? setColor('#21ce99') : setColor('#FF0000')
     }
   });
 
-  if (data === undefined) return null;
+  if (props.historical[timeFrame] === undefined) return null;
 
   return (
     <div className="chart">
@@ -79,7 +77,7 @@ const Chart = (props) => {
       <LineChart 
           width={800} 
           height={300} 
-          data={data} 
+          data={props.historical[timeFrame]} 
           onMouseMove={handleHover} 
           onMouseLeave={handleMouseLeave}
         >
@@ -88,7 +86,7 @@ const Chart = (props) => {
         <XAxis dataKey='date' hide={true}/>
         <Tooltip
           position={{ y: 0 }}
-          offset={toolTipOffset}
+          offset={-50}
           isAnimationActive={false}
           content={customToolTip}
           wrapperStyle={{ top: -15 }}
