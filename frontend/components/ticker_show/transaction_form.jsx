@@ -3,7 +3,6 @@ import numeral from 'numeral';
 
 const TransactionForm = (props) => {
   const [quantity, setQuant] = useState(0);
-  const [cost, setCost] = useState(0);
   const [type, setType] = useState("BUY");
   const [buyingPower, setBP] = useState(0);
 
@@ -20,13 +19,6 @@ const TransactionForm = (props) => {
   const updateQuant = useCallback((e) => {
     const val = e.currentTarget.value;
     setQuant(val);
-    // if (e.currentTarget.value === "") {
-    //   setQuant(0);
-    // } else if (!isNaN(parseFloat(val)) && isFinite(val)) {
-    //   setQuant(val);
-    // } else {
-    //   setQuant(quantity);
-    // }
   });
 
   return (

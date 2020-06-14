@@ -17,8 +17,8 @@ const TickerShow = (props) => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    if (news.length !== 0) return;
     dispatch(getStock({ticker: props.match.params.sym}));
+    if (news.length !== 0) return;
   }, [props.match.params.sym])
 
   if (historical["1d"] === undefined || price === null) return null;
