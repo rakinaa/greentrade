@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useCallback } from "react";
 import { Link } from "react-router-dom";
 import { sample } from "lodash";
 import { useDispatch, useSelector } from "react-redux";
@@ -13,13 +13,13 @@ const LoginPage = (props) => {
     password: "",
   });
 
-  const handleSubmit = (e) => {
+  const handleSubmit = useCallback((e) => {
     e.preventDefault();
     const currUser = Object.assign({}, user);
     dispatch(login(currUser));
-  };
+  });
 
-  const update = (field) => {
+  const update = useCallback((field) => {
     return (e) => {
       const newVal = e.currentTarget.value;
       setUser((prevUser) => {
@@ -29,9 +29,9 @@ const LoginPage = (props) => {
         };
       });
     };
-  };
+  });
 
-  const demoLogin = (e) => {
+  const demoLogin = useCallback((e) => {
     e.preventDefault();
     const logins = [
       "guestuser1",
@@ -74,11 +74,11 @@ const LoginPage = (props) => {
       }
       c++;
     }, 50);
-  };
+  });
 
-  const getErrors = (keyword) => {
+  const getErrors = useCallback((keyword) => {
     return errors.filter((error) => error.includes(keyword));
-  };
+  });
 
   const loginErr = getErrors("username/password");
 

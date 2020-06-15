@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useCallback } from "react";
 import { Link } from "react-router-dom";
 import { signup, login } from "../../actions/session_actions";
 
@@ -11,13 +11,13 @@ const SignUpPage = (props) => {
     password: "",
   });
 
-  const handleSubmit = (e) => {
+  const handleSubmit = useCallback((e) => {
     e.preventDefault();
     const currUser = Object.assign({}, user);
     dispatch(signup(currUser));
-  };
+  });
 
-  const update = (field) => {
+  const update = useCallback((field) => {
     return (e) => {
       const newVal = e.currentTarget.value;
       setUser((prevUser) => {
@@ -27,15 +27,15 @@ const SignUpPage = (props) => {
         };
       });
     };
-  };
+  });
 
-  const login = () => {
+  const loginUser = useCallback(() => {
     dispatch(login({ username: "guestuser1", password: "1234567890" }));
-  };
+  });
 
-  const getErrors = (keyword) => {
+  const getErrors = useCallback((keyword) => {
     return errors.filter((error) => error.includes(keyword));
-  };
+  });
 
   return (
     <div className="signup-page-container">
@@ -75,7 +75,7 @@ const SignUpPage = (props) => {
               <button onClick={handleSubmit} className="form-button">
                 Sign Up
               </button>
-              <button onClick={login} className="form-button">
+              <button onClick={loginUser} className="form-button">
                 Demo Login
               </button>
             </div>
