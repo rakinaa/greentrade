@@ -1,8 +1,13 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { sample } from "lodash";
+import { useDispatch, useSelector } from "react-redux";
+import { login } from "../../actions/session_actions";
 
 const LoginPage = (props) => {
+  const errors = useSelector((state) => state.errors.session);
+  const dispatch = useDispatch();
+
   const [user, setUser] = useState({
     username: "",
     password: "",
@@ -11,7 +16,7 @@ const LoginPage = (props) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const currUser = Object.assign({}, user);
-    props.login(currUser);
+    dispatch(login(currUser));
   };
 
   const update = (field) => {
@@ -46,7 +51,7 @@ const LoginPage = (props) => {
         const passInt = setInterval(() => {
           if (p > pass.length) {
             const currUser = Object.assign({}, user);
-            props.login(currUser);
+            dispatch(login(currUser));
             clearInterval(passInt);
           } else {
             setUser((prevUser) => {
@@ -72,7 +77,7 @@ const LoginPage = (props) => {
   };
 
   const getErrors = (keyword) => {
-    return props.errors.filter((error) => error.includes(keyword));
+    return errors.filter((error) => error.includes(keyword));
   };
 
   const loginErr = getErrors("username/password");

@@ -1,7 +1,11 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { signup, login } from "../../actions/session_actions";
 
 const SignUpPage = (props) => {
+  const errors = useSelector((state) => state.errors.session);
+  const dispatch = useDispatch();
+
   const [user, setUser] = useState({
     username: "",
     password: "",
@@ -10,7 +14,7 @@ const SignUpPage = (props) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const currUser = Object.assign({}, user);
-    props.signup(currUser);
+    dispatch(signup(currUser));
   };
 
   const update = (field) => {
@@ -26,14 +30,12 @@ const SignUpPage = (props) => {
   };
 
   const login = () => {
-    props.login({ username: "guestuser1", password: "1234567890" });
+    dispatch(login({ username: "guestuser1", password: "1234567890" }));
   };
 
   const getErrors = (keyword) => {
-    return props.errors.filter((error) => error.includes(keyword));
+    return errors.filter((error) => error.includes(keyword));
   };
-
-  // const loginErr = getErrors("username/password");
 
   return (
     <div className="signup-page-container">
