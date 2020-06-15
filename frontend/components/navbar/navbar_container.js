@@ -1,5 +1,5 @@
-import { connect } from 'react-redux';
-import NavBar from './navbar';
+import { connect } from "react-redux";
+import NavBar from "./navbar";
 
 const mapStateToProps = ({ session }, ownProps) => {
   return {
@@ -7,9 +7,8 @@ const mapStateToProps = ({ session }, ownProps) => {
   };
 };
 
-const mapDispatchToProps = dispatch => {
-  return {
-  };
+const mapDispatchToProps = (dispatch) => {
+  return {};
 };
 
 const NavBarContainer = connect(mapStateToProps, mapDispatchToProps)(NavBar);

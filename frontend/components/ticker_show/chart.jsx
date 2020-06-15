@@ -1,7 +1,6 @@
 import React, { useState, useCallback, useEffect } from 'react';
 import { LineChart, Line, YAxis, XAxis, Tooltip } from 'recharts';
 import HoverData from './hover_data';
-import moment from 'moment';
 import numeral from 'numeral';
 
 const formatPrice = (price) => {
@@ -79,7 +78,6 @@ const Chart = (props) => {
       <LineChart 
           width={800} 
           height={300} 
-          // data={props.historical[timeFrame].filter((tick) => tick["close"] !== null)} 
           data={props.historical[timeFrame]}
           onMouseMove={handleHover} 
           onMouseLeave={handleMouseLeave}

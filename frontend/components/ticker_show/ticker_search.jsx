@@ -7,8 +7,8 @@ import { Link } from 'react-router-dom';
 const getCompanies = (searchStr) => {
   if (searchStr === "") return [];
   searchStr = searchStr.toUpperCase();
+  
   const resultsArr = [];
-
   for (let i = 0; i < stocks.length; i++) {
     const names = stocks[i];
     if (names[0].toUpperCase().includes(searchStr) || names[1].toUpperCase().includes(searchStr)) {
@@ -16,7 +16,6 @@ const getCompanies = (searchStr) => {
     }
     if (resultsArr.length > 6) return resultsArr;
   }
-
   return resultsArr;
 };
 

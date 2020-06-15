@@ -1,5 +1,4 @@
-import React, { useCallback } from 'react';
-
+import React, { useCallback } from "react";
 
 const NewsArticle = (props) => {
   const { imageUrl, title, source, summary } = props;
@@ -12,7 +11,7 @@ const NewsArticle = (props) => {
         <p className="article-body">{summary}</p>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default NewsArticle;

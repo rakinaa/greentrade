@@ -1,6 +1,6 @@
-import { connect } from 'react-redux';
-import { login } from '../../actions/session_actions';
-import LoginPage from './login_page';
+import { connect } from "react-redux";
+import { login } from "../../actions/session_actions";
+import LoginPage from "./login_page";
 
 const mapStateToProps = ({ errors }) => {
   return {
@@ -8,11 +8,14 @@ const mapStateToProps = ({ errors }) => {
   };
 };
 
-const mapDispatchToProps = dispatch => {
+const mapDispatchToProps = (dispatch) => {
   return {
     login: (user) => dispatch(login(user)),
   };
 };
 
-const LoginPageContainer = connect(mapStateToProps, mapDispatchToProps)(LoginPage);
+const LoginPageContainer = connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(LoginPage);
 export default LoginPageContainer;

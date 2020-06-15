@@ -1,13 +1,15 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import TickerSearch from './ticker_search';
+import React from "react";
+import { Link } from "react-router-dom";
+import TickerSearch from "./ticker_search";
 
 const TickerNav = (props) => {
   return (
     <nav className="nav-main tick-nav">
       <div className="nav-left">
-        <p className="nav-logo" to="/">Greentrade</p>
-        <img className="nav-img" src={window.logo_png} alt="logo"/>
+        <p className="nav-logo" to="/">
+          Greentrade
+        </p>
+        <img className="nav-img" src={window.logo_png} alt="logo" />
       </div>
       <TickerSearch />
       <div className="nav-right">
@@ -17,7 +19,7 @@ const TickerNav = (props) => {
         </nav>
       </div>
     </nav>
-  )
-}
+  );
+};
 
 export default TickerNav;

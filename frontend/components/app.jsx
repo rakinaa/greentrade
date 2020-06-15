@@ -17,7 +17,7 @@ const App = () => {
         <Route exact path="/show/:sym" component={TickerShow} />
       </Switch>
     </div>
-  )
+  );
 };
 
 export default App;
