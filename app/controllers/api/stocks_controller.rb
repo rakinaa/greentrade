@@ -8,7 +8,7 @@ class Api::StocksController < ApplicationController
     fmp_key = Rails.application.credentials.stock_apis[:fmp][:api_key]
     
 
-    time_frames = ["1d", "1w", "1m", "3m", "6m", "1y", "5y"]
+    time_frames = ["1d", "1w", "1m", "3m", "6m", "1y", "2y", "5y"]
     # time_frames = ["1d", "1w", "1m"]
     charts = {}
     charts["historical"] = {}

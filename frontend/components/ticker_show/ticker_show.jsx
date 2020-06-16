@@ -8,6 +8,7 @@ import NewsArticle from "./new_article";
 import TransactionForm from "./transaction_form";
 import TickerNav from "./ticker-nav";
 import Chart from "./chart";
+import CompanyProfile from "./company_profile";
 
 const TickerShow = (props) => {
   const news = useSelector((state) => state.entities.news);
@@ -22,8 +23,8 @@ const TickerShow = (props) => {
     dispatch(startStockLoad());
     dispatch(getStock({ ticker: props.match.params.sym }));
     if (news.length !== 0) return;
-    dispatch(startNewsLoad());
-    dispatch(getNews());
+    // dispatch(startNewsLoad());
+    // dispatch(getNews());
   }, [props.match.params.sym]);
 
   return (
@@ -40,6 +41,8 @@ const TickerShow = (props) => {
         ) : (
           <CircleLoader size={400} color={"#21ce99"} />
         )}
+
+        {!stockLoading ? <CompanyProfile profile={profile} /> : null}
 
         {!newsLoading && !stockLoading ? (
           <div className="news-feed">

@@ -1,5 +1,10 @@
 $main-green: #21ce99;
-$soft-blue: #1B8FDC;
 $soft-black: #202123;
-$gray: #D2D3D3;
+$gray: #d2d3d3;
 $nav-height: 65px;
+
+:root {
+  --text-color: black;
+  --input-bg: #dbf9f0;
+  --hover-bg: white;
+}

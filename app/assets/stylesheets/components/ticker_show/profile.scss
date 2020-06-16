@@ -1,0 +1,39 @@
+.profile-container {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 800px;
+}
+
+.profile-header {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.profile-desc {
+  font-size: 15px;
+  margin-bottom: 20px;
+  line-height: 20px;
+}
+
+.profile-details {
+  display: flex;
+  flex-wrap: wrap;
+
+  .detail {
+    width: 100px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+  }
+
+  h3 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 12px;
+    word-break: break-word;
+  }
+}

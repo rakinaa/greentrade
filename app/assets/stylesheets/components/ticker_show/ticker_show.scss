@@ -1,10 +1,8 @@
 .ticker-show-container {
   display: flex;
   justify-content: center;
-  // margin-top: $nav-height;
   margin-top: 100px;
-  // background-color: #212121;
-  // color: white;
+  color: var(--text-color);
 }
 
 .ticker-data {
