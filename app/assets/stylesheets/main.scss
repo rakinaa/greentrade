@@ -1,6 +1,6 @@
+@import "base/variables";
 @import "base/reset.scss";
 @import "base/mixins";
-@import "base/variables";
 @import "base/globals";
 @import "components/modal.scss";
 @import "components/navbar.scss";
@@ -10,9 +10,9 @@
 @import "components/sponsors.scss";
 @import "components/footer.scss";
 @import "components/form_page.scss";
+@import "components/ticker_show/ticker_nav.scss";
+@import "components/ticker_show/ticker_show.scss";
 @import "components/ticker_show/chart.scss";
 @import "components/ticker_show/transaction_form.scss";
-@import "components/ticker_show/ticker_show.scss";
 @import "components/ticker_show/news_feed.scss";
-@import "components/ticker_show/ticker_nav.scss";
 @import "components/ticker_show/profile.scss";

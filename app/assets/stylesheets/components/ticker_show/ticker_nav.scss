@@ -1,9 +1,31 @@
 .tick-nav {
   box-shadow: 0 0px 10px 0px $main-green;
+  background-color: var(--main-bg);
 }
 
 .nav-theme {
   margin-right: 50px;
+}
+
+.nav-searchbar {
+  box-sizing: border-box;
+  border-radius: 3px;
+  color: var(--text-color);
+  width: 300px;
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  padding-left: 35px;
+  background-color: $gray;
+  transition: all 0.3s;
+  background-color: var(--input-bg);
+  // background-color: darken($main-green, 35%);
+
+  &:focus,
+  &:hover {
+    background-color: var(--main-bg);
+    box-shadow: 0 0px 10px 0px $main-green;
+  }
 }
 
 .results-container {
@@ -11,7 +33,7 @@
   font-size: 15px;
   top: 40px;
   width: 300px;
-  background-color: white;
+  background-color: var(--main-bg);
   border-radius: 3px;
   box-shadow: 0 0px 10px 0px $main-green;
 }
@@ -20,8 +42,7 @@
   display: flex;
   justify-content: space-between;
   margin: 10px;
-  color: black;
-  transition: color .2s;
+  transition: color 0.2s;
 
   &:hover {
     color: $main-green;

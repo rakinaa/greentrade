@@ -25,14 +25,13 @@ const Chart = (props) => {
     data[0].close < data[data.length - 1].close
       ? setColor("#21ce99")
       : setColor("#FF0000");
-  }, [props.stockPrice, props.historical]);
+  }, [props.stockPrice, timeFrame, props.historical]);
 
   const customToolTip = useCallback((e) => {
     return <div className="custom-tooltip">{e.label + " ET"}</div>;
   });
 
   const setHoverData = useCallback((currPrice) => {
-    if (formatPrice(currPrice) == hoverPrice) return;
     const data = props.historical[timeFrame];
     if (data.length === 0) return;
 

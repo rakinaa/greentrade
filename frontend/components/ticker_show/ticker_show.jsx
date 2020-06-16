@@ -6,7 +6,7 @@ import { getStock } from "../../actions/stock_action";
 import { startNewsLoad, startStockLoad } from "../../actions/loading_actions";
 import NewsArticle from "./new_article";
 import TransactionForm from "./transaction_form";
-import TickerNav from "./ticker-nav";
+import TickerNav from "./ticker_nav";
 import Chart from "./chart";
 import CompanyProfile from "./company_profile";
 
@@ -23,8 +23,8 @@ const TickerShow = (props) => {
     dispatch(startStockLoad());
     dispatch(getStock({ ticker: props.match.params.sym }));
     if (news.length !== 0) return;
-    // dispatch(startNewsLoad());
-    // dispatch(getNews());
+    dispatch(startNewsLoad());
+    dispatch(getNews());
   }, [props.match.params.sym]);
 
   return (

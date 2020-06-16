@@ -52,24 +52,6 @@
   position: relative;
 }
 
-.nav-searchbar {
-  box-sizing: border-box;
-  border-radius: 3px;
-  width: 300px;
-  border: none;
-  padding: 10px;
-  font-size: 15px;
-  padding-left: 35px;
-  background-color: $gray;
-  transition: all 0.3s;
-  background-color: lighten($main-green, 45%);
-}
-
-.nav-searchbar:focus {
-  background-color: white;
-  box-shadow: 0 0px 10px 0px $main-green;
-}
-
 .nav-search-icon {
   position: absolute;
   left: 10px;
