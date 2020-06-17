@@ -1,6 +1,8 @@
-import React, { useState, useCallback } from "react";
+import React, { useState, useCallback, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { signup, login } from "../../actions/session_actions";
+import { signup, login, clearErrors } from "../../actions/session_actions";
+import { useSelector, useDispatch } from "react-redux";
+import FormInput from "./form_input";
 
 const SignUpPage = (props) => {
   const errors = useSelector((state) => state.errors.session);
@@ -8,8 +10,15 @@ const SignUpPage = (props) => {
 
   const [user, setUser] = useState({
     username: "",
+    email: "",
     password: "",
   });
+
+  useEffect(() => {
+    return () => {
+      dispatch(clearErrors());
+    };
+  }, []);
 
   const handleSubmit = useCallback((e) => {
     e.preventDefault();
@@ -47,28 +56,31 @@ const SignUpPage = (props) => {
               <h3>Make Your Money Move</h3>
             </div>
             <h4 className="sub-heading">Become a Greentrade Member today</h4>
-            <input
-              onChange={update("username")}
+            <FormInput
+              update={update("username")}
               type="text"
-              value={user.username}
-              placeholder="username"
-              className="form-input signup-input"
+              val={user.username}
+              label="username"
+              errors={getErrors("Username")}
+              className="signup-input"
             />
 
-            <input
-              onChange={update("email")}
+            <FormInput
+              update={update("email")}
               type="text"
-              value={user.username}
-              placeholder="email address"
-              className="form-input signup-input"
+              val={user.email}
+              label="email address"
+              errors={getErrors("Email")}
+              className="signup-input"
             />
 
-            <input
-              onChange={update("password")}
+            <FormInput
+              update={update("password")}
               type="password"
-              value={user.password}
-              placeholder="password"
-              className="form-input signup-input"
+              val={user.password}
+              label="password"
+              errors={getErrors("Password")}
+              className="signup-input"
             />
 
             <div className="btn-container">

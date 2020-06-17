@@ -1,5 +1,9 @@
-import { RECEIVE_SESSION_ERRORS, RECEIVE_CURRENT_USER } from '../actions/session_actions';
-import { OPEN_MODAL, CLOSE_MODAL } from '../actions/modal_actions';
+import {
+  RECEIVE_SESSION_ERRORS,
+  RECEIVE_CURRENT_USER,
+  CLEAR_SESSION_ERRORS,
+} from "../actions/session_actions";
+import { OPEN_MODAL, CLOSE_MODAL } from "../actions/modal_actions";
 
 const sessionErrorsReducer = (state = [], action) => {
   Object.freeze(state);
@@ -8,9 +12,7 @@ const sessionErrorsReducer = (state = [], action) => {
       return action.errors;
     case RECEIVE_CURRENT_USER:
       return [];
-    case OPEN_MODAL:
-      return [];
-    case CLOSE_MODAL:
+    case CLEAR_SESSION_ERRORS:
       return [];
     default:
       return state;
