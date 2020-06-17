@@ -14,18 +14,8 @@ const Greeting = ({ currentUser, logout, openModal }) => {
       </Link>
     </nav>
   );
-  const personalGreeting = () => (
-    <nav className="nav-auth">
-      <Link to="/photos/new">
-        <FontAwesomeIcon className="cloud-icon" icon={faCloudUploadAlt} />
-      </Link>
-      <button className="blue-button" onClick={logout}>
-        Log Out
-      </button>
-    </nav>
-  );
 
-  return currentUser ? personalGreeting(logout) : sessionLinks();
+  return sessionLinks();
 };
 
 export default Greeting;

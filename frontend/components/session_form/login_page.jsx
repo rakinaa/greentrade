@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from "react";
+import React, { useState, useCallback, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { sample } from "lodash";
 import { useDispatch, useSelector } from "react-redux";
@@ -6,6 +6,7 @@ import { login } from "../../actions/session_actions";
 
 const LoginPage = (props) => {
   const errors = useSelector((state) => state.errors.session);
+  const currUser = useSelector((state) => state.session.currentUser);
   const dispatch = useDispatch();
 
   const [user, setUser] = useState({
@@ -13,33 +14,38 @@ const LoginPage = (props) => {
     password: "",
   });
 
-  const handleSubmit = useCallback((e) => {
-    e.preventDefault();
-    const currUser = Object.assign({}, user);
-    dispatch(login(currUser));
-  });
+  useEffect(() => {
+    if (currUser !== null) {
+      props.history.push("/show/AAPL");
+    }
+  }, [currUser]);
 
-  const update = useCallback((field) => {
-    return (e) => {
-      const newVal = e.currentTarget.value;
-      setUser((prevUser) => {
-        return {
-          ...prevUser,
-          [field]: newVal,
-        };
-      });
-    };
-  });
+  const handleSubmit = useCallback(
+    (e) => {
+      e.preventDefault();
+      dispatch(login(user));
+    },
+    [user]
+  );
+
+  const update = useCallback(
+    (field) => {
+      return (e) => {
+        const newVal = e.currentTarget.value;
+        setUser((prevUser) => {
+          return {
+            ...prevUser,
+            [field]: newVal,
+          };
+        });
+      };
+    },
+    [user]
+  );
 
   const demoLogin = useCallback((e) => {
     e.preventDefault();
-    const logins = [
-      "guestuser1",
-      "guestuser2",
-      "guestuser3",
-      "guestuser4",
-      "guestuser5",
-    ];
+    const logins = ["guestuser1"];
     const randUser = sample(logins);
     const pass = "1234567890";
 
@@ -50,8 +56,7 @@ const LoginPage = (props) => {
       if (c > randUser.length) {
         const passInt = setInterval(() => {
           if (p > pass.length) {
-            const currUser = Object.assign({}, user);
-            dispatch(login(currUser));
+            dispatch(login({ username: randUser, password: pass }));
             clearInterval(passInt);
           } else {
             setUser((prevUser) => {
@@ -74,11 +79,14 @@ const LoginPage = (props) => {
       }
       c++;
     }, 50);
-  });
+  }, []);
 
-  const getErrors = useCallback((keyword) => {
-    return errors.filter((error) => error.includes(keyword));
-  });
+  const getErrors = useCallback(
+    (keyword) => {
+      return errors.filter((error) => error.includes(keyword));
+    },
+    [errors]
+  );
 
   const loginErr = getErrors("username/password");
 
@@ -124,7 +132,7 @@ const LoginPage = (props) => {
                 Sign In
               </button>
               <button onClick={demoLogin} className="form-button">
-                Demo User
+                Demo Login
               </button>
             </div>
           </div>

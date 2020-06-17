@@ -6,6 +6,7 @@ import FormInput from "./form_input";
 
 const SignUpPage = (props) => {
   const errors = useSelector((state) => state.errors.session);
+  const currUser = useSelector((state) => state.session.currentUser);
   const dispatch = useDispatch();
 
   const [user, setUser] = useState({
@@ -15,36 +16,50 @@ const SignUpPage = (props) => {
   });
 
   useEffect(() => {
+    if (currUser !== null) {
+      props.history.push("/show/AAPL");
+    }
+  }, [currUser]);
+
+  useEffect(() => {
     return () => {
       dispatch(clearErrors());
     };
   }, []);
 
-  const handleSubmit = useCallback((e) => {
-    e.preventDefault();
-    const currUser = Object.assign({}, user);
-    dispatch(signup(currUser));
-  });
+  const handleSubmit = useCallback(
+    (e) => {
+      e.preventDefault();
+      dispatch(signup(user));
+    },
+    [user]
+  );
 
-  const update = useCallback((field) => {
-    return (e) => {
-      const newVal = e.currentTarget.value;
-      setUser((prevUser) => {
-        return {
-          ...prevUser,
-          [field]: newVal,
-        };
-      });
-    };
-  });
+  const update = useCallback(
+    (field) => {
+      return (e) => {
+        const newVal = e.currentTarget.value;
+        setUser((prevUser) => {
+          return {
+            ...prevUser,
+            [field]: newVal,
+          };
+        });
+      };
+    },
+    [user]
+  );
 
   const loginUser = useCallback(() => {
     dispatch(login({ username: "guestuser1", password: "1234567890" }));
-  });
+  }, [dispatch]);
 
-  const getErrors = useCallback((keyword) => {
-    return errors.filter((error) => error.includes(keyword));
-  });
+  const getErrors = useCallback(
+    (keyword) => {
+      return errors.filter((error) => error.includes(keyword));
+    },
+    [errors]
+  );
 
   return (
     <div className="signup-page-container">

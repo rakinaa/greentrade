@@ -17,15 +17,22 @@ const TickerShow = (props) => {
   const profile = useSelector((state) => state.entities.profile);
   const stockLoading = useSelector((state) => state.ui.loading.stock);
   const newsLoading = useSelector((state) => state.ui.loading.news);
+  const currUser = useSelector((state) => state.session.currentUser);
   const dispatch = useDispatch();
 
   useEffect(() => {
     dispatch(startStockLoad());
     dispatch(getStock({ ticker: props.match.params.sym }));
     if (news.length !== 0) return;
-    dispatch(startNewsLoad());
-    dispatch(getNews());
+    // dispatch(startNewsLoad());
+    // dispatch(getNews());
   }, [props.match.params.sym]);
+
+  useEffect(() => {
+    if (currUser === null) {
+      props.history.push("/");
+    }
+  }, [currUser]);
 
   return (
     <div className="ticker-show-container">

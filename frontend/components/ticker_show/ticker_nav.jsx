@@ -1,7 +1,10 @@
 import React, { useCallback, useState, useEffect } from "react";
 import TickerSearch from "./ticker_search";
+import { useDispatch, useSelector } from "react-redux";
+import { logout } from "../../actions/session_actions";
 
 const TickerNav = (props) => {
+  const dispatch = useDispatch();
   const [theme, setTheme] = useState("Light");
 
   useEffect(() => {
@@ -20,7 +23,11 @@ const TickerNav = (props) => {
       document.documentElement.style.setProperty("--input-bg", "#dbf9f0");
       setTheme("Dark");
     }
-  });
+  }, [theme]);
+
+  const logoutUser = useCallback(() => {
+    dispatch(logout());
+  }, [dispatch]);
 
   return (
     <nav className="nav-main tick-nav">
@@ -36,7 +43,9 @@ const TickerNav = (props) => {
           <p onClick={switchTheme} className="nav-theme">
             {theme} Mode
           </p>
-          <p className="nav-logout">Log Out</p>
+          <p onClick={logoutUser} className="nav-logout">
+            Log Out
+          </p>
         </nav>
       </div>
     </nav>
