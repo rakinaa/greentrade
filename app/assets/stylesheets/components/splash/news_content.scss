@@ -21,7 +21,7 @@
   text-align: center;
   line-height: 24px;
   margin-bottom: 40px;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
 }
 
 .news-fractional {
@@ -34,61 +34,61 @@
 .frac-content {
   display: flex;
   flex-direction: column;
+}
 
-  .frac-heading {
-    font-size: 36px;
-    font-weight: 500;
-    margin-bottom: 30px;
+.frac-caption {
+  font-size: 15px;
+  color: grey;
+  margin-bottom: 60px;
+}
+
+.frac-body {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.frac-sub-content {
+  width: 190px;
+  margin-right: 80px;
+}
+
+.frac-sub-heading {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.frac-sub-body {
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.frac-heading {
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.frac-access {
+  position: relative;
+  margin-bottom: 40px;
+
+  input {
+    background-color: darken($color: white, $amount: 12%);
+    box-sizing: border-box;
+    border-radius: 100px;
+    border: none;
+    height: 70px;
+    width: 500px;
+    padding-left: 25px;
+    padding-right: 200px;
   }
-  
-  .frac-caption {
-    font-size: 15px;
-    color: grey;
-    margin-bottom: 60px;
-  }
-  
-  .frac-body {
-    display: flex;
-    margin-bottom: 50px;
 
-    .frac-sub-content {
-      width: 190px;
-      margin-right: 80px;
-
-      .frac-sub-heading {
-        font-size: 15px;
-        font-weight: 700;
-        margin-bottom: 10px;
-      }
-  
-      .frac-sub-body {
-        font-size: 15px;
-        line-height: 24px;
-      }
-    }
-  }
-
-  .frac-access {
-    position: relative;
-    margin-bottom: 40px;
-
-    input {
-      background-color: darken($color: white, $amount: 12%);
-      box-sizing: border-box;
-      border-radius: 100px;
-      border: none;
-      height: 70px;
-      width: 500px;
-      padding-left: 25px;
-      padding-right: 200px;
-    }
-
-    button {
-      position: absolute;
-      top: 10px;
-      right: 322px;
-      padding: 15px 15px;
-    }
+  button {
+    position: absolute;
+    top: 10px;
+    right: 322px;
+    padding: 15px 15px;
   }
 }
 

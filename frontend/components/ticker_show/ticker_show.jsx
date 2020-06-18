@@ -24,8 +24,8 @@ const TickerShow = (props) => {
     dispatch(startStockLoad());
     dispatch(getStock({ ticker: props.match.params.sym }));
     if (news.length !== 0) return;
-    // dispatch(startNewsLoad());
-    // dispatch(getNews());
+    dispatch(startNewsLoad());
+    dispatch(getNews());
   }, [props.match.params.sym]);
 
   useEffect(() => {

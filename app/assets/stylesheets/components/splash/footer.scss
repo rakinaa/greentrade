@@ -1,5 +1,45 @@
 .footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: black;
   height: 400px;
   width: 100%;
+}
+
+.cols-container {
+  display: flex;
+}
+
+.col {
+  margin-right: 80px;
+}
+
+.footer-link {
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 30px;
+  transition: color 0.2s;
+
+  &:hover {
+    color: $main-green;
+  }
+}
+
+.dev-links {
+  display: flex;
+  justify-content: center;
+}
+
+.dev-link {
+  margin-right: 30px;
+  font-size: 60px;
+  color: white;
+  transition: color 0.5s;
+
+  &:hover {
+    color: $main-green;
+  }
 }
