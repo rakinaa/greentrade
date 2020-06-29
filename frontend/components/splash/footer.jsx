@@ -31,10 +31,18 @@ const Footer = (props) => {
         </div>
       </div>
       <div className="dev-links">
-        <a href=""></a>
-        <FontAwesomeIcon className="dev-link" icon={faGithub} />
-        <FontAwesomeIcon className="dev-link" icon={faLinkedin} />
-        <FontAwesomeIcon className="dev-link" icon={faAngellist} />
+        <a href="https://github.com/rakinaa" target="_blank">
+          <FontAwesomeIcon className="dev-link" icon={faGithub} />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/rakin-rouf-6607b21a4/"
+          target="_blank"
+        >
+          <FontAwesomeIcon className="dev-link" icon={faLinkedin} />
+        </a>
+        <a href="https://angel.co/u/rakin-rouf" target="_blank">
+          <FontAwesomeIcon className="dev-link" icon={faAngellist} />
+        </a>
       </div>
     </div>
   );
