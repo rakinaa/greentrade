@@ -19,17 +19,20 @@ const Footer = (props) => {
             <p className="footer-link">{text}</p>
           ))}
         </div>
+
         <div className="col">
           {col2.map((text) => (
             <p className="footer-link">{text}</p>
           ))}
         </div>
+
         <div className="col">
           {col3.map((text) => (
             <p className="footer-link">{text}</p>
           ))}
         </div>
       </div>
+
       <div className="dev-links">
         <a href="https://github.com/rakinaa" target="_blank">
           <FontAwesomeIcon className="dev-link" icon={faGithub} />
