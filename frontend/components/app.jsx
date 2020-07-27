@@ -1,6 +1,5 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
-import ModalContainer from "./modal/modal";
 import Splash from "./splash/splash";
 import TickerShow from "./ticker_show/ticker_show";
 import LoginPage from "./session_form/login_page";
@@ -10,7 +9,6 @@ import { ProtectedRoute, AuthRoute } from "../util/route_util";
 const App = () => {
   return (
     <div>
-      <ModalContainer />
       <Switch>
         <AuthRoute exact path="/" component={Splash} />
         <AuthRoute exact path="/login" component={LoginPage} />
