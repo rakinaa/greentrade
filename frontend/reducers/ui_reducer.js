@@ -4,7 +4,6 @@ import modalDataReducer from './modal_data_reducer';
 import loadingReducer from './loading_reducer';
 
 const uiReducer = combineReducers({
-  modal: modalReducer,
   modalData: modalDataReducer,
   loading: loadingReducer
 });
