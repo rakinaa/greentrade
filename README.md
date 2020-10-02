@@ -120,3 +120,9 @@ def stock_params
   params.require(:stock).permit(:ticker)
 end
 ```
+### Technologies and Libraries
+ReCharts
+Moment.js
+Numeral.js
+animate.css
+IEX Cloud Financial Data API
