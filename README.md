@@ -82,3 +82,41 @@ Jsx which generats the chart for the current stock being viewed.
   <hr className="chart-hr" />
 </div>
 ```
+
+### Backend Architecture
+Data for stocks is fetched from the IEX Cloud stock api, utilizing both real data and dummy data to maximize the amount of free api calls requested.
+
+```rb
+def index
+  require 'open-uri'
+  test_key = Rails.application.credentials.stock_apis[:iex][:test_key]
+  api_key = Rails.application.credentials.stock_apis[:iex][:api_key]
+
+  time_frames = ["1d", "1w", "1m", "3m", "6m", "1y", "2y", "5y"]
+  charts = {}
+  charts["historical"] = {}
+  ticker = stock_params[:ticker]
+
+  time_frames.each do |tf|
+    url = "https://sandbox.iexapis.com/stable/stock/#{ticker}/chart/#{tf}?token=#{test_key}"
+    if tf == "1d"
+      url = "https://cloud.iexapis.com/stable/stock/#{ticker}/intraday-prices?token=#{api_key}"
+    elsif tf == "1w"
+      url = "https://sandbox.iexapis.com/stable/stock/#{ticker}/chart/5d?token=#{test_key}"
+    end
+    charts["historical"][tf] = JSON.parse(open(url).read)
+  end
+
+  url = "https://cloud.iexapis.com/stable/stock/#{ticker}/company?token=#{api_key}"
+  charts["profile"] = JSON.parse(open(url).read)
+
+  url = "https://cloud.iexapis.com/stable/stock/#{ticker}/quote/latestPrice?token=#{api_key}"
+  charts["rtPrice"] = JSON.parse(open(url).read)
+
+  render json: charts
+end
+
+def stock_params
+  params.require(:stock).permit(:ticker)
+end
+```
