@@ -121,8 +121,12 @@ def stock_params
 end
 ```
 ### Technologies and Libraries
-ReCharts
-Moment.js
-Numeral.js
-animate.css
-IEX Cloud Financial Data API
+[ReCharts](https://recharts.org/en-US/)
+
+[Moment.js](https://momentjs.com/)
+
+[Numeral.js](http://numeraljs.com/)
+
+[animate.css](https://animate.style/)
+
+[IEX Cloud Financial Data API](https://iexcloud.io/)
