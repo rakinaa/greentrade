@@ -1,24 +1,13 @@
-# README
+# Greentrade
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[Greentrade live](https://greentrade.herokuapp.com/#/)
 
-Things you may want to cover:
+Greentrade is an app which allows you to view and search for live stock prices. It is a made as a clone of Robin Hood and emulates its look and user experience. This app was built with Ruby on Rails and React.js with a PostgreSQL database.
 
-* Ruby version
+![intro-png](app/assets/images/readme_images/intro.png)
 
-* System dependencies
+## Features
 
-* Configuration
+### Landing Page
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The splash page uses Sass and React to successfully reproduce the look of Robin Hood's UI, splitting up the areas into individual sections, each represented with their own react component.
