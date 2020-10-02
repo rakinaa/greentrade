@@ -31,7 +31,9 @@ const Splash = (props) => {
 
 The stock show page is only available to logged in users. It features a search bar with auto-complete functionality, an interactive chart showing price changes over time on differing time scales, and a live news feed.
 
-Jsx which generats the chart for the current stock being viewed.
+![chart-png](app/assets/images/readme_images/chart.png)
+
+Jsx which generates the chart for the current stock being viewed.
 ```js
 <div className="chart">
   <HoverData
