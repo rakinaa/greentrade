@@ -85,7 +85,7 @@ Jsx which generates the chart for the current stock being viewed.
 </div>
 ```
 
-### Backend Architecture
+### Stock API Interactions
 Data for stocks is fetched from the IEX Cloud stock api, utilizing both real data and dummy data to maximize the amount of free api calls requested.
 
 ```rb
